@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>1.8.3</title>
+            <pubDate>Thu, 08 Oct 2026 10:24:10 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[A minor update.
+
+### Added
+
+- **Tables in your notes and account notes:** paste a table from Google Docs, Word, Excel, Google Sheets, or a web page and it stays a table (tab-separated text becomes one too), or choose **Format › Insert Table…** or the table button in the formatting bar. Double-click a table (or right-click › **Edit Table…**) to change its cells, add or remove rows and columns, or remove it. Tables are saved as Markdown tables; the AI and search read each row as a line. Copying a table to another app pastes it as tab-separated rows.
+- Spelling is underlined as you type a meeting's title, in **New Manual Meeting** and when renaming a meeting. Nothing is corrected automatically.
+
+### Changed
+
+- Files in a folder's **Files** and meeting attachments can now be up to 500 MB each (was 50 MB). Word, Excel, PowerPoint, and text files over 100 MB are kept but too large to read for summaries; PDFs and images are read at any size.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook-1.8.3.dmg" length="1522717711" type="application/octet-stream" sparkle:edSignature="RpYf98HLOeYQPnYryoJOuFHRpXUBcYgP3tCe8vRxEkjPuLod3RbOE2De3g6BcoAjF/Jr1hgOVSft0Sa5EK7VAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-14.delta" sparkle:deltaFrom="14" length="597674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2JAt3xThJkfzu0gGf1+qj30dEkrPpxhrjkVSUDzA716LrtZxQdSSRaXkE0cximqPwZwJyCvWjq3DpRwff98+Dw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-13.delta" sparkle:deltaFrom="13" length="689570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q8tlsbWF9FJ4sZbwPrOp2UWePE1R40MfttTRXMuCZRvn2SYFULbD6a/LSFj28c3VIudJWtrV8z7+/LpCpB+XBQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-12.delta" sparkle:deltaFrom="12" length="724322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6p8F33W58MeQuYJmtdG8j2DKf8Vu6Mvvga4pOQsx72Y4gm77o0m5a9O5K9t/FlD40l6+3HcmVVQwSOxII3jQDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.8.2</title>
             <pubDate>Thu, 08 Oct 2026 09:07:25 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -23,7 +49,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 - Notes are saved as Markdown, so formatting shows in any text editor. Existing notes that already used Markdown, such as lines starting with "- ", now show as formatted lists. The AI and search get the words without the formatting.
 ]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook-1.8.2.dmg" length="1522598944" type="application/octet-stream" sparkle:edSignature="OSiMpO8uSsGD4mkJ7rprzRLJidrFHfv9j9VhmUBNbqGDfuiuHXO4Pt88pHDvUojXTf+VqJBkmcJ77GKItCepAQ=="/>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook-1.8.2.dmg" length="1522598944" type="application/octet-stream" sparkle:edSignature="OSiMpO8uSsGD4mkJ7rprzRLJidrFHfv9j9VhmUBNbqGDfuiuHXO4Pt88pHDvUojXTf+VqJBkmcJ77GKItCepAQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook14-13.delta" sparkle:deltaFrom="13" length="598718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qQoSmgwbwOcK2rC3SNlJWYUtr9Vpq3Y8HOFSZLp6h5Kh6VhrgaXIkYJ9p23qDEdLG6zk4vdWJO1hnjBLnMIMBg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook14-12.delta" sparkle:deltaFrom="12" length="644178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5DMx+wTlQGuF1d1tCJxAKukzOodpX1APkH3R46PNTrV5nz4jkUrWRrY3PC0F0ZGHU2LnzXRG//pe9ZLxTMC5BQ=="/>
@@ -48,24 +74,14 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - **Settings › AI › Discovery Questions › Import CSV…** asks whether to **add** the file's questions to the ones you have (questions already there are skipped) or **replace** them. **Use Default Questions…** goes back to the built-in list (it replaces **Remove…**).
 - The version is 1.8.1 (build 13).
 ]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook-1.8.1.dmg" length="1522547599" type="application/octet-stream" sparkle:edSignature="DcMI0s8VfnpmJ6QMHy3QbqgWry5ES0Dwz5cPlRbDOf+OeZyM0NmY1HHeEPjNrnJD8V4KdALSj891kX4G4m5tAg=="/>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook-1.8.1.dmg" length="1522547599" type="application/octet-stream" sparkle:edSignature="DcMI0s8VfnpmJ6QMHy3QbqgWry5ES0Dwz5cPlRbDOf+OeZyM0NmY1HHeEPjNrnJD8V4KdALSj891kX4G4m5tAg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.1/Fieldbook13-12.delta" sparkle:deltaFrom="12" length="432414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0cZyOYu0s0SyfHDtzChEFdspmlM7t+PdyqL8TTcBFtZfS4gVYtBEzdnE9ypYbHpoYqHc1iPUfYSeejNl53+oDQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.8</title>
-            <pubDate>Wed, 07 Oct 2026 22:53:32 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook-1.8.dmg" length="1522594346" type="application/octet-stream" sparkle:edSignature="pfZ6ANCP+9zd7iaHfyE/INQb9iSworBkQW7B/cHZUFAEErSG2Puhs5UKJkMKcCEcNV1FTIcWp9iO9oRIfHRICw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: z30Vd9Qu0w8bnl+BR6EL294qPml+EUdc8F3h67RQ+ddb//my9mVR2Hexod3BVGEaufTDzzlOHQOTGpcwUpcMDw==
-length: 5597
+edSignature: klxm4OACOY74q5U/dZZf4pu8YF5oe9R5mX7P4se+7+pYrII7Oukg2lFmFL90lPVxW6kuDimQkJQqA/yGzmiUCw==
+length: 7933
 -->

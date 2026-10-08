@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Fieldbook</title>
+        <item>
+            <title>1.8</title>
+            <pubDate>Wed, 07 Oct 2026 22:53:32 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Changes since 1.7.3:
+
+### Added
+
+- When two or more calendar meetings are at the same time, the menu-bar menu lists them all and asks which one you're recording. The one you pick names and files the recording when you press Record. While recording, picking another meeting switches the recording to it, unless you've already renamed or moved the recording yourself.
+- **Account summary** in a customer's account: the state of the account (where things stand, who's involved, what they have and are evaluating, open questions and to-dos, risks, next steps), written when you click Write from your account notes and the meetings' AI notes, Discovery answers, and MEDDPICC. Each statement links to the lines behind it, and what isn't known yet is listed. It shows when it's out of date, has Copy, and is used by Ask AI.
+
+- **Company and Solutions** in Settings › AI: choose the company you sell for from a menu (Zscaler, Microsoft Security, or CrowdStrike, each with its security solutions preloaded) or add your own with Custom Company…. Each company keeps its own editable list. The AI notes, email, Discovery, MEDDPICC, account summary, and Ask AI are written for that company's sales engineer, and notes show "<company> opportunities". Notes already written keep their company until you regenerate them.
+
+- Discovery question lists can be a simple two-column CSV (Category, Question); the category becomes the product area.
+- Settings › AI › Discovery Questions offers **Rematch All** when meetings have answers from an earlier question list.
+
+- **A welcome tutorial on first install:** Fieldbook asks whether you work at Zscaler (with a quick check of your @zscaler.com address, which isn't saved), then shows the setup steps for you: getting a zllama key through Conductor1 (or your own AI key otherwise), permissions, AI notes, and filing by invitees, with what stays on your Mac. Either window can be closed, and **Help › Getting Started…** opens them again.
+
+- **Fieldbook Help** (Help menu, Command-?): a manual grouped by subject (Getting Started, Recording, Transcripts and Speakers, Organizing Meetings, AI Features, Search, Import, and Export, Audio and Storage, Settings, Reference), with a topic for every Settings tab explaining each option, and a search field (plain keyword search, no AI) that opens the matching section. The search field in the Help menu finds Fieldbook's topics too.
+
+- **Manual meetings:** right-click any folder or label › New Manual Meeting… (also File › New Manual Meeting…, ⌥⌘N, and the pencil above the meeting list) for a meeting kept as your notes, with no recording. Write AI notes from them with Write Notes. A customer's manual meetings count toward its account summary.
+- Search finds words in your notes, for every meeting, not only transcripts and titles; a match in your notes opens the Notes tab.
+
+- **Files** for every customer, Internal, Training, Partners, and label folder: add PDFs, Word, Excel, and PowerPoint files, screenshots, and other documents (Add Files… or drop them), open them, show them in Finder, or move them to the Trash (the ⓧ, with a confirmation). A **Files summary** (on request) covers what they are, key facts, people, products, and dates, citing the file and page, slide, or sheet. The account summary asks whether to include the customer's files. Text is read on the Mac, and goes to the AI only for those two.
+
+- **Fieldbook › About Fieldbook** describes what Fieldbook does.
+
+- **Automatic updates:** **Fieldbook › Check for Updates…** and, on by default, a daily check (Settings › General › Updates, with **Check Now**). When a new version is out, Fieldbook shows what's new and asks before downloading; updates download only what changed, usually a few megabytes instead of 1.5 GB. Each update is checked for its developer's signatures before it's installed, permissions are kept, and installing waits while you're recording. The check sends only Fieldbook's version. 1.8 itself is installed by hand; updates start with the version after it.
+
+### Changed
+
+- The version is 1.8 (build 12).
+- Saved voices are applied more carefully. A speaker who talks for less than 10 seconds is only suggested ("Is Speaker 2 Priya?"), never named automatically. A customer contact's saved voice is named automatically only in that customer's meetings (or unfiled ones), and only suggested in another customer's. Saved voices remember which speaker models made them, so a future model update can't mismatch them.
+- The activity log records each AI response's request ID (and LiteLLM's reported cost), so a slow or failed request can be found in zllama's or Anthropic's own logs.
+- When meetings overlap and you haven't picked one, the one with a meeting link is used, then the first by title (A to Z). Before, the one that started most recently was used.
+- The account's MEDDPICC, recommended stage, and summary show their sources the way meeting notes do: a small quote mark after each statement that lists the meeting lines on click, instead of rows of time chips. **View › Show Source Times** brings the chips back.
+- Account notes are now at the top of the account, below the stage. A line under them says how much of the notes the AI reads, and warns when some are left out. The AI now reads up to 20,000 characters of account notes with cloud models (it was 8,000).
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8/Fieldbook-1.8.dmg" length="1522594346" type="application/octet-stream" sparkle:edSignature="pfZ6ANCP+9zd7iaHfyE/INQb9iSworBkQW7B/cHZUFAEErSG2Puhs5UKJkMKcCEcNV1FTIcWp9iO9oRIfHRICw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: kysgf0dN8dv9H5M43FZsCEcC9e4cDpmsgLgCouvSbCehVw3bKJ4RdXyCp7yht2qs3mf6z/LNgjiErnSL6dpiAw==
+length: 6671
+-->

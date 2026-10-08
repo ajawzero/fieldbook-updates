@@ -6,6 +6,48 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>1.9</title>
+            <pubDate>Thu, 08 Oct 2026 15:48:43 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Offered to 1.8 and later as an automatic update. Everything since 1.8.3, including what the two betas brought.
+
+### Added
+
+- **Pre-call briefs:** before a meeting with a customer or partner, click **Prepare Brief** in the menu-bar menu. The brief has the invite's agenda (without links, dial-ins, or passcodes), who's invited and whether they've been in earlier meetings, where things stand, what happened last time, what's still open, goals for the meeting, and, for customers, 5 to 10 Discovery questions this account hasn't answered yet, picked for the agenda. Everything links to the lines behind it. A recorded meeting keeps its brief in its Notes.
+- **Vocabulary:** names and terms are spelled your way in new transcripts. Words that sound like one are respelled, such as "Netscope" to "Netskope" or "Quabina Mensa" to "Kwabena Mensah". Fieldbook uses the meeting's invitees, its customer and label, saved voices' names, your company's solutions, and your own list in **Settings › Transcription › Vocabulary**. Ordinary words are never changed; point at a paragraph to see what was heard.
+- **Settings › General › Microphone:** Automatic (the microphone your call app uses, else the Mac's, without opening a Bluetooth headset no app is using) or a microphone you pick.
+
+### Fixed
+
+- Calls no longer sound muddy in AirPods (or another Bluetooth headset) because Fieldbook is recording. Fieldbook now records the microphone your call app uses (Zoom, Teams, or any other app already using a microphone, such as GoTo, RingCentral, or Krisp), follows it when you switch microphones mid-call, and otherwise doesn't open a Bluetooth headset's microphone when another one is connected. AirPods as your microphone and headphones work fine: Fieldbook records the same microphone and doesn't change how the call sounds. Each meeting notes which microphone was recorded.
+- Switching microphones mid-call no longer loses your microphone for the rest of the recording. If it stops (for example while AirPods switch modes), Fieldbook keeps trying to start it again, and the meeting notes the missing part.
+- Your voice no longer distorts in Fieldbook's recording when the microphone level is set high (for example by Zoom adjusting it): loud peaks are eased below full scale.
+- The computer's audio no longer stops for the rest of a recording when a monitor is unplugged. Fieldbook starts it again on a display that's still connected (or when one comes back, the display wakes, or the screen is unlocked), and the missing stretch is kept as silence so times still line up.
+- A meeting now says clearly when part of a track is missing, such as "System audio missing from 19:23 to 19:41.", in the Recorder while recording and on the meeting afterwards. Any break in the computer's audio counts, even a second.
+- Fewer made-up lines in transcripts: short filler like "Thank you." or "so" where no one was speaking (a microphone that's open but quiet, such as while you're muted in Zoom or Teams, which mute you in the call, not on your Mac; or a quiet call), and lines that repeat themselves over and over, are left out. They're kept in the meeting's transcript file with the reason.
+- A meeting where no speech was recognized shows its player, so you can still listen to it, and says what was left out and why.
+
+### Changed
+
+- The speech recognition package (WhisperKit) is updated to 1.1.1, a maintenance release with crash fixes. Transcripts of the test recordings came out the same as before.
+- Help explains which microphone Fieldbook records and why AirPods sound muddy during calls.
+
+### Since beta 2 (build 17)
+
+- Fieldbook keeps trying to restart a microphone that stops, instead of giving up after a second; it lets go of AirPods' microphone within a second of your call app moving off it; and it follows the microphone of call apps it doesn't know (GoTo, RingCentral) or a noise filter such as Krisp.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook-1.9.dmg" length="1522935003" type="application/octet-stream" sparkle:edSignature="8v+8KJyG4QmfSc+DNZSsL7pIcR4lYa0IGB1rAgc4eVkobESVaj0r8simTOsWDdR382v9IqhsxfYUDIiGwcsnAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-15.delta" sparkle:deltaFrom="15" length="835350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AnRRW1TJs+VjOwHM862Aela/nwuAl+6jxVGB/kK98lO7E5uAkNJ4KIgx93BXrw8Guav/mN675U8dTF3pUaSjAA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-14.delta" sparkle:deltaFrom="14" length="925002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MU/lBOns2iAmdtL+I+8GrZLExQZ04W5YxZ7CYrQME/GB3Lsb7vu2KFzGsRRMMmdb2/H/IhCaC/X2kFxJ8BICAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-13.delta" sparkle:deltaFrom="13" length="994818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SUDl26s5l53U7uKKuphMP3jcLKR3Ri93XoLn19A20WjjrL4v1aXbAif+cbUM8QNkUMshs5oqoF6BAcaoAyzqCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.8.3</title>
             <pubDate>Thu, 08 Oct 2026 10:24:10 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -24,7 +66,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 - Files in a folder's **Files** and meeting attachments can now be up to 500 MB each (was 50 MB). Word, Excel, PowerPoint, and text files over 100 MB are kept but too large to read for summaries; PDFs and images are read at any size.
 ]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook-1.8.3.dmg" length="1522717711" type="application/octet-stream" sparkle:edSignature="RpYf98HLOeYQPnYryoJOuFHRpXUBcYgP3tCe8vRxEkjPuLod3RbOE2De3g6BcoAjF/Jr1hgOVSft0Sa5EK7VAw=="/>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook-1.8.3.dmg" length="1522717711" type="application/octet-stream" sparkle:edSignature="RpYf98HLOeYQPnYryoJOuFHRpXUBcYgP3tCe8vRxEkjPuLod3RbOE2De3g6BcoAjF/Jr1hgOVSft0Sa5EK7VAw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-14.delta" sparkle:deltaFrom="14" length="597674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2JAt3xThJkfzu0gGf1+qj30dEkrPpxhrjkVSUDzA716LrtZxQdSSRaXkE0cximqPwZwJyCvWjq3DpRwff98+Dw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-13.delta" sparkle:deltaFrom="13" length="689570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q8tlsbWF9FJ4sZbwPrOp2UWePE1R40MfttTRXMuCZRvn2SYFULbD6a/LSFj28c3VIudJWtrV8z7+/LpCpB+XBQ=="/>
@@ -49,39 +91,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 - Notes are saved as Markdown, so formatting shows in any text editor. Existing notes that already used Markdown, such as lines starting with "- ", now show as formatted lists. The AI and search get the words without the formatting.
 ]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook-1.8.2.dmg" length="1522598944" type="application/octet-stream" sparkle:edSignature="OSiMpO8uSsGD4mkJ7rprzRLJidrFHfv9j9VhmUBNbqGDfuiuHXO4Pt88pHDvUojXTf+VqJBkmcJ77GKItCepAQ=="/>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook-1.8.2.dmg" length="1522598944" type="application/octet-stream" sparkle:edSignature="OSiMpO8uSsGD4mkJ7rprzRLJidrFHfv9j9VhmUBNbqGDfuiuHXO4Pt88pHDvUojXTf+VqJBkmcJ77GKItCepAQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook14-13.delta" sparkle:deltaFrom="13" length="598718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qQoSmgwbwOcK2rC3SNlJWYUtr9Vpq3Y8HOFSZLp6h5Kh6VhrgaXIkYJ9p23qDEdLG6zk4vdWJO1hnjBLnMIMBg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook14-12.delta" sparkle:deltaFrom="12" length="644178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5DMx+wTlQGuF1d1tCJxAKukzOodpX1APkH3R46PNTrV5nz4jkUrWRrY3PC0F0ZGHU2LnzXRG//pe9ZLxTMC5BQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.8.1</title>
-            <pubDate>Wed, 07 Oct 2026 23:29:43 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[A minor update, and the first one delivered by automatic update.
-
-### Added
-
-- **Default Discovery questions:** Fieldbook now comes with a list of discovery questions (253 in 30 categories), so customer meetings get a Discovery section from the start, without importing anything.
-
-### Changed
-
-- **Settings › AI › Discovery Questions › Import CSV…** asks whether to **add** the file's questions to the ones you have (questions already there are skipped) or **replace** them. **Use Default Questions…** goes back to the built-in list (it replaces **Remove…**).
-- The version is 1.8.1 (build 13).
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook-1.8.1.dmg" length="1522547599" type="application/octet-stream" sparkle:edSignature="DcMI0s8VfnpmJ6QMHy3QbqgWry5ES0Dwz5cPlRbDOf+OeZyM0NmY1HHeEPjNrnJD8V4KdALSj891kX4G4m5tAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.1/Fieldbook13-12.delta" sparkle:deltaFrom="12" length="432414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0cZyOYu0s0SyfHDtzChEFdspmlM7t+PdyqL8TTcBFtZfS4gVYtBEzdnE9ypYbHpoYqHc1iPUfYSeejNl53+oDQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: klxm4OACOY74q5U/dZZf4pu8YF5oe9R5mX7P4se+7+pYrII7Oukg2lFmFL90lPVxW6kuDimQkJQqA/yGzmiUCw==
-length: 7933
+edSignature: 27G3fN5ArDJBCDBLYxM5bs2nTuS3CkCB3NfUjvl61PB/ebZzuDn829fdm3yvfeqsHDsckTZy2PTvr53IzWJTCg==
+length: 12040
 -->

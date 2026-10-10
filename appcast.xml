@@ -6,6 +6,73 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.0</title>
+            <pubDate>Sat, 10 Oct 2026 14:21:29 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Offered to 1.8 and later as an automatic update. Everything since 1.9, including what the three betas brought.
+
+### Added
+
+- **Styles:** Settings › General › Look › **Style** offers twelve looks, each in light and dark: **Fieldbook** (the new standard: cream paper, kraft brown, serif headings, ruled lines under your notes), **Fieldbook Legacy** (the 1.x look), Cyber, Blueprint, Solarized, Graphite, Forest, Orchid, Cyberpunk, Matrix, Medieval, and Sci-Fi. **Two-tone** (on by default) puts the sidebar and toolbar in the style's cover color; selected rows take the style's color after **Reopen Fieldbook**; **Font** (also the **Aa** button above your notes) sets the font for notes and transcripts.
+- **Welcome to Fieldbook 2.0** opens once after updating: pick a look, and see everything new with where to find it.
+- **Mute Fieldbook:** muting Zoom or Teams doesn't mute your Mac's microphone, so Fieldbook can now be muted itself, with **Control-Option-Command-M**, **Mute** in the Recorder or the toolbar, or the menu-bar icon. Silence is recorded in place of your microphone, a "Fieldbook is muted" panel stays on screen, the call's audio keeps recording, and anything said while muted is left out of the transcript.
+- **Level meters and microphone warnings** in the Recorder: both tracks' levels while recording, and a warning at once when your microphone clips, is too quiet, or delivers no sound, with what to do. A microphone that delivers nothing is started again after 4 seconds.
+- **Choose the microphone in the Recorder:** it names the microphone Fieldbook will record; click it to pick another, before or during a recording.
+- The meeting header names every microphone recorded, in the order used ("Microphone: 33:12 (Rode NT-USB)"), with notes such as AirPods being in headset mode during the call.
+- **Merge Meetings…** (right-click two or more recordings): a meeting recorded in parts, or started on the iPhone and finished on the Mac, becomes one meeting, transcribed again as a whole, with the joins marked and the originals in the Trash.
+- **Space** plays and pauses a meeting's audio (not while you type).
+- **Speakers:** **Add Speaker…** for someone the transcription missed, click a paragraph's name to give it to someone else, **People you've met** suggested from remembered voices, and **Detect Speakers Again…** with how many people spoke on each track.
+- **Account Discovery:** a **Discovery** row under each customer's Account shows every discovery question with the answer from all of its meetings, account notes, files, and attachments, with sources and dates, earlier or differing answers, filters, and **Copy All**. Pre-call briefs leave out questions already answered.
+- **Update** instead of a full rewrite for AI notes (**Update Notes**), account summaries, MEDDPICC, and files summaries: when something was only added, only that is sent to your AI endpoint, for far fewer tokens (cloud endpoints).
+- Discovery questions are numbered as in Salesforce (Q1 to Q253), in each meeting, the brief, **Copy**, and CSV export and import.
+- **Where each meeting is filed:** its folder and label after the title, in the folders' colors, with **Move To** beside them, and a short path before each title in All Meetings and Archive.
+- **Arrow keys:** Right goes from the folders to the meetings, then from Notes to Transcript; Left goes back. Right on a folder with hidden labels opens it first, and Left closes it.
+- Recordings paused on the iPhone (Fieldbook for iPhone) show how long they were paused, and nothing from the paused time is transcribed.
+
+### Changed
+
+- The microphone is recorded through a capture session bound to that one device, so changing headphones or the Mac's output can no longer interrupt it.
+- With no call, Fieldbook doesn't record a nearby iPhone's microphone on its own unless it's the only one. A microphone you picked is noted as "the microphone you chose".
+- Set up for Zscaler: a new install goes straight to the Zscaler setup steps, with the zllama endpoint filled in, `zscaler.com` as your domain, and Company and Solutions preloading Zscaler. Settings already saved don't change.
+- Discovery costs less: only new questions are matched (**Match Them**, **Update All**), renames don't make it out of date, and with Claude (a Claude API key or LiteLLM such as zllama) the question list is read from Claude's prompt cache; Settings › AI › Usage shows how much came from the cache.
+- MEDDPICC's refresh after a new customer meeting adds only that meeting's evidence, and skips a meeting with nothing to read.
+- Renaming a speaker or the meeting no longer makes AI notes or Discovery out of date; the new names go into the notes without the AI.
+- Automatic AI notes are skipped for a meeting with an empty transcript and no notes of yours (**Write Notes** still works).
+- A meeting always opens on **Notes**; a search result or citation opens the transcript at its line.
+- The red REC timer in the toolbar is a Stop button.
+- Help covers everything new, including **Merging Recordings**, **Updating Instead of Rewriting**, **Recordings from your iPhone**, and how to send a meeting with its audio along with a diagnostic report.
+- Settings › AI's data notice says that meeting attachments' text is sent when you choose **Update** in a customer's Discovery.
+
+### Fixed
+
+- Transcription could hang for good on some completely silent recordings, at every launch. Fieldbook now reads recordings in small pieces, and a meeting cut off twice waits for **Retry Transcription**.
+- A track that ends before you stop recording is filled with silence to the end.
+- Importing an export checks each audio track's file name, so a hand-edited export can't point Fieldbook outside the meeting's folder.
+- On macOS 26, a light frame no longer shows around the sidebar's color.
+- MEDDPICC no longer fails when a customer has a meeting with nothing to read, such as a silent test recording.
+
+### Since beta 3 (build 21)
+
+- In the sidebar, **Right** on a folder with hidden labels (such as Partners) opens it first; **Right** again moves to the meetings. **Left** closes an open folder.
+- A microphone you picked yourself, in the Recorder or in Settings, is noted as "the microphone you chose" (it said "chosen in Settings" even when picked in the Recorder).
+- A meeting's header names every microphone it was recorded from, in the order used, not only the last one; a merged meeting lists all of its parts' microphones.
+- **Welcome to Fieldbook 2.0** also lists the Recorder's microphone menu, each meeting's folder path, and the arrow keys.
+- Fixed: MEDDPICC failed when a customer had a meeting with nothing to read, such as a silent test recording moved there; it now skips that meeting, as automatic notes do.
+- Fixed: following the call app's microphone was logged as a warning ("microphone interrupted") in the activity log; real interruptions still are.
+- Fixed: on macOS 26, a light frame showed around the sidebar's cover color (macOS 26 floats the sidebar a little in from the window's edges, and the meeting list's color showed around it); the sidebar's own color now fills that space, also in the Help window.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0/Fieldbook-2.0.dmg" length="1523551074" type="application/octet-stream" sparkle:edSignature="U1Rr51jRLwVN4Yh+d+UHV3t5f1rXUcmDMqNRHfgSvrNhWWTOvC9GSPi4SZ2nkqZmxlhJtJxdhFudeiWUPwJBBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0/Fieldbook22-18.delta" sparkle:deltaFrom="18" length="1608570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eNOWMaSpiMKYxkHuipSr0RijB44OfkA/ue7urCBQFhCaCI+ceCYdR+d+ZLpyUVlTbGVLdCAsZc+3pUawOqjUDA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0/Fieldbook22-15.delta" sparkle:deltaFrom="15" length="1781222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z/4s5oQgSXSuVqd90ZgaCJXF2YAqlC8IsHgSs+6kDim6WNsGcpbD2IEaSgzuuzP8g8bqlj85MWwnWkRuN+r+DQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0/Fieldbook22-14.delta" sparkle:deltaFrom="14" length="1830206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cPVJJDytnGRWV75oY0TDZll8KfBxirhoj+BAfm8sviRidyDHyTDZgTYDE6md9k2YdWFgKsXs0CeLsUiT7UvFCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.9</title>
             <pubDate>Thu, 08 Oct 2026 15:48:43 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -40,7 +107,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 - Fieldbook keeps trying to restart a microphone that stops, instead of giving up after a second; it lets go of AirPods' microphone within a second of your call app moving off it; and it follows the microphone of call apps it doesn't know (GoTo, RingCentral) or a noise filter such as Krisp.
 ]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook-1.9.dmg" length="1522935003" type="application/octet-stream" sparkle:edSignature="8v+8KJyG4QmfSc+DNZSsL7pIcR4lYa0IGB1rAgc4eVkobESVaj0r8simTOsWDdR382v9IqhsxfYUDIiGwcsnAQ=="/>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0/Fieldbook-1.9.dmg" length="1522935003" type="application/octet-stream" sparkle:edSignature="8v+8KJyG4QmfSc+DNZSsL7pIcR4lYa0IGB1rAgc4eVkobESVaj0r8simTOsWDdR382v9IqhsxfYUDIiGwcsnAQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-15.delta" sparkle:deltaFrom="15" length="835350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AnRRW1TJs+VjOwHM862Aela/nwuAl+6jxVGB/kK98lO7E5uAkNJ4KIgx93BXrw8Guav/mN675U8dTF3pUaSjAA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-14.delta" sparkle:deltaFrom="14" length="925002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MU/lBOns2iAmdtL+I+8GrZLExQZ04W5YxZ7CYrQME/GB3Lsb7vu2KFzGsRRMMmdb2/H/IhCaC/X2kFxJ8BICAQ=="/>
@@ -66,40 +133,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 - Files in a folder's **Files** and meeting attachments can now be up to 500 MB each (was 50 MB). Word, Excel, PowerPoint, and text files over 100 MB are kept but too large to read for summaries; PDFs and images are read at any size.
 ]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook-1.8.3.dmg" length="1522717711" type="application/octet-stream" sparkle:edSignature="RpYf98HLOeYQPnYryoJOuFHRpXUBcYgP3tCe8vRxEkjPuLod3RbOE2De3g6BcoAjF/Jr1hgOVSft0Sa5EK7VAw=="/>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0/Fieldbook-1.8.3.dmg" length="1522717711" type="application/octet-stream" sparkle:edSignature="RpYf98HLOeYQPnYryoJOuFHRpXUBcYgP3tCe8vRxEkjPuLod3RbOE2De3g6BcoAjF/Jr1hgOVSft0Sa5EK7VAw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-14.delta" sparkle:deltaFrom="14" length="597674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2JAt3xThJkfzu0gGf1+qj30dEkrPpxhrjkVSUDzA716LrtZxQdSSRaXkE0cximqPwZwJyCvWjq3DpRwff98+Dw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-13.delta" sparkle:deltaFrom="13" length="689570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q8tlsbWF9FJ4sZbwPrOp2UWePE1R40MfttTRXMuCZRvn2SYFULbD6a/LSFj28c3VIudJWtrV8z7+/LpCpB+XBQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-12.delta" sparkle:deltaFrom="12" length="724322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6p8F33W58MeQuYJmtdG8j2DKf8Vu6Mvvga4pOQsx72Y4gm77o0m5a9O5K9t/FlD40l6+3HcmVVQwSOxII3jQDQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.8.2</title>
-            <pubDate>Thu, 08 Oct 2026 09:07:25 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[A minor update.
-
-### Added
-
-- **Formatting in your notes and account notes:** bold, italic, underline, text styles (Title, Heading, Subheading, Body, Monospaced), and bulleted and numbered lists, from a bar above the notes, the new **Format** menu, or shortcuts (⌘B, ⌘I, ⌘U, ⇧⌘7, ⇧⌘9, and more). Typing "- " or "1. " starts a list; Tab and Shift-Tab change its level. Pasting from Mail, Word, or a web page keeps bold, italic, underline, and lists.
-
-### Changed
-
-- Notes are saved as Markdown, so formatting shows in any text editor. Existing notes that already used Markdown, such as lines starting with "- ", now show as formatted lists. The AI and search get the words without the formatting.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook-1.8.2.dmg" length="1522598944" type="application/octet-stream" sparkle:edSignature="OSiMpO8uSsGD4mkJ7rprzRLJidrFHfv9j9VhmUBNbqGDfuiuHXO4Pt88pHDvUojXTf+VqJBkmcJ77GKItCepAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook14-13.delta" sparkle:deltaFrom="13" length="598718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qQoSmgwbwOcK2rC3SNlJWYUtr9Vpq3Y8HOFSZLp6h5Kh6VhrgaXIkYJ9p23qDEdLG6zk4vdWJO1hnjBLnMIMBg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.2/Fieldbook14-12.delta" sparkle:deltaFrom="12" length="644178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5DMx+wTlQGuF1d1tCJxAKukzOodpX1APkH3R46PNTrV5nz4jkUrWRrY3PC0F0ZGHU2LnzXRG//pe9ZLxTMC5BQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 27G3fN5ArDJBCDBLYxM5bs2nTuS3CkCB3NfUjvl61PB/ebZzuDn829fdm3yvfeqsHDsckTZy2PTvr53IzWJTCg==
-length: 12040
+edSignature: D9d10ZLpEWes0eHbtdmd5Qdf4C7UP0fXaQRMFLWpH980ff3IaaCjFbZHkVg2jDG/RA6V1qR3UMjSOHG8ONtWCA==
+length: 18911
 -->

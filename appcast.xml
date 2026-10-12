@@ -7,6 +7,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.0.1</title>
+            <pubDate>Sun, 11 Oct 2026 20:57:59 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.0.1 beta 3** (a beta)
+
+The third beta, on the beta channel: a Mac with beta 2 gets it as an automatic update (**Fieldbook › Check for Updates…** to get it at once). Everyone else stays on 2.0 until 2.0.1 itself.
+
+### Added
+- **Change a meeting's date and time:** click the date under its title, or right-click it in the list › **Change Date and Time…**. Its length stays, and its folder takes the new date.
+- **Update All:** a button at the top of the window says how many AI notes, Discovery answers, MEDDPICC, and summaries have something new. Click it to choose which to bring up to date (rewrites start unticked), then they're done one at a time, sending only what's new where they can. Close it and it keeps going; anything that fails says why, with **Try Again**. Also **File › Update All…** (Shift-Command-U), and **Update <customer>…** on a customer's Account for that customer alone.
+- **Getting Emails into Fieldbook** in Help: every way to bring emails in, from downloading or dragging one to watching **Downloads** or a Google Drive or OneDrive folder, with step-by-step setup for a Gmail label (the Fieldbook Inbox script, in a box that opens to show what it creates and does, with **Copy**) and for flagging emails in Outlook with Microsoft 365 (a Power Automate flow).
+- **Fold an email:** in a customer's **Emails**, click the open email's subject (or its row in the list again) to fold it to one line with the sender and date, so the list and the Emails summary stay close together. It stays folded until you open an email.
+
+### Changed
+- **The account summary reads the account's emails and its meetings' attachments,** not only meetings and notes, and when one is added it offers **Update**, which reads and sends just the new ones. Including the customer's other files stays your choice (**Without the Files**). A summary written before shows its emails and attachments as new the first time.
+
+### Fixed
+- **Imported Zoom files are dated when the meeting was:** Zoom's cloud recording names (`GMT20261008-150159_…`) give the meeting's start (in UTC, shown in your time), and a name with a date and time (such as Zoom's local `2026-10-08 10.01.59` folders) gives both, instead of when the file was imported. They're named **Zoom chat**, **Zoom transcript**, or **Zoom captions** instead of the file name.
+- **Long AI replies no longer fail:** a meeting's notes whose reply runs past the AI's length limit are written again from smaller parts of the meeting, and an update to notes, MEDDPICC, or a summary that runs too long is written in full instead.
+- **A customer's Discovery reads every document even when one fails,** and says which one didn't work.
+- **Discovery no longer fails on a long, detailed document:** when a file answers so many questions that the AI's reply runs past its length limit (a long slide deck about a customer did), Fieldbook asks about the questions in smaller sets instead of stopping the update. Meeting Discovery does the same.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook-2.0.1-beta3.dmg" length="1524227338" type="application/octet-stream" sparkle:edSignature="kKirgKX2ENRE+hyuXRPo8UKx3zI5EMAZFKkCSC+kaX90p0iV/kLvjWrxDenEzMmszu/WrcJo/sFRiioZKQt2Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook25-24.delta" sparkle:deltaFrom="24" length="953474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gSL+9xct4YgBCEsThnJP7GY/KH8omreNTtdCnkXOdwR7wEBVO/egJrTcLsLy6GTJ6wz6mG/AgJpN1tTaog2eCA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook25-22.delta" sparkle:deltaFrom="22" length="1632130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lKi1zL6Sh4k7+rorbbZr6EtXfxCvSa811rx26f0jwmOzxkzlQhhIJPW4DNE5ZkAgMhRx3Uv8/V4IbXrdPq0mCA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook25-18.delta" sparkle:deltaFrom="18" length="2306442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sLQFS7OsFG52PkiRq1kFuvL8VGHixV6PriWZQ47kfm3uqWprWv48U8AyeON+lPXTly6GT4wWOdK2j1AfljZQCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.0.1</title>
             <pubDate>Sun, 11 Oct 2026 18:05:52 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -30,7 +65,7 @@ The second beta, and the first on the beta channel: install it by hand once, and
 - **A customer's MEDDPICC and recommended stage use its emails** (the customer's and its labels' **Emails**) as evidence beside its meetings and account notes, linked under **Emails**. Adding, changing, or removing an email makes MEDDPICC out of date.
 
 ### Changed
-- **The Welcome window is for anyone:** step 1 is **Bring your own AI**: Apple's on-device model, a local model you run, or a cloud model by API, with where Zscaler employees (zllama, through ConductorOne) and Microsoft employees (the GitHub Copilot API) get theirs. `zscaler.com` is still filled in as your domain, and zllama's address as the cloud endpoint.
+- **The Welcome window is for anyone:** step 1 is **Bring your own AI**: Apple's on-device model, a local model you run, or a cloud model by API, with where Zscaler employees (their company's AI endpoint) and Microsoft employees (the GitHub Copilot API) get theirs. `zscaler.com` is still filled in as your domain, and Zscaler's AI endpoint as the cloud endpoint.
 
 ### Fixed
 - **Links in Ask AI and Help answers aren't clickable:** an answer's text could include a web link written by the AI (for example, from hidden text in an email); only the citation chips open now.
@@ -79,8 +114,8 @@ The second beta, and the first on the beta channel: install it by hand once, and
 
 - The microphone is recorded through a capture session bound to that one device, so changing headphones or the Mac's output can no longer interrupt it.
 - With no call, Fieldbook doesn't record a nearby iPhone's microphone on its own unless it's the only one. A microphone you picked is noted as "the microphone you chose".
-- Set up for Zscaler: a new install goes straight to the Zscaler setup steps, with the zllama endpoint filled in, `zscaler.com` as your domain, and Company and Solutions preloading Zscaler. Settings already saved don't change.
-- Discovery costs less: only new questions are matched (**Match Them**, **Update All**), renames don't make it out of date, and with Claude (a Claude API key or LiteLLM such as zllama) the question list is read from Claude's prompt cache; Settings › AI › Usage shows how much came from the cache.
+- Set up for Zscaler: a new install goes straight to the Zscaler setup steps, with Zscaler's AI endpoint filled in, `zscaler.com` as your domain, and Company and Solutions preloading Zscaler. Settings already saved don't change.
+- Discovery costs less: only new questions are matched (**Match Them**, **Update All**), renames don't make it out of date, and with Claude (a Claude API key or a LiteLLM proxy) the question list is read from Claude's prompt cache; Settings › AI › Usage shows how much came from the cache.
 - MEDDPICC's refresh after a new customer meeting adds only that meeting's evidence, and skips a meeting with nothing to read.
 - Renaming a speaker or the meeting no longer makes AI notes or Discovery out of date; the new names go into the notes without the AI.
 - Automatic AI notes are skipped for a meeting with an empty transcript and no notes of yours (**Write Notes** still works).
@@ -185,6 +220,6 @@ The second beta, and the first on the beta channel: install it by hand once, and
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: n+iJNU0memMLmudo5qNB2uyy9Hv9XvgITU4CW3VAOx2jpnbL8YwEM0WXGq9+zglR0mijzgWAcRzAx7a/fLrxAw==
-length: 26837
+edSignature: +rGdK4rg8xkMjOIOU2/WdhSkqhBzW/00MaBcw22b2hRJXTb0J+Qg8TwpSA7cur2rgrEM1PJ8pMdI8dQTPyucDg==
+length: 32083
 -->

@@ -7,6 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.1.1</title>
+            <pubDate>Mon, 12 Oct 2026 13:08:30 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.1.1 beta 2** (a beta)
+
+The second beta of 2.1.1, on the beta channel: Macs set to **Beta** get it as an automatic update, a small one from beta 1. It includes everything in beta 1: Mark Speaker, quote-checked emails and Ask AI answers, fewer stray words given to the wrong speaker, Azure OpenAI, and no pauses from Update All's check. Everyone else stays on 2.1 until 2.1.1 itself.
+
+### Added
+- **Cross off to-dos:** click a to-do's icon in a meeting's notes when it's done, or when it doesn't apply. It stays in place, struck through; click again to put it back. Completing a to-do's reminder in Reminders crosses it off too.
+- **Correct and add to-dos:** the pencil beside a to-do fixes its words, kind, or owner when the AI or the transcript got something wrong (**Use AI's Wording** undoes it). **Add To-do** adds your own, with **Remind me** to add it to Reminders right away. What you change is kept when the notes are updated or regenerated, and Copy, the follow-up email, Ask AI, the account summary, and the pre-call brief use your version.
+- **My To-dos:** at the bottom of the sidebar, your open to-dos from every meeting (the ones whose owner is you), grouped by customer, with a **Completed** list of what you've crossed off. Click one to open its meeting at that to-do.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta2/Fieldbook-2.1.1-beta2.dmg" length="1524642685" type="application/octet-stream" sparkle:edSignature="m3yJ4eVFLEhe37TvhGl/EqFrWTJBtmdRMWDIkAU6xicKlVmVXLcz65qUvg4OsP6g0LaQ3EPPv94Gw9dHvpw8CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta2/Fieldbook29-28.delta" sparkle:deltaFrom="28" length="956378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kAV9gj75E9x+Lsxq2Un+hjA+kng6wlSNQBKvQWxWH+StkQBey7Jr03t39jTpRmaYfN59Kgg3e2KzShkbxq29Cw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta2/Fieldbook29-27.delta" sparkle:deltaFrom="27" length="1257214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="imC+YOIQN6nRkK6rxAGAqexaKFnwvHqJgwR+VZbM9z5gwr0sa57z9x0ios2rwORoMLpcY5xXBav4TCCswEReCw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta2/Fieldbook29-26.delta" sparkle:deltaFrom="26" length="1281982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xfuZj6qR6T8yztMyCmuyiQqUv+tiFscRN1L8YSh0semvCLq4Q//5vkDUEP57QGolljz/nmChgMpVwfEGdVHGCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.1.1</title>
             <pubDate>Mon, 12 Oct 2026 10:52:29 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -231,6 +256,6 @@ The fourth beta, on the beta channel: a Mac with an earlier beta gets it as an a
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: oxSI6/oBmqqUILXcfS9J+ZFof1/kZtpsAbGqwvwraAStvHdfqRKuviGSTLWYz1OmmhoZouigbmqorVMl7zaDCw==
-length: 34501
+edSignature: Y801q5XivTgMXIy6D1/SFTcHmKhlxU7z0xKIAfogSmuZHI9fvX9YF4ux0BnuMtMZtbpzXgPh0PBrO0MjZcpGBg==
+length: 38037
 -->

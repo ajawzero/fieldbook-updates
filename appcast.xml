@@ -84,6 +84,7 @@ The first beta of 2.1.1, on the beta channel: a Mac set to **Beta** (Settings â€
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-26.delta" sparkle:deltaFrom="26" length="555210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IDr2/ASEhiLmPJjuc4s4Rji7wYGkEZ7pTrS7saKbKKxNXyzx/fblJajm1boSs4UkpYgf7T9PilYB3GeRzfDpAA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-25.delta" sparkle:deltaFrom="25" length="861114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0DF+/qYdRXZf2U/ZQ7Yzk5fBt7Bc/6MyRgR6OPd4aP+Gmjwp+5a2/88CoX8saCB7lQPz9k6TgE7zFhvjP/KDQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-24.delta" sparkle:deltaFrom="24" length="1124410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="co2Qfd8xgFxwoR19F/RmWwM6ucFencDGCrtO8a25hidlapCsZrTNwi0UEGh3prUL+5mnj3G+wsqXgFazpopbCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-22.delta" sparkle:deltaFrom="22" length="1735270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Mzvil1gHnp3CtNXYapAdckZVsJsn9RaGAKAMjK6mwqhTgBmDObta5XlxTGej/AIBodskDNHIWwQA1csYxsQlAg=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -230,6 +231,6 @@ The fourth beta, on the beta channel: a Mac with an earlier beta gets it as an a
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: PkBrbOvNzRz9YZt3gjaWs1nfWC0nVCuCD8MIpFUYRKMCP33e9b8tw7nbsbhlsEidWlFPcnfihFMmt+mpP6d9AA==
-length: 34090
+edSignature: oxSI6/oBmqqUILXcfS9J+ZFof1/kZtpsAbGqwvwraAStvHdfqRKuviGSTLWYz1OmmhoZouigbmqorVMl7zaDCw==
+length: 34501
 -->

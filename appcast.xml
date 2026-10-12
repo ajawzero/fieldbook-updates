@@ -6,6 +6,59 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.1</title>
+            <pubDate>Mon, 12 Oct 2026 09:33:38 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Offered to 1.8 and later as an automatic update. Everything since 2.0, including what the four betas brought (they were called 2.0.1 while they were tested).
+
+### Added
+
+- **Release or Beta, for everyone:** **Settings › General › Updates › Versions** (and the top of the Welcome window) offers **Release**, tested versions for most people, or **Beta**, new features first while they're still being tested. With Beta, each beta comes as an automatic update, as well as every full release. Choosing Release again keeps the version you have until the next release. A beta shows which it is, such as "Version 2.1.1 beta 1".
+- **Welcome to Fieldbook 2.1** opens once after updating: choose Release or Beta, and see everything new with where to find it.
+- **Emails for every folder:** customers, Internal, Training, Partners, and every label have an **Emails** row under **Files**: the folder's emails newest first, a reader with their attachments (a screenshot pasted into an email comes with them), **Open in Mail**, and an **Emails summary** linked to the emails behind each point. Click the open email's subject to fold it to one line. Add emails by dropping `.eml` files (Gmail's **⋮ › Download message**, or dragged from Mail or Outlook) or with **Add Emails…**.
+- **The email Inbox:** emails from your email folder (such as a Gmail label) wait in an **Inbox** instead of popping up, even during a call. The **Inbox** button at the top of the window, the Dock icon, and the menu-bar menu say how many; click it (or **File › Email Inbox…**, Shift-Command-E) to file each one as a new meeting or in a folder's **Emails**, where its people's domains suggest, in the background while you keep working.
+- **An email folder:** **Settings › General › Downloads and Email Folder › Email folder** watches a folder you choose, such as the Google Drive folder a Gmail label saves to, even while Fieldbook is closed.
+- **Emails become meetings:** drag an email from Mail or Outlook into Fieldbook, or download one from Gmail. The meeting is named from the subject and dated when it was sent, with who it's from and to and its text in your notes, the email and its attachments attached, and the folder its people's email domains point to chosen to begin with.
+- **Getting Emails into Fieldbook** in Help: every way to bring emails in, with step-by-step setup for a Gmail label (a script in a box that opens to show what it creates and does, with **Copy**), for flagging emails in Outlook with Microsoft 365 (a Power Automate flow), and for Apple Mail.
+- **The AI reads emails and attachments:** a meeting's AI notes read its attachments (emails, PDFs, Word, Excel, PowerPoint, text, and the words in screenshots, recognized on this Mac); a customer's MEDDPICC and recommended stage use its emails as evidence; **Ask AI** searches your folders' emails and can cite them; and emails kept in a folder's Files are read for the files summary, the account summary, and Account Discovery.
+- **Update All:** a button at the top of the window says how many AI notes, Discovery answers, MEDDPICC, and summaries have something new. Choose which to bring up to date (rewrites start unticked); they're done one at a time, sending only what's new where they can, and keep going when you close it. Anything that fails says why, with **Try Again** and **Try All Again**. Also **File › Update All…** (Shift-Command-U), and **Update <customer>…** on a customer's Account.
+- **Change a meeting's date and time:** click the date under its title, or right-click it in the list › **Change Date and Time…**.
+- **Drag a file into Fieldbook** to make a meeting from it, add it to a customer's Files, or attach it to a meeting: drop files anywhere in the window or on the Dock icon, or choose **File › Add Files…** (Shift-Command-A). A transcript becomes a meeting with its speakers and times; any other file becomes a manual meeting with the file attached and its text in your notes. Drop straight onto a customer in the sidebar or a meeting in the list, with **Undo**.
+- **Remind Me on to-dos:** click the bell at the end of a to-do to add it to Apple Reminders; the bell then shows when it's due, or **Done**. **New Reminder…** in a meeting's menu adds one for the meeting itself.
+- **Recordings AirDropped from the iPhone are imported by themselves** into the folder chosen on the phone, with **Undo** (Settings › General › Downloads), and **File › Send Folders to iPhone…** gives Fieldbook for iPhone your folders and the email domains that file meetings.
+- **Ask AI in Help:** type a question in Fieldbook Help's search field and press Return; the answer comes from the manual, with links to the sections it used.
+- **Microsoft Security** is back in **Settings › AI › Company and Solutions**, with its solutions list. Zscaler stays the default.
+- **Settings › Permissions lists the optional permissions** (Calendars, Reminders, the Downloads folder) with what each is for.
+
+### Changed
+
+- **A meeting's speakers are listed one per line,** most talk time first, with their side, whether their voice was recognized (or **Yes** and **No** for a suggested name), and how long they spoke. Click **Speakers** to fold the list.
+- **The account summary reads the account's emails and its meetings' attachments,** and **Update** sends just the new ones. Including the customer's other files stays your choice.
+- **The toolbar stays put:** **Notes | Transcript**, **Inbox**, and **Update All** are always in the same places, greyed out when they don't apply.
+- **Text size covers the meeting list and Help** too.
+- **The Welcome window is for anyone:** step 1 is **Bring your own AI**: Apple's on-device model, a local model, or a cloud model by API, with where Zscaler employees (their company's AI endpoint) and Microsoft employees (Azure OpenAI in Microsoft Foundry, under **LiteLLM or OpenAI-compatible**; Help says how) get theirs.
+- **Recordings from the iPhone arrive filed** in the folder chosen there; one sent without its audio becomes a notes-only meeting; sending one again after choosing its folder moves the copy on the Mac; and dragging a meeting export into Fieldbook imports it without asking where it goes.
+
+### Fixed
+
+- **Imported Zoom files are dated when the meeting was,** from Zoom's file names, instead of when they were imported, and named **Zoom chat**, **Zoom transcript**, or **Zoom captions**.
+- **Long AI replies no longer fail:** notes whose reply runs past the AI's length limit are written from smaller parts of the meeting, an update that runs too long is written in full, and Discovery asks about a long document's questions in smaller sets. A customer's Discovery reads every document even when one fails, and says which.
+- **Links in Ask AI and Help answers aren't clickable;** only the citation chips open.
+- **New Customer, New Label, and Email Domains and Addresses are readable** in light mode with a dark sidebar.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook-2.1.dmg" length="1524367928" type="application/octet-stream" sparkle:edSignature="wJ9O1mpFQi0APyPnRaEJEDHXovZud43OIeGY3uz+0x3ufPPG+pZWN3pmwHyqb60b9ldGzyzcohbeH7DqCnYiCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-26.delta" sparkle:deltaFrom="26" length="555210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IDr2/ASEhiLmPJjuc4s4Rji7wYGkEZ7pTrS7saKbKKxNXyzx/fblJajm1boSs4UkpYgf7T9PilYB3GeRzfDpAA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-25.delta" sparkle:deltaFrom="25" length="861114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0DF+/qYdRXZf2U/ZQ7Yzk5fBt7Bc/6MyRgR6OPd4aP+Gmjwp+5a2/88CoX8saCB7lQPz9k6TgE7zFhvjP/KDQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-24.delta" sparkle:deltaFrom="24" length="1124410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="co2Qfd8xgFxwoR19F/RmWwM6ucFencDGCrtO8a25hidlapCsZrTNwi0UEGh3prUL+5mnj3G+wsqXgFazpopbCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-22.delta" sparkle:deltaFrom="22" length="1735270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Mzvil1gHnp3CtNXYapAdckZVsJsn9RaGAKAMjK6mwqhTgBmDObta5XlxTGej/AIBodskDNHIWwQA1csYxsQlAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.1</title>
             <pubDate>Sun, 11 Oct 2026 21:55:07 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -35,83 +88,6 @@ The fourth beta, on the beta channel: a Mac with an earlier beta gets it as an a
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-25.delta" sparkle:deltaFrom="25" length="804638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+MPVPRla5Epig04Tnwn5r3vzYFBvQljCCo/+ULPYQQKnHO+5AJEWumY1If3LGi4LK94e2JzuGrLWDk21+slEDg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-24.delta" sparkle:deltaFrom="24" length="1100006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+1aLI4N3CvBlO43ry78trCYDGg8PV+tCCk5Jsm1hmwyVxl+An4nLl0naiU4r5O5FtTfMKSyTCuaFhWHzocC4AQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-22.delta" sparkle:deltaFrom="22" length="1715262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oiPtMdK4LwS9y5o5f5H2mMNG5oYl4YbRuWmxe5n7jxJQf8KVUJYcyVidNlmOre3amzRlzKOUhT1VhBlD6yGrCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.0.1</title>
-            <pubDate>Sun, 11 Oct 2026 20:57:59 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.0.1 beta 3** (a beta)
-
-The third beta, on the beta channel: a Mac with beta 2 gets it as an automatic update (**Fieldbook › Check for Updates…** to get it at once). Everyone else stays on 2.0 until 2.0.1 itself.
-
-### Added
-- **Change a meeting's date and time:** click the date under its title, or right-click it in the list › **Change Date and Time…**. Its length stays, and its folder takes the new date.
-- **Update All:** a button at the top of the window says how many AI notes, Discovery answers, MEDDPICC, and summaries have something new. Click it to choose which to bring up to date (rewrites start unticked), then they're done one at a time, sending only what's new where they can. Close it and it keeps going; anything that fails says why, with **Try Again**. Also **File › Update All…** (Shift-Command-U), and **Update <customer>…** on a customer's Account for that customer alone.
-- **Getting Emails into Fieldbook** in Help: every way to bring emails in, from downloading or dragging one to watching **Downloads** or a Google Drive or OneDrive folder, with step-by-step setup for a Gmail label (the Fieldbook Inbox script, in a box that opens to show what it creates and does, with **Copy**) and for flagging emails in Outlook with Microsoft 365 (a Power Automate flow).
-- **Fold an email:** in a customer's **Emails**, click the open email's subject (or its row in the list again) to fold it to one line with the sender and date, so the list and the Emails summary stay close together. It stays folded until you open an email.
-
-### Changed
-- **The account summary reads the account's emails and its meetings' attachments,** not only meetings and notes, and when one is added it offers **Update**, which reads and sends just the new ones. Including the customer's other files stays your choice (**Without the Files**). A summary written before shows its emails and attachments as new the first time.
-
-### Fixed
-- **Imported Zoom files are dated when the meeting was:** Zoom's cloud recording names (`GMT20261008-150159_…`) give the meeting's start (in UTC, shown in your time), and a name with a date and time (such as Zoom's local `2026-10-08 10.01.59` folders) gives both, instead of when the file was imported. They're named **Zoom chat**, **Zoom transcript**, or **Zoom captions** instead of the file name.
-- **Long AI replies no longer fail:** a meeting's notes whose reply runs past the AI's length limit are written again from smaller parts of the meeting, and an update to notes, MEDDPICC, or a summary that runs too long is written in full instead.
-- **A customer's Discovery reads every document even when one fails,** and says which one didn't work.
-- **Discovery no longer fails on a long, detailed document:** when a file answers so many questions that the AI's reply runs past its length limit (a long slide deck about a customer did), Fieldbook asks about the questions in smaller sets instead of stopping the update. Meeting Discovery does the same.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook-2.0.1-beta3.dmg" length="1524227338" type="application/octet-stream" sparkle:edSignature="kKirgKX2ENRE+hyuXRPo8UKx3zI5EMAZFKkCSC+kaX90p0iV/kLvjWrxDenEzMmszu/WrcJo/sFRiioZKQt2Cw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook25-24.delta" sparkle:deltaFrom="24" length="953474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gSL+9xct4YgBCEsThnJP7GY/KH8omreNTtdCnkXOdwR7wEBVO/egJrTcLsLy6GTJ6wz6mG/AgJpN1tTaog2eCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook25-22.delta" sparkle:deltaFrom="22" length="1632130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lKi1zL6Sh4k7+rorbbZr6EtXfxCvSa811rx26f0jwmOzxkzlQhhIJPW4DNE5ZkAgMhRx3Uv8/V4IbXrdPq0mCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta3/Fieldbook25-18.delta" sparkle:deltaFrom="18" length="2306442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sLQFS7OsFG52PkiRq1kFuvL8VGHixV6PriWZQ47kfm3uqWprWv48U8AyeON+lPXTly6GT4wWOdK2j1AfljZQCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.0.1</title>
-            <pubDate>Sun, 11 Oct 2026 18:05:52 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.0.1 beta 2** (a beta)
-
-The second beta, and the first on the beta channel: install it by hand once, and later betas come as updates (Settings › General › Updates › Get beta versions). Everyone else stays on 2.0 until 2.0.1 itself (build 25 or later).
-
-### Added
-- **A beta channel:** a Mac that installs a Fieldbook beta gets each new beta as an automatic update, as well as every full release; everyone else only ever gets full releases. In a beta, **Settings › General › Updates › Get beta versions** turns it off (you stay on your version until the next full release) or back on. A beta shows which it is, such as "Version 2.0.1 beta 2".
-- **Ask AI in Help:** in **Help › Fieldbook Help**, type a question in the search field and press Return, or click **Ask AI about Fieldbook** above the topics it finds. The AI answers from the manual, with links to the sections it used, and takes follow-ups. Only the question and those sections are sent to your AI.
-- **Microsoft Security is back** in **Settings › AI › Company and Solutions**, with its solutions list ready to use. Zscaler stays the default.
-- **Emails for each folder:** customers, Internal, Training, Partners, and every label have an **Emails** row under **Files**. It lists the folder's emails newest first (date, sender, subject, attachments); click one to read it, open its attachments, or open it in your email app. **Write** under **Emails summary** summarizes them, linked to the emails behind each point. Add emails by dropping `.eml` files (Gmail's **⋮ › Download message**, or dragged from Mail or Outlook) on **Emails** or the folder in the sidebar, with **Add Emails…**, or by choosing **Add to a customer's Emails** when Fieldbook asks where a downloaded email goes. Emails already added to a folder's Files show here.
-- **A meeting's AI notes read its attachments:** emails (such as the agenda before or the follow-up after, with their own attachments), PDFs, Word, Excel, PowerPoint, and text files, and the words in screenshots and images (on-device text recognition; the picture isn't sent). They're background, linked as **Email** or **Attachment** in the notes' sources and never treated as said in the meeting, and cut short when long so the meeting comes first. Adding, changing, or removing an attachment makes the notes out of date. A meeting made from a file or an email already has its text in **Your notes**, so it isn't read twice.
-- **An email folder:** **Settings › General › Downloads and Email Folder › Email folder** watches a folder you choose, such as the Google Drive folder the Gmail label script saves to (Fieldbook Inbox). Each email that arrives there, even while Fieldbook was closed, asks where it goes (a new meeting, a customer's Emails, or a meeting), with the customer picked from its people's email domains.
-- **Settings › Permissions lists the optional permissions** with what each is for: **Calendars** (naming and filing recordings, the next meeting in the menu bar, pre-call briefs), **Reminders** (the bell on to-dos), and the **Downloads folder** (AirDropped iPhone recordings and downloaded emails), with **Allow…** or a way back to System Settings.
-- **Ask AI searches your folders' emails:** passages of emails that match the question (or come from a customer it names) go with the meetings, and the answer can cite them; click one to show the email.
-- **A customer's MEDDPICC and recommended stage use its emails** (the customer's and its labels' **Emails**) as evidence beside its meetings and account notes, linked under **Emails**. Adding, changing, or removing an email makes MEDDPICC out of date.
-
-### Changed
-- **The Welcome window is for anyone:** step 1 is **Bring your own AI**: Apple's on-device model, a local model you run, or a cloud model by API, with where Zscaler employees (their company's AI endpoint) and Microsoft employees (the GitHub Copilot API) get theirs. `zscaler.com` is still filled in as your domain, and Zscaler's AI endpoint as the cloud endpoint.
-
-### Fixed
-- **Links in Ask AI and Help answers aren't clickable:** an answer's text could include a web link written by the AI (for example, from hidden text in an email); only the citation chips open now.
-- **The Gmail label script uses only your own folder:** it now saves to the **Fieldbook Inbox** folder you own at the top of My Drive and remembers it, never a folder of the same name someone shared with you. Paste the new script into your Apps Script project and run **setUp** again.
-- **New Customer, New Label, and Email Domains and Addresses are readable again** in light mode with a dark sidebar (Fieldbook's style and others): their text was light on a light sheet.
-- **Emails in Files are read for the AI:** an email (`.eml`) kept in a customer's, Internal's, Training's, Partners', or a label's Files, or attached to a customer's meeting, is now read for the files summary, the account summary, and Account Discovery: who it's from and to, when it was sent, its text, and the text of its attachments (PDFs, Word, Excel, PowerPoint, images, text, and forwarded emails). In beta 1 Fieldbook said it couldn't read it.
-- **Screenshots pasted into an email are kept:** an image in an email's text (such as a screenshot pasted into a Gmail message) comes in with its attachments, so a meeting made from the email has it attached, and summaries read its words. Small images such as signature logos and tracking pixels are still left out.
-- **Dragging a meeting export from Google Drive into Fieldbook imports it,** instead of saying "Couldn't open the .zip file" (a file Drive hadn't downloaded yet was removed before it was imported).
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta2/Fieldbook-2.0.1-beta2.dmg" length="1524055704" type="application/octet-stream" sparkle:edSignature="jzMu/KXIvVzEPZ8hi8LmwR2WOGdMXSMs2whhqjJZ2aabSxNNI3mBs/uNzlZrpP6Ba/VXMGHLF8tDkOgbvAgsCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta2/Fieldbook24-22.delta" sparkle:deltaFrom="22" length="1436234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W9YoHgfR0mK6i0Kkf+4DQ96H10LDUlMv8WofLm0QAE5P6Xsdkkc4BTWmZySgzitRAXKd4V1re4Ym4C1YboRABA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta2/Fieldbook24-18.delta" sparkle:deltaFrom="18" length="2170026" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K//M0M/st0Qt8UnJwcrf4vWUfd6q7IByFWTTfuUhxWtBhqLwNOdHlyniX7TTh/6iz9Y9ONSc4y6YUiLQDt3iBw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta2/Fieldbook24-15.delta" sparkle:deltaFrom="15" length="2314746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="51TROfAErv8CNIuYCSjXDt+xzWbn1eBTuEIjgvnTDxsyOMBtXAEZPwDwa/angdprL4tJOhnt4g3vP+/hc5p8AA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -223,35 +199,9 @@ The second beta, and the first on the beta channel: install it by hand once, and
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-13.delta" sparkle:deltaFrom="13" length="994818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SUDl26s5l53U7uKKuphMP3jcLKR3Ri93XoLn19A20WjjrL4v1aXbAif+cbUM8QNkUMshs5oqoF6BAcaoAyzqCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.8.3</title>
-            <pubDate>Thu, 08 Oct 2026 10:24:10 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.8.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[A minor update.
-
-### Added
-
-- **Tables in your notes and account notes:** paste a table from Google Docs, Word, Excel, Google Sheets, or a web page and it stays a table (tab-separated text becomes one too), or choose **Format › Insert Table…** or the table button in the formatting bar. Double-click a table (or right-click › **Edit Table…**) to change its cells, add or remove rows and columns, or remove it. Tables are saved as Markdown tables; the AI and search read each row as a line. Copying a table to another app pastes it as tab-separated rows.
-- Spelling is underlined as you type a meeting's title, in **New Manual Meeting** and when renaming a meeting. Nothing is corrected automatically.
-
-### Changed
-
-- Files in a folder's **Files** and meeting attachments can now be up to 500 MB each (was 50 MB). Word, Excel, PowerPoint, and text files over 100 MB are kept but too large to read for summaries; PDFs and images are read at any size.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook-1.8.3.dmg" length="1522717711" type="application/octet-stream" sparkle:edSignature="RpYf98HLOeYQPnYryoJOuFHRpXUBcYgP3tCe8vRxEkjPuLod3RbOE2De3g6BcoAjF/Jr1hgOVSft0Sa5EK7VAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-14.delta" sparkle:deltaFrom="14" length="597674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2JAt3xThJkfzu0gGf1+qj30dEkrPpxhrjkVSUDzA716LrtZxQdSSRaXkE0cximqPwZwJyCvWjq3DpRwff98+Dw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-13.delta" sparkle:deltaFrom="13" length="689570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q8tlsbWF9FJ4sZbwPrOp2UWePE1R40MfttTRXMuCZRvn2SYFULbD6a/LSFj28c3VIudJWtrV8z7+/LpCpB+XBQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.8.3/Fieldbook15-12.delta" sparkle:deltaFrom="12" length="724322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6p8F33W58MeQuYJmtdG8j2DKf8Vu6Mvvga4pOQsx72Y4gm77o0m5a9O5K9t/FlD40l6+3HcmVVQwSOxII3jQDQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: R+/N4WX+k3r5Jp6+ZJat66irlgch6gdXPJPfhJPUQboeicPQsEULYJo5yqe3j9X7Sn9CJoCyGKpekgyY/y0RBA==
-length: 36451
+edSignature: cW2gwAz833JQz3i9mAvHjsEwprhdA2f7qP+8TGRp/KANwhrYXMlziq5vmogSPShmqq5UTBfl0B5gDqrnCY3ABw==
+length: 29682
 -->

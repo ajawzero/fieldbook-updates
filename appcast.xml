@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.0.1</title>
+            <pubDate>Sun, 11 Oct 2026 21:55:07 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.0.1 beta 4** (a beta)
+
+The fourth beta, on the beta channel: a Mac with an earlier beta gets it as an automatic update (**Fieldbook › Check for Updates…** to get it at once). Everyone else stays on 2.0 until 2.0.1 itself.
+
+### Added
+- **The email Inbox:** emails from your email folder (such as a Gmail label) wait in an **Inbox** instead of popping up, even during a call. The **Inbox** button at the top of the window says how many (so do the Dock icon and the menu-bar menu); click it (or **File › Email Inbox…**, Shift-Command-E) to file each one as a new meeting or in a folder's **Emails**, where its people's domains suggest, in the background while you keep working. Several labeled at once each go their own way, and they wait through a restart until you file or dismiss them. A downloaded email still asks right away, except while you're recording, when it waits in the Inbox too.
+
+### Changed
+- **The toolbar stays put:** **Notes | Transcript**, **Inbox**, and **Update All** are always in the same places, greyed out when they don't apply, so moving through the meeting list no longer shifts the buttons around.
+- **Text size covers the meeting list and Help:** the A A buttons and Command-Plus/Minus now also size the meeting list (its rows grow with the text) and **Fieldbook Help**, which has the same buttons in its toolbar.
+- **Help covers Apple Mail:** **Getting Emails into Fieldbook** now explains bringing emails in from Apple Mail: a Gmail account's labels show up as mailboxes there (move an email to **Fieldbook**), an Exchange account's flags sync for the Microsoft 365 flow, and any account can drag emails in.
+
+### Fixed
+- **Update All waits while the Mac is locked:** the AI key can't be read while your Mac is locked, so a run that hit a lock failed every step after it. Now it pauses until you unlock, tries again a step the lock interrupted, and **Try All Again** retries everything that failed.
+- **No hitches while recording:** Update All's check for what's out of date no longer runs while you're recording (it waits until you stop), so taking notes in a call stays smooth.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook-2.0.1-beta4.dmg" length="1524276663" type="application/octet-stream" sparkle:edSignature="QTc6dk1hUQc4UnDNobYFLtqhfl1gF/x8fIvZ/C58g4VFKMF5XcKOZCK7ViIp7CmJ8SLdwdmYQOFWfGisZoc1CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-25.delta" sparkle:deltaFrom="25" length="804638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+MPVPRla5Epig04Tnwn5r3vzYFBvQljCCo/+ULPYQQKnHO+5AJEWumY1If3LGi4LK94e2JzuGrLWDk21+slEDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-24.delta" sparkle:deltaFrom="24" length="1100006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+1aLI4N3CvBlO43ry78trCYDGg8PV+tCCk5Jsm1hmwyVxl+An4nLl0naiU4r5O5FtTfMKSyTCuaFhWHzocC4AQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-22.delta" sparkle:deltaFrom="22" length="1715262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oiPtMdK4LwS9y5o5f5H2mMNG5oYl4YbRuWmxe5n7jxJQf8KVUJYcyVidNlmOre3amzRlzKOUhT1VhBlD6yGrCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.0.1</title>
             <pubDate>Sun, 11 Oct 2026 20:57:59 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -220,6 +252,6 @@ The second beta, and the first on the beta channel: install it by hand once, and
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: +rGdK4rg8xkMjOIOU2/WdhSkqhBzW/00MaBcw22b2hRJXTb0J+Qg8TwpSA7cur2rgrEM1PJ8pMdI8dQTPyucDg==
-length: 32083
+edSignature: R+/N4WX+k3r5Jp6+ZJat66irlgch6gdXPJPfhJPUQboeicPQsEULYJo5yqe3j9X7Sn9CJoCyGKpekgyY/y0RBA==
+length: 36451
 -->

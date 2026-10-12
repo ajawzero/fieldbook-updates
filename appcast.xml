@@ -7,6 +7,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.1.1</title>
+            <pubDate>Mon, 12 Oct 2026 15:25:19 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Offered to 1.8 and later as an automatic update, a small one from 2.1. Everything in the two betas of 2.1.1.
+
+### Added
+
+- **Mark who's talking:** while recording, press **Control-Option-S** (from any app), click **Mark Speaker** in the meeting's header, or use the menu-bar icon, and type who it is in the small **Who's talking?** box (people invited and people you've met are suggested; your call app stays in front; its **✕** closes it without marking). After transcription, the speaker talking then is offered that name with **Yes** and **No** under **Speakers**; a mark without a name lets you listen from that moment and name them. The transcript shows where you marked. Marks made in Fieldbook for iPhone come with its recordings and are offered the same way.
+- **Cross off to-dos:** click a to-do's icon in a meeting's notes when it's done, or when it doesn't apply. It stays in place, struck through; click again to put it back. Completing a to-do's reminder in Reminders crosses it off too.
+- **Correct and add to-dos:** the pencil beside a to-do fixes its words, kind, or owner when the AI or the transcript got something wrong (**Use AI's Wording** undoes it). **Add To-do** adds your own, with **Remind me** to add it to Reminders right away. What you change is kept when the notes are updated or regenerated, and Copy, the follow-up email, Ask AI, the account summary, and the pre-call brief use your version.
+- **My To-dos:** at the bottom of the sidebar, your open to-dos from every meeting (the ones whose owner is you), grouped by customer, with a **Completed** list of what you've crossed off. Click one to open its meeting at that to-do.
+- **Azure OpenAI as a cloud service:** **Settings › AI › Cloud endpoint › Service › Azure OpenAI (Microsoft Foundry)** takes your resource's endpoint (or just its name; Fieldbook adds `/openai/v1` and shows where requests go) and one of its keys, kept apart from a LiteLLM endpoint's. Models are your deployments' names: if one isn't listed, choose **Other…** and type it.
+
+### Changed
+
+- **No more pauses from Update All's check:** working out what Update All can bring up to date now reads meetings' notes in the background, and only those that changed since the last check, so Fieldbook doesn't pause for a moment every couple of minutes or when you switch to it. The button's count also stays current while you record.
+- **The follow-up email and Ask AI check their sources:** as AI notes do, each point now comes with a few words quoted from the line it cites, and Fieldbook checks they're really there. In a follow-up email, a paragraph whose quote isn't found is asked about again once, and if it still isn't found it's marked with an orange warning for you to check before sending (the mark isn't copied). In an Ask AI answer, a citation whose quote isn't found shows as **not found** instead of a link.
+- **Fewer stray words split off to the wrong speaker:** in fast exchanges, a word at the start or end of a line could be credited to the person before or after and shown as a one-word line of theirs. Words are now grouped at pauses and given to speakers a phrase at a time, so a speaker changes only where someone says more than a word or two, and a short reply between pauses still keeps its own speaker. For new transcriptions and **Detect Speakers Again**.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1/Fieldbook-2.1.1.dmg" length="1524613204" type="application/octet-stream" sparkle:edSignature="Fe+KONAjWfoX9M8TO/cW6Tyj4oLErejRmwiLOU84496va0OOY4dnGhhbWjLidnmdq+nC2mMgxRIK1FgpGvB/Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1/Fieldbook30-29.delta" sparkle:deltaFrom="29" length="518574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vtGQ3mVWZhyVDt8xs1o19wvs/oXvibkYdzhV3gAux36GDLmmJkteswo8bejXBq40Tu02hG0UDSsxb7ioMt/ZDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1/Fieldbook30-28.delta" sparkle:deltaFrom="28" length="970610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g55gwrazbeH6nOJwxEeJ5FYI637/+5Cv/rHVBgqVjyT1eV64R0Wj7NB+jAA+9CF2Esj52OHfPu7IZ/4uMj8hDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1/Fieldbook30-27.delta" sparkle:deltaFrom="27" length="1255914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P9qyG+854PoQzuASGw8Ap/UZSfDKnPiFHnGkH0e25RWt1rBxqGYfEYaioV/Lkg2BB0XD8nMvEvs0xb0r/fd9DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.1.1</title>
             <pubDate>Mon, 12 Oct 2026 13:08:30 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -28,35 +59,6 @@ The second beta of 2.1.1, on the beta channel: Macs set to **Beta** get it as an
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta2/Fieldbook29-28.delta" sparkle:deltaFrom="28" length="956378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kAV9gj75E9x+Lsxq2Un+hjA+kng6wlSNQBKvQWxWH+StkQBey7Jr03t39jTpRmaYfN59Kgg3e2KzShkbxq29Cw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta2/Fieldbook29-27.delta" sparkle:deltaFrom="27" length="1257214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="imC+YOIQN6nRkK6rxAGAqexaKFnwvHqJgwR+VZbM9z5gwr0sa57z9x0ios2rwORoMLpcY5xXBav4TCCswEReCw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta2/Fieldbook29-26.delta" sparkle:deltaFrom="26" length="1281982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xfuZj6qR6T8yztMyCmuyiQqUv+tiFscRN1L8YSh0semvCLq4Q//5vkDUEP57QGolljz/nmChgMpVwfEGdVHGCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.1.1</title>
-            <pubDate>Mon, 12 Oct 2026 10:52:29 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.1.1 beta 1** (a beta)
-
-The first beta of 2.1.1, on the beta channel: a Mac set to **Beta** (Settings › General › Updates › Versions) gets it as an automatic update. Everyone else stays on 2.1 until 2.1.1 itself.
-
-### Added
-- **Mark who's talking:** while recording, press **Control-Option-S** (from any app), click **Mark Speaker** in the meeting's header, or use the menu-bar icon, and type who it is in the small **Who's talking?** box (people invited and people you've met are suggested; your call app stays in front; its **✕** closes it without marking). After transcription, the speaker talking then is offered that name with **Yes** and **No** under **Speakers**; a mark without a name lets you listen from that moment and name them. The transcript shows where you marked.
-- **Azure OpenAI as a cloud service:** **Settings › AI › Cloud endpoint › Service › Azure OpenAI (Microsoft Foundry)** takes your resource's endpoint (or just its name; Fieldbook adds `/openai/v1` and shows where requests go) and one of its keys, kept apart from a LiteLLM endpoint's. Models are your deployments' names: if one isn't listed, choose **Other…** and type it.
-
-### Changed
-- **No more pauses from Update All's check:** working out what Update All can bring up to date now reads meetings' notes in the background, and only those that changed since the last check, so Fieldbook doesn't pause for a moment every couple of minutes or when you switch to it. Measured on a 37-meeting library: from about 0.1 to 0.3 seconds on the main thread to about 0.01. The button's count also stays current while you record.
-- **The follow-up email and Ask AI check their sources:** as AI notes do, each point now comes with a few words quoted from the line it cites, and Fieldbook checks they're really there. In a follow-up email, a paragraph whose quote isn't found is asked about again once, and if it still isn't found it's marked with an orange warning for you to check before sending (the mark isn't copied). In an Ask AI answer, a citation whose quote isn't found shows as **not found** instead of a link.
-- **Fewer stray words split off to the wrong speaker:** in fast exchanges, a word at the start or end of a line could be credited to the person before or after and shown as a one-word line of theirs. Words are now grouped at pauses and given to speakers a phrase at a time, so a speaker changes only where someone says more than a word or two, and a short reply between pauses still keeps its own speaker. For new transcriptions and **Detect Speakers Again**.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta1/Fieldbook-2.1.1-beta1.dmg" length="1524462066" type="application/octet-stream" sparkle:edSignature="0PoCW22PUifT6/aijdngfVeKa0Pdh8W8Rmoj91xaBvhIZbG6MaNfZxQ6wNF25Uf4kbaAD0RuB84LIWUhpiuXAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta1/Fieldbook28-27.delta" sparkle:deltaFrom="27" length="1021446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PXTdlsJX1qVwgQyWpWYkK/rJW55SVlc1vdGgKU2GOMhir3p3PsEBrOJ67cwU5pR8guFT7e99lnnf8RL7OxfpAw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta1/Fieldbook28-26.delta" sparkle:deltaFrom="26" length="1057694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KS3CH/p3A2CorTWUL+WcRa5q5Fu8Jhxt784qupoZHi/I4kn60lbl9vWh03IdkkttjCbzusUBy7E1JDoRL8aKCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.1-beta1/Fieldbook28-25.delta" sparkle:deltaFrom="25" length="1205690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CdTx9XeXNyY9hHLRnZ4S0XhLC7enrol/M0w2f4mUeUqpuBpgRHBfpgS1HMVKfqX2dYAnByT32WgS71KWs/RpBA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -110,38 +112,6 @@ The first beta of 2.1.1, on the beta channel: a Mac set to **Beta** (Settings �
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-25.delta" sparkle:deltaFrom="25" length="861114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0DF+/qYdRXZf2U/ZQ7Yzk5fBt7Bc/6MyRgR6OPd4aP+Gmjwp+5a2/88CoX8saCB7lQPz9k6TgE7zFhvjP/KDQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-24.delta" sparkle:deltaFrom="24" length="1124410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="co2Qfd8xgFxwoR19F/RmWwM6ucFencDGCrtO8a25hidlapCsZrTNwi0UEGh3prUL+5mnj3G+wsqXgFazpopbCg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1/Fieldbook27-22.delta" sparkle:deltaFrom="22" length="1735270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Mzvil1gHnp3CtNXYapAdckZVsJsn9RaGAKAMjK6mwqhTgBmDObta5XlxTGej/AIBodskDNHIWwQA1csYxsQlAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.0.1</title>
-            <pubDate>Sun, 11 Oct 2026 21:55:07 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.0.1 beta 4** (a beta)
-
-The fourth beta, on the beta channel: a Mac with an earlier beta gets it as an automatic update (**Fieldbook › Check for Updates…** to get it at once). Everyone else stays on 2.0 until 2.0.1 itself.
-
-### Added
-- **The email Inbox:** emails from your email folder (such as a Gmail label) wait in an **Inbox** instead of popping up, even during a call. The **Inbox** button at the top of the window says how many (so do the Dock icon and the menu-bar menu); click it (or **File › Email Inbox…**, Shift-Command-E) to file each one as a new meeting or in a folder's **Emails**, where its people's domains suggest, in the background while you keep working. Several labeled at once each go their own way, and they wait through a restart until you file or dismiss them. A downloaded email still asks right away, except while you're recording, when it waits in the Inbox too.
-
-### Changed
-- **The toolbar stays put:** **Notes | Transcript**, **Inbox**, and **Update All** are always in the same places, greyed out when they don't apply, so moving through the meeting list no longer shifts the buttons around.
-- **Text size covers the meeting list and Help:** the A A buttons and Command-Plus/Minus now also size the meeting list (its rows grow with the text) and **Fieldbook Help**, which has the same buttons in its toolbar.
-- **Help covers Apple Mail:** **Getting Emails into Fieldbook** now explains bringing emails in from Apple Mail: a Gmail account's labels show up as mailboxes there (move an email to **Fieldbook**), an Exchange account's flags sync for the Microsoft 365 flow, and any account can drag emails in.
-
-### Fixed
-- **Update All waits while the Mac is locked:** the AI key can't be read while your Mac is locked, so a run that hit a lock failed every step after it. Now it pauses until you unlock, tries again a step the lock interrupted, and **Try All Again** retries everything that failed.
-- **No hitches while recording:** Update All's check for what's out of date no longer runs while you're recording (it waits until you stop), so taking notes in a call stays smooth.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook-2.0.1-beta4.dmg" length="1524276663" type="application/octet-stream" sparkle:edSignature="QTc6dk1hUQc4UnDNobYFLtqhfl1gF/x8fIvZ/C58g4VFKMF5XcKOZCK7ViIp7CmJ8SLdwdmYQOFWfGisZoc1CA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-25.delta" sparkle:deltaFrom="25" length="804638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+MPVPRla5Epig04Tnwn5r3vzYFBvQljCCo/+ULPYQQKnHO+5AJEWumY1If3LGi4LK94e2JzuGrLWDk21+slEDg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-24.delta" sparkle:deltaFrom="24" length="1100006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+1aLI4N3CvBlO43ry78trCYDGg8PV+tCCk5Jsm1hmwyVxl+An4nLl0naiU4r5O5FtTfMKSyTCuaFhWHzocC4AQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0.1-beta4/Fieldbook26-22.delta" sparkle:deltaFrom="22" length="1715262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oiPtMdK4LwS9y5o5f5H2mMNG5oYl4YbRuWmxe5n7jxJQf8KVUJYcyVidNlmOre3amzRlzKOUhT1VhBlD6yGrCA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -211,51 +181,9 @@ The fourth beta, on the beta channel: a Mac with an earlier beta gets it as an a
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.0/Fieldbook22-14.delta" sparkle:deltaFrom="14" length="1830206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cPVJJDytnGRWV75oY0TDZll8KfBxirhoj+BAfm8sviRidyDHyTDZgTYDE6md9k2YdWFgKsXs0CeLsUiT7UvFCw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.9</title>
-            <pubDate>Thu, 08 Oct 2026 15:48:43 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Offered to 1.8 and later as an automatic update. Everything since 1.8.3, including what the two betas brought.
-
-### Added
-
-- **Pre-call briefs:** before a meeting with a customer or partner, click **Prepare Brief** in the menu-bar menu. The brief has the invite's agenda (without links, dial-ins, or passcodes), who's invited and whether they've been in earlier meetings, where things stand, what happened last time, what's still open, goals for the meeting, and, for customers, 5 to 10 Discovery questions this account hasn't answered yet, picked for the agenda. Everything links to the lines behind it. A recorded meeting keeps its brief in its Notes.
-- **Vocabulary:** names and terms are spelled your way in new transcripts. Words that sound like one are respelled, such as "Netscope" to "Netskope" or "Quabina Mensa" to "Kwabena Mensah". Fieldbook uses the meeting's invitees, its customer and label, saved voices' names, your company's solutions, and your own list in **Settings › Transcription › Vocabulary**. Ordinary words are never changed; point at a paragraph to see what was heard.
-- **Settings › General › Microphone:** Automatic (the microphone your call app uses, else the Mac's, without opening a Bluetooth headset no app is using) or a microphone you pick.
-
-### Fixed
-
-- Calls no longer sound muddy in AirPods (or another Bluetooth headset) because Fieldbook is recording. Fieldbook now records the microphone your call app uses (Zoom, Teams, or any other app already using a microphone, such as GoTo, RingCentral, or Krisp), follows it when you switch microphones mid-call, and otherwise doesn't open a Bluetooth headset's microphone when another one is connected. AirPods as your microphone and headphones work fine: Fieldbook records the same microphone and doesn't change how the call sounds. Each meeting notes which microphone was recorded.
-- Switching microphones mid-call no longer loses your microphone for the rest of the recording. If it stops (for example while AirPods switch modes), Fieldbook keeps trying to start it again, and the meeting notes the missing part.
-- Your voice no longer distorts in Fieldbook's recording when the microphone level is set high (for example by Zoom adjusting it): loud peaks are eased below full scale.
-- The computer's audio no longer stops for the rest of a recording when a monitor is unplugged. Fieldbook starts it again on a display that's still connected (or when one comes back, the display wakes, or the screen is unlocked), and the missing stretch is kept as silence so times still line up.
-- A meeting now says clearly when part of a track is missing, such as "System audio missing from 19:23 to 19:41.", in the Recorder while recording and on the meeting afterwards. Any break in the computer's audio counts, even a second.
-- Fewer made-up lines in transcripts: short filler like "Thank you." or "so" where no one was speaking (a microphone that's open but quiet, such as while you're muted in Zoom or Teams, which mute you in the call, not on your Mac; or a quiet call), and lines that repeat themselves over and over, are left out. They're kept in the meeting's transcript file with the reason.
-- A meeting where no speech was recognized shows its player, so you can still listen to it, and says what was left out and why.
-
-### Changed
-
-- The speech recognition package (WhisperKit) is updated to 1.1.1, a maintenance release with crash fixes. Transcripts of the test recordings came out the same as before.
-- Help explains which microphone Fieldbook records and why AirPods sound muddy during calls.
-
-### Since beta 2 (build 17)
-
-- Fieldbook keeps trying to restart a microphone that stops, instead of giving up after a second; it lets go of AirPods' microphone within a second of your call app moving off it; and it follows the microphone of call apps it doesn't know (GoTo, RingCentral) or a noise filter such as Krisp.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook-1.9.dmg" length="1522935003" type="application/octet-stream" sparkle:edSignature="8v+8KJyG4QmfSc+DNZSsL7pIcR4lYa0IGB1rAgc4eVkobESVaj0r8simTOsWDdR382v9IqhsxfYUDIiGwcsnAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-15.delta" sparkle:deltaFrom="15" length="835350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AnRRW1TJs+VjOwHM862Aela/nwuAl+6jxVGB/kK98lO7E5uAkNJ4KIgx93BXrw8Guav/mN675U8dTF3pUaSjAA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-14.delta" sparkle:deltaFrom="14" length="925002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MU/lBOns2iAmdtL+I+8GrZLExQZ04W5YxZ7CYrQME/GB3Lsb7vu2KFzGsRRMMmdb2/H/IhCaC/X2kFxJ8BICAQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v1.9/Fieldbook18-13.delta" sparkle:deltaFrom="13" length="994818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SUDl26s5l53U7uKKuphMP3jcLKR3Ri93XoLn19A20WjjrL4v1aXbAif+cbUM8QNkUMshs5oqoF6BAcaoAyzqCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Y801q5XivTgMXIy6D1/SFTcHmKhlxU7z0xKIAfogSmuZHI9fvX9YF4ux0BnuMtMZtbpzXgPh0PBrO0MjZcpGBg==
-length: 38037
+edSignature: 8BYKLUEpKd947TGQn6k/myZMa1HbuntkcwCYbz/z83+G1xXi4szmVkeb7pPwAt95ogOpP760yrfytPKPKMNFBw==
+length: 28299
 -->

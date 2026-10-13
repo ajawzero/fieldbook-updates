@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.1.2</title>
+            <pubDate>Mon, 12 Oct 2026 21:13:39 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.1.2 beta 2** (a beta)
+
+### Added
+- **A licensing library:** **Licensing**, at the bottom of the sidebar above **My To-dos**, keeps your own SKU sheets, feature matrices, price lists, licensing guides, and vendors' licensing web pages, and answers questions about them, such as which edition includes a feature or what else is needed above 5,000 users. Each point links to the row or page behind it (**L1**, **L2**, …): click to see the row with its columns, then **Open File** or **Copy Row**. Nothing is built in: each SE adds what they use, once, and the library stays through updates.
+- **Add File…** takes Excel, CSV, Word, PowerPoint, PDF, or text, with the company it's about (sources are grouped by company). Spreadsheets are read one row at a time with their column names, up to 20,000 rows a sheet. **Replace…** brings in a newer version.
+- **Ask AI uses the licensing library too:** a question in the toolbar's search field about licensing (a license, edition, SKU, tier, add-on, pricing, or what something includes) also gets the best matching rows and pages of your licensing sources, cited as **L1**, **L2**, … beside the meeting lines.
+- **Share the library:** the **⋯** menu in the Licensing list has **Share Library…**, one file with every source, and **Import Library…** for one a colleague shared (or drop it on the list). Their sources join yours; ones you already have are updated only by a newer copy.
+- **Licensing in AI notes:** when you have licensing sources, a meeting's opportunities are matched to them after its notes are written: under each opportunity, the SKUs, editions, or add-ons that fit and what else they need, linked to the rows behind them. **Match Licensing** (or **Match Again** after your sources change) does it on request.
+- **Add Link…** reads a web page, or the page and the pages under it (up to 50), from this Mac when you add it, and keeps a dated copy; **Refresh** reads it again. Fieldbook reads links only when you add or refresh them, over HTTPS, and respects the site's robots.txt.
+
+### Changed
+- **The account summary reads the customer's opportunities:** "Where things stand" names each open one with its close quarter and stage, using your notes on it; a statement that comes from an opportunity lists it among its sources. Adding or changing an opportunity (its stage, quarter, status, name, or notes) marks the summary out of date, so **Update** brings it up to date with just that opportunity, and removing one asks for a rewrite.
+
+### Fixed
+- **Update All counts an opportunity's changes right away:** after you edit an opportunity, the button (and the customer's **Update** line on its Account page) includes the account summary and that opportunity's MEDDPICC within a couple of seconds, instead of only after the next check a few minutes later or when Fieldbook comes to the front.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta2/Fieldbook-2.1.2-beta2.dmg" length="1525176135" type="application/octet-stream" sparkle:edSignature="4eG1/Ao0/zZHzu/jdLKD+0h4O4NuTnEo896NiuHaEApP5ablmXVwixQc1peqQL+xeQUuRM3sKx5do+uhi1tlBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta2/Fieldbook32-31.delta" sparkle:deltaFrom="31" length="1216074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SGuQLOCHSP7q0qYR0yrqhU7z1NS75Q21/pLzLvfDx/HmGdLHTmjA1EHMcb2nxVdbfmnqCRBgHwCuTjy/HhCtAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta2/Fieldbook32-30.delta" sparkle:deltaFrom="30" length="1470018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J7/5u1qNV7uziIp1QQASTgl3x54F9b+r8QvYVvIzYXbf7wUGvgFkaXcsZ0Vk3I/MThRK7QKjGMDNFXYflpBuAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta2/Fieldbook32-29.delta" sparkle:deltaFrom="29" length="1475658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Obswe3EOKAcyLO7XGtNMo+qmx1RrLn/1BDDPbSJZeHkpaxwJSHr4rYk2nfn6m0B9m2YqwgawkiNB7rtpgxUACg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.1.2</title>
             <pubDate>Mon, 12 Oct 2026 16:44:05 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -220,6 +252,6 @@ The second beta of 2.1.1, on the beta channel: Macs set to **Beta** get it as an
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: plJ6QsCT2DoGoB7r5iFt2MVk4fOBdSdxIO/ecv0Y2rf+P+dqbN7TuHn+tK6xJdOpiDWRr7ASJqYCqVMLyW+YAw==
-length: 33550
+edSignature: /XcZh0ju4wAG6V9VawKTXl1XcAf/A1JCBkioiDcSqgJr5WCtT74l2m3HQv6xbW4JCeKI2xCNl5ATaXaIPw2pDA==
+length: 38666
 -->

@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.1.2</title>
+            <pubDate>Tue, 13 Oct 2026 09:29:23 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.1.2 beta 4** (a beta)
+
+The fourth beta of 2.1.2, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.1.1 until 2.1.2 itself.
+
+### Added
+- **Opportunities, every customer's at once:** **Opportunities** at the bottom of the sidebar, above **Licensing**, is a quick view of all your opportunities in one table, grouped by the quarter they close in: customer, opportunity, stage, status, close date, and amount, with each quarter's **pipeline** (its open opportunities' amounts; won ones have their own total). Click an opportunity's name to open it on its customer's page, or a quarter on the left to go to it. **Show won and lost** and **Copy as Table** (for a spreadsheet).
+- **Amount, close date, and forecast type on each opportunity:** an **Amount** in dollars (type 240000, $240k, or 1.2m), a **Close date** (it sets the close quarter), and **New** or **Upsell**. All optional, on the opportunity's page; amounts show on its line. They stay on this Mac: none of them is sent to the AI.
+- **The meeting being recorded, in the sidebar:** while recording, the meeting shows at the bottom of the **Recorder**, just above **Library**. Click it to go back to its notes after looking at a customer, a label, another folder, My To-dos, or Licensing.
+- **Keep or trash the .zip from your iPhone:** after a recording AirDropped from Fieldbook for iPhone is imported, a small **Imported from Your iPhone** window lists what came in and asks whether to keep the .zip files in Downloads or move them to the Trash. Several imports share one window, and while you're recording it waits until you stop. **Always do this** stops the question; change it in **Settings › General › Downloads**.
+
+### Changed
+- **New Opportunity… asks only for the name and close quarter;** add the stage, link, and the rest on its page.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta4/Fieldbook-2.1.2-beta4.dmg" length="1525251692" type="application/octet-stream" sparkle:edSignature="KUEwEytSe7ZUp51TQIg3s4Mo4Ncv6rn4jk79fy1c5FtsVmuuVehg+lS4cQRflGULDA0a7I0O5PvMSf5rT8JPCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta4/Fieldbook34-33.delta" sparkle:deltaFrom="33" length="971814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kpCh1De30hkqzBm1G8q5EratjX6f8ocObn3uE5c6FPP6qIa6wMcQpfxQMCRDf8UM136YJJvFKxYuOzmViYUBDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta4/Fieldbook34-32.delta" sparkle:deltaFrom="32" length="1031274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RppffMrnSDvz81NrIal6QUnhI8OKvtWFc7WkEL9LuRye8o1QE4Nai4MAH2hO7lm2gAfx4UODsIviDNYEiVw8AQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta4/Fieldbook34-31.delta" sparkle:deltaFrom="31" length="1418894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M//hnNExIiYONWtOuxUOfqEVRsM7R68DrQ5wlmeyNmCnh0beTkHbTpWYav6MTt3oA4v0BdgMsiQRYrJajGDuBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.1.2</title>
             <pubDate>Tue, 13 Oct 2026 08:27:45 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -59,42 +88,6 @@ The third beta of 2.1.2, on the beta channel: Macs set to **Beta** (Settings ›
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta2/Fieldbook32-31.delta" sparkle:deltaFrom="31" length="1216074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SGuQLOCHSP7q0qYR0yrqhU7z1NS75Q21/pLzLvfDx/HmGdLHTmjA1EHMcb2nxVdbfmnqCRBgHwCuTjy/HhCtAw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta2/Fieldbook32-30.delta" sparkle:deltaFrom="30" length="1470018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J7/5u1qNV7uziIp1QQASTgl3x54F9b+r8QvYVvIzYXbf7wUGvgFkaXcsZ0Vk3I/MThRK7QKjGMDNFXYflpBuAw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta2/Fieldbook32-29.delta" sparkle:deltaFrom="29" length="1475658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Obswe3EOKAcyLO7XGtNMo+qmx1RrLn/1BDDPbSJZeHkpaxwJSHr4rYk2nfn6m0B9m2YqwgawkiNB7rtpgxUACg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.1.2</title>
-            <pubDate>Mon, 12 Oct 2026 16:44:05 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.1.2 beta 1** (a beta)
-
-The first beta of 2.1.2, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.1.1 until 2.1.2 itself.
-
-### Added
-- **Opportunities for each customer:** a new **Opportunities** row under **Account** keeps each deal you track in Salesforce or your CRM, stacked one per line like a folder's emails: click one to open it with its close quarter (such as **Q2 FY27**), **Technical Validation Stage**, Open/Won/Lost, a link that opens it in your browser, and your notes, with **Copy** on every section to paste into the CRM. **New Opportunity…** starts one in this quarter.
-- **The recommended stage and MEDDPICC per opportunity,** from the meetings that count toward it, its notes and your account notes, and the customer's emails. Each customer meeting has an **Opportunity** menu next to its Brief (where the stage menu was); while a customer has one open opportunity, its meetings count toward it on their own.
-- **Next steps:** **Write** suggests an opportunity's open next steps from the briefs and to-dos of its meetings (crossed-off to-dos count as done) and its notes, each linked to the lines behind it.
-- **Suggested opportunities** from the opportunities in your meetings' AI notes: **Add…** starts one with its name, and the meetings it came up in count toward it.
-- **Links in your notes:** web and email addresses in your meeting notes, account notes, and opportunities' notes are links: click one to open it in your browser, or point at it to see where it goes.
-- **Settings › General › Opportunities › Fiscal year starts in** (August unless you change it), for close quarters.
-- **Import transcripts from Word:** **Import Transcript…** and dropping a file now take `.docx` transcripts, such as Teams' **Download as .docx** (newer files with "Name 0:03" before each turn, and older ones with "0:0:0.0 --> 0:0:5.1" timings), with their speakers and times. The meeting's title, date, and length at the top and Teams' "started transcription" lines are left out. A Word document without times still becomes a manual meeting with its text in your notes. (`.txt` transcripts, including Zoom's export, were already imported.)
-
-### Changed
-- **The stage, MEDDPICC, and the recommended stage moved from meetings and the account to each opportunity.** The Account page starts with the customer's open opportunities, then account notes and the account summary. A customer whose meetings set a stage, or that had MEDDPICC, offers **Start an Opportunity with It…**, which brings both along.
-- **Update All** lists MEDDPICC per open opportunity, and the pre-call brief uses the open opportunity's MEDDPICC.
-
-### Fixed
-- **Update All's button counts again after a run finishes in the background:** closing its window while it works no longer leaves the button saying "Updated" until you open it and choose Done; once the run ends, the button shows what's still out of date.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta1/Fieldbook-2.1.2-beta1.dmg" length="1524837860" type="application/octet-stream" sparkle:edSignature="WOLxCdWuGtsFbUGNUvGdrtbarsyxB00kHjDs7R8mrGWHYWaJVbLufLt1Qs+WhNt8kW36FwVgMQyGJREqq6s6BA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta1/Fieldbook31-30.delta" sparkle:deltaFrom="30" length="1086338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c/tgOcX3zTa6qPbGyNguaOrDSpAeWMyAGAPCaKvMxQ4zXEKWnZAOkwkBTJGnE0khgeuCBn8K1KprR7np7ahlAQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta1/Fieldbook31-29.delta" sparkle:deltaFrom="29" length="1084478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g9lkBOlt1mtFmRvj2+aaiSKWhzpjkZ1mI0YtWvCDZJ5GkqJ0eMv5hj62mcKylJX06UEJRF/p2w+BbHPx4vFqCQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta1/Fieldbook31-28.delta" sparkle:deltaFrom="28" length="1286710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j6nTzICyWC8KhF7ugd/TicR8PD4P1TaEOI0AUPncs06PGMavyebYu2E4gS5wDLS1BLnho+HrewOgAS99FfUaCQ=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -251,6 +244,6 @@ The first beta of 2.1.2, on the beta channel: Macs set to **Beta** (Settings ›
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ItEsYc/sRutme08vI1cJBR6aBxrZbGO2vQ9SpmeprD8d1cxbMjOm6meWXyw9pZGblWkvfPha6FTGGKV0xwVbCQ==
-length: 38088
+edSignature: wky1Q+kmAHhsz+WCf1ALnxhsFmaPPhj7y8WxNKEcxugpenisc7T8rf36fPkBXvkdx/L1eUKBRfCTGXEgvWy4Aw==
+length: 36992
 -->

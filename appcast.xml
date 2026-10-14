@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.1.2</title>
+            <pubDate>Wed, 14 Oct 2026 13:47:23 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.1.2 beta 6** (a beta)
+
+The last beta of 2.1.2 (added at the user's request for the AI savings), on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. 2.1.2 ships to everyone as **Fieldbook 2.2** (build 37), with everything from beta 1 to beta 6.
+
+### Added
+- **Your role, SE or AE:** **Settings › General › Opportunities › Your role**, Sales Engineer (the default) or Account Executive. Selling Zscaler, an AE's opportunities show Salesforce's **Opportunity Stage** (0 - Pipeline Generation to 5D - Approved, awaiting processing) instead of the Technical Validation Stage, on each opportunity and on the Opportunities page; **6 - Closed Won** and **7 - Closed Lost** mark it won or lost, and marking it won or lost sets them. The recommended stage is for SEs. An SE's stage and an AE's are kept apart, so changing roles loses neither.
+- **Your own stages and an Opp ID for other companies:** with Microsoft Security or your own company in Settings › AI, an opportunity's stage is a text field you fill in, and an **Opp ID** field sits under its link (kept on your Mac, never sent to the AI).
+- **A Zscaler SKU spreadsheet on request:** with **Zscaler** as your company (Settings › AI), the Licensing page says how to get a sanitized, pre-built SKU and features spreadsheet to add: email ajaw@zscaler.com (the address opens a new email).
+
+### Changed
+- **Set the side when you mark someone:** the **Who's talking?** box has a menu beside the name: **Internal**, **Customer**, **Partner**, or **Other**, also **Command-1** to **Command-4** while you type. It shows the side of the person you've chosen (an invitee or someone you've met) and starts as **Side** (not set) for a name you type; after the call, **Yes** gives the speaker that side. Clicking a mark in the meeting's header opens the box with its name filled in, so you can change just the side.
+- **Update All writes each account summary once:** while one of a customer's meetings is recording, being transcribed, or waiting for its automatic notes, its account summary is listed greyed out with what it's waiting for, instead of being written now and again when the notes arrive. An account summary that's up to date but would be changed by the meetings above it is listed as **Then, if the above change it**, so one run finishes the job instead of two. Update All's count leaves both out.
+- **Fewer AI requests after notes are written again:** the follow-up email is drafted automatically only with a meeting's first notes; afterwards your draft stays, marked as drafted before the notes changed, with **Redraft**. A meeting's licensing match is kept when its opportunities and your licensing sources haven't changed.
+- **Yes on a speaker mark sets the side too:** for a name you typed when marking, the mark's row under **Speakers** shows **Yes: Internal · Customer · Partner · Other**, so one click names the speaker and sets their side, without opening the speaker afterwards. A mark that knows the side (an invitee or someone you've met) shows it, as "Priya Shah (Customer)?", with a plain **Yes**.
+- **Add Link… reads up to 200 pages** under an address (was 50), so a whole site such as m365maps.com (104 pages, about 30 seconds) is read. A PDF that's a copy of a page with the same name isn't read again. If a site has more, the source says how many links were left unread.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta6/Fieldbook-2.1.2-beta6.dmg" length="1525334287" type="application/octet-stream" sparkle:edSignature="9V3BtsLNFHleWo0VKB4hoACUPkXLIAKzi5iEU8b79Aw2l9+Yn4sAtzjDDbyu83A5zRAV5k2tvQHijg5OCJYZCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta6/Fieldbook36-35.delta" sparkle:deltaFrom="35" length="953750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q1PIrRBv+lyGR7G81xUxjg0sgQyJ3aV/F7sQOmMJPMx2bBzjneKovhXoHotqCMv5ldV8GyFItnev21JzQBJoAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta6/Fieldbook36-34.delta" sparkle:deltaFrom="34" length="1000950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PSmuKs6pveAHeK2TdG7wvlzR/nV97o9vQZP+JbJ8KAOvycfrsMvY0XUChIJwrPXdFUTtA6hwwhxAdAJCDqaRBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta6/Fieldbook36-33.delta" sparkle:deltaFrom="33" length="1167014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ry29Pt29qd0xynD1bHlMgE1f0pUbNX8ZAwrDvvPEYRSCEXku6b/TR+T5QEHii0Vl0pItJnNydqnQu1ewFXdPCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.1.2</title>
             <pubDate>Tue, 13 Oct 2026 12:16:23 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -59,30 +91,6 @@ The fourth beta of 2.1.2, on the beta channel: Macs set to **Beta** (Settings �
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta4/Fieldbook34-33.delta" sparkle:deltaFrom="33" length="971814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kpCh1De30hkqzBm1G8q5EratjX6f8ocObn3uE5c6FPP6qIa6wMcQpfxQMCRDf8UM136YJJvFKxYuOzmViYUBDg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta4/Fieldbook34-32.delta" sparkle:deltaFrom="32" length="1031274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RppffMrnSDvz81NrIal6QUnhI8OKvtWFc7WkEL9LuRye8o1QE4Nai4MAH2hO7lm2gAfx4UODsIviDNYEiVw8AQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta4/Fieldbook34-31.delta" sparkle:deltaFrom="31" length="1418894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M//hnNExIiYONWtOuxUOfqEVRsM7R68DrQ5wlmeyNmCnh0beTkHbTpWYav6MTt3oA4v0BdgMsiQRYrJajGDuBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.1.2</title>
-            <pubDate>Tue, 13 Oct 2026 08:27:45 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.1.2 beta 3** (a beta)
-
-The third beta of 2.1.2, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.1.1 until 2.1.2 itself.
-
-### Added
-- **Remove a speaker mark made by mistake:** while recording, each mark in the meeting's header has a **✕**; after the call, so does its ⚑ line in the transcript, and the mark's row under **Speakers** has **Remove** next to Yes and No. Right-clicking a mark offers **Remove Mark** too.
-- **Change a mark's name while recording:** click a mark in the meeting's header to open **Who's talking?** again and choose someone else (or **No Name**); **Escape** keeps it as it was.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta3/Fieldbook-2.1.2-beta3.dmg" length="1525186847" type="application/octet-stream" sparkle:edSignature="eGNg85lWDFtqE3sikp302OpRvtAE18nhK/sQGW6oUAYUM/Pv3beqJywc7FDpJ4e7WVNlxZzqT9c50+Yv17h1DA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta3/Fieldbook33-32.delta" sparkle:deltaFrom="32" length="725718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BGLYm0ocZ1TGRZeXR6nxPA9c4WqpQSvr+G1kTW6ZfaB4PAK968xlkuXti1krHXxr7gPN0tdUzcAQiQM0CVjcCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta3/Fieldbook33-31.delta" sparkle:deltaFrom="31" length="1258026" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+PbXfDt5jmD/oX+vTwz6ytMqEmjZsQwGbUGC17UTtASBxLg+NFe7qnmUAfXHTbwLefI4xdq6hZ2p1wE2f2f6BA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.1.2-beta3/Fieldbook33-30.delta" sparkle:deltaFrom="30" length="1510886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AGeelebD3PdAb7vavARhLS4y2mMWJC/6sGGF/vhSV45pX7sE4nuz5w/z+UPrx+jX0Kbv631uWaCnKRuAYbqdBg=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -239,6 +247,6 @@ The third beta of 2.1.2, on the beta channel: Macs set to **Beta** (Settings ›
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: kg2fAkl5F/HTAFQiQa7mGyUiR4mBcAWRCCp/fvyE457SJHbimeNVJ4K9EWoz4x7JbS0pD7PcgI2HPOs1ePKZCA==
-length: 35065
+edSignature: dIjjWHmf8W6y4/UVlkiGWVxBMG7fptY9AgtuCjWSxcOk0N57G9gikIkd05pLuHTAbldzUM7q5Tx9V6OweaU+Ag==
+length: 37782
 -->

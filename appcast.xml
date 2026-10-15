@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.2.1</title>
+            <pubDate>Wed, 14 Oct 2026 21:35:33 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.1 beta 1** (a beta)
+
+The first beta of 2.2.1, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.2.
+
+### Changed
+- **Transcription keeps going while you record:** earlier meetings are transcribed, one at a time, during your next call, so their notes are ready sooner. **Settings › Transcription › Pause transcription while recording** (off) brings back the old wait, for a Mac that struggles during calls.
+- **Faster transcription:** part of the speech model now runs on the Neural Engine, about 10% faster, with slightly fewer words missed. The first transcription after updating takes a few extra seconds to prepare it.
+- **The Brief and the Detailed Summary:** the Brief is three to five takeaways for your team (what was decided, where things stand, what's next), even for a long meeting; the Detailed Summary is a full account of what was discussed, in order, with the names, numbers, and dates.
+- **AI that follows Your role:** with **Settings › General › Opportunities › Your role** set to Account Executive, the AI notes, account summary, pre-call brief, and next steps focus on budget, pricing, procurement, timeline, and who decides; as a Sales Engineer, on the customer's environment and requirements, as before. A recommended stage is suggested only for a Zscaler SE.
+- **Next steps for Salesforce:** **Write** now starts with an update line in your format, the date, your initials, and what happened ("10-14-26 - AJ - Met with customer, …"), then the open steps. **Copy** copies both.
+- **MEDDPICC from what the customer says:** your own questions and guesses in a meeting no longer count as evidence.
+
+### Fixed
+- **A microphone switch during a call** could, rarely, leave the Recorder showing the microphone as interrupted after it came back, and the saved meeting warning that its audio was missing until the end.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta1/Fieldbook-2.2.1-beta1.dmg" length="1525396583" type="application/octet-stream" sparkle:edSignature="f6qKdlQc+kGhkKM7dtPdjWwS/0y0nEWI+7EuAvWmU5jjMWu+QKntWiVprDgaVJZipkfrlIYt9JQX3pEEHj+NDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta1/Fieldbook38-37.delta" sparkle:deltaFrom="37" length="820730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5TbGTSu+4i3eQ2RWhXZm0bCqyYDCW8ITFhxS2ZvEdAVUIBbFU+aiji7gmqx4swBcmKn2c8WsVRUxuLdKDIw9Bg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta1/Fieldbook38-36.delta" sparkle:deltaFrom="36" length="812922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YNWbVcHxHqj2HVzePoRHnU89BEfXkoJfcHjDiRghrib94gdD9tC7970ot/Z9gT/qnINLV/gpYe8zCbFvQCONBA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta1/Fieldbook38-35.delta" sparkle:deltaFrom="35" length="1035406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kjY4jsrB4hkBl+JQyW8q7p/p62gA3KNBE9kqLlQxonVJ0rbHAlbkGu9VkW+k57yfh6Eo6ulRVUeG6XsjmAhMCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2</title>
             <pubDate>Wed, 14 Oct 2026 15:58:40 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -186,6 +217,6 @@ The last beta of 2.1.2 (added at the user's request for the AI savings), on the 
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: WSBKLIFL4cOiL7Yz4R01JQwts8QT0S7azelsYMYDb0+9YWsu/I10Wv3LWq1/S88bvFiRpll9ggmc++Rd91UuAw==
-length: 35659
+edSignature: 3OtLZ6pQ9bNzTs+Amptwdp+yScZhJRdp6jbouODfBLevlTdV0yX/4HDrvXrL9/r7FtJUUL5kTe88yz2EIg4UDg==
+length: 39849
 -->

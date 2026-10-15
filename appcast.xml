@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.2.1</title>
+            <pubDate>Thu, 15 Oct 2026 11:01:29 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.1 beta 2** (a beta)
+
+The second beta of 2.2.1, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.2.
+
+### Changed
+- **Diagnostic reports show power and heat:** the activity log in **Help › Save Diagnostic Report…** now says whether the Mac was on battery or the power adapter, the battery level, Low Power Mode, and how hot it was running, at the start and end of each recording, while transcription runs during one, and whenever these change. It also says how long the speech model took to get ready.
+
+### Fixed
+- **A light line around the sidebar on macOS 26:** the sidebar now reaches the window's edges, as on macOS 15 and 27, so its outline no longer shows on the style's color.
+- **The sidebar's bottom rows:** with a long customer list, **Opportunities**, **Licensing**, and **My To-dos** drew over the last customers. They now sit below the list, which scrolls above them.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta2/Fieldbook-2.2.1-beta2.dmg" length="1525343737" type="application/octet-stream" sparkle:edSignature="FwY2Krv9axgax8N5VxS2C9ymfiZXXKhBbSDGtnSMEDa+XlvvYrkahyJe4UoN34QLk7mkbM7AYzdsspSSDEjZCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta2/Fieldbook39-38.delta" sparkle:deltaFrom="38" length="772890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3SLDZjErWTryOeDGdGlU7nQRISbrDNvBaHzFmKY0ivmGaALD6YChQ+CNfcV2CqrexgZ6mOfepclTTZA4X/0tDA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta2/Fieldbook39-37.delta" sparkle:deltaFrom="37" length="895198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vJcNpOY0nYipEQjNF9msy7WRBw6+NBqOh118LstbSJqRgwz0WnrvQX95ZLbSNO9gNmVQ25J1zR2rzhcYB6CCAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1-beta2/Fieldbook39-36.delta" sparkle:deltaFrom="36" length="924142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5BD2/Peaz93mZz3WQE1wAuoxns5UWT9KMT5Pc1/o3T2UbAJXRVBeouIHmLdsp7D66VkQ3RlQIFdi0TA+2ZvlAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.2.1</title>
             <pubDate>Wed, 14 Oct 2026 21:35:33 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -217,6 +244,6 @@ The last beta of 2.1.2 (added at the user's request for the AI savings), on the 
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3OtLZ6pQ9bNzTs+Amptwdp+yScZhJRdp6jbouODfBLevlTdV0yX/4HDrvXrL9/r7FtJUUL5kTe88yz2EIg4UDg==
-length: 39849
+edSignature: kDfCEbjzvE0PogHscCOC3Knw8F0TKnSYwKRKZ9++Cupn/CkTE5BWsPbTRhB+o5UlHXQ+Yud6KOBE7obiLh3eDw==
+length: 43081
 -->

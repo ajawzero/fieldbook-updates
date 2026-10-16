@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.2.2</title>
+            <pubDate>Thu, 15 Oct 2026 19:12:32 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.2 beta 1** (a beta)
+
+The first beta of 2.2.2, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.2.1.
+
+### Added
+- **Meetings about customers:** an internal or partner meeting can be about one or more customers. Click **About** in the meeting's header, next to **Move To** (customers named in the meeting come first), or right-click meetings › **About Customer**. Each item of its notes then shows which customer it's about, or **Unclear**, with the words that tie it to that customer a click away, and each customer's account summary, pre-call brief, and Ask AI get only what was said about it, as your team's view rather than the customer's. Right-click an item › **About** to correct it. A customer's meeting list shows them under **Also about**.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta1/Fieldbook-2.2.2-beta1.dmg" length="1525626143" type="application/octet-stream" sparkle:edSignature="yGp23xAQ61YYLo34YbRCcedaWbrA4f0DQd/LkQGTo4lX+0C10tPPCHNVy5Sxiw7IkrzwkhJ1ujDflnRJwcv2Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta1/Fieldbook42-41.delta" sparkle:deltaFrom="41" length="1215946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cUiooCKkpjShMDuWnRjDdleWtSeC6XAsqe8MerTEqhKpna/m9Ci5rTsuwLREFZr2ITw/g5BUTdxfuP9tXZV2BA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta1/Fieldbook42-40.delta" sparkle:deltaFrom="40" length="1220746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OMXhlsSBwrc98FmQF74MpuNdpUBjZOXvSxUk0TgA32peS1PmmJNML3CkzohZCmxlVlVYDxt1zU9Vt/o56ElICw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta1/Fieldbook42-39.delta" sparkle:deltaFrom="39" length="1286686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VZ/KyHNd79WepZEY4A62OLrWaXh1XMGk4d5jZT9HvsbPdrhWRaeYjZ+tsZ56Qqo9sJJA2SJg7rpdJz4QR313BQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2.1</title>
             <pubDate>Thu, 15 Oct 2026 17:03:46 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -163,6 +186,6 @@ The third beta of 2.2.1, on the beta channel: Macs set to **Beta** (Settings ›
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: qM9rgX1JgQcdNXssh5QJpAUcIEwi4nE61Jh8k4P7C96aJYLqzK7Ky/rT1V/eQwKwaN10YM8+HANEWepFitHmDg==
-length: 29806
+edSignature: leCfDS5pIlUS5ZlEdbYq47qV93DGPi0pROb0pM3wgMvyj8PVWsm+wJgWG47K1zNCIdOg1UMVe8fOsRZy9wENAg==
+length: 32910
 -->

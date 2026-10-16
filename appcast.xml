@@ -7,6 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.2.2</title>
+            <pubDate>Thu, 15 Oct 2026 20:21:19 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.2 beta 2** (a beta)
+
+The second beta of 2.2.2, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.2.1.
+
+### Fixed
+- **Items marked Unclear when a customer goes by a short name:** in a meeting about a customer whose folder is, say, "Quillon W. Brask" but who's called "QW" on the call, every item was marked Unclear. With one customer on the meeting, the AI's choice now stands as long as its quote is real; with several, initials ("QW"), word starts run together ("WestMar" for Westbrook Marine), and a distinctive word of the name ("Brask") count as naming the customer, also in **About**'s "Mentioned in This Meeting". Items already marked are checked again on your Mac when Fieldbook starts, with no AI request.
+- **The About menu's "Mentioned in This Meeting"** could show the customers named in the meeting you looked at before, after moving a meeting from a customer folder to Internal or Partners. It now counts the meeting shown, again after a move.
+- **A meeting just moved to Internal or Partners** no longer has its items marked with customers twice: when its notes were written before the move, marking waits until they're regenerated for the new folder, and the notes say so.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook-2.2.2-beta2.dmg" length="1525602588" type="application/octet-stream" sparkle:edSignature="uL5l8AqWtNzHx3SeArwUKwpFE/bvb3OqzIxnCb4X8iaAMIUJJBFb1j5pzCNZN4q0/loUHbqAgDzRLoRDAklRCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook43-42.delta" sparkle:deltaFrom="42" length="769582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oRctHpiZwNUve6E5tMec1Vx24elXYlW0tfmgsP35Zb/jCRGzuf0yUDYQzDR0hG8+z2YVVA2JbRdop6kEg6oFDA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook43-41.delta" sparkle:deltaFrom="41" length="1231418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AQkIMDTORdCGGOA7zAcaxJTFXL82w6CdKhzGmHO/sU+P4oUkYdGTDdQLaH0TUECr6KF3DHh3dZwM6og6orOWAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook43-40.delta" sparkle:deltaFrom="40" length="1234522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9UUvq2ICljmv5hChHUcSt5z5MZy2M78dCKg10zebIb2BVz7slS/XKb/NAv0ErThRJxG0V9zG42nHtukrEP7LAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.2.2</title>
             <pubDate>Thu, 15 Oct 2026 19:12:32 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -186,6 +211,6 @@ The third beta of 2.2.1, on the beta channel: Macs set to **Beta** (Settings ›
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: leCfDS5pIlUS5ZlEdbYq47qV93DGPi0pROb0pM3wgMvyj8PVWsm+wJgWG47K1zNCIdOg1UMVe8fOsRZy9wENAg==
-length: 32910
+edSignature: TQ5TegN50qgQwQqpH0hTMrdBbwBZvZX+6ricTACH4XbeIvAUAjW5qCxaObGW1ZBaN/Q9R74KoMX3g0hE18JwAQ==
+length: 36448
 -->

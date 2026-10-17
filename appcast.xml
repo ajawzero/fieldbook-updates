@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Sat, 17 Oct 2026 17:31:47 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 3** (a beta)
+
+New since beta 2: Chats, sending a customer (and the licensing library) to another Fieldbook, and the File Transfers changes from trying it Mac to Mac.
+
+### Added
+- **Chats:** keep Slack chats with a customer. Copy messages in Slack, press **Control-Option-V** from any app (or **Paste Chat** on a customer's new **Chats** page, or **File › Paste Chat…**), check who and when, and add them. The customer is suggested from a #channel or the people in it; pasting more of the same chat adds only the new messages; reactions, "(edited)", and join notices are left out; a recap with no messages is kept as a summary. Tag a chat with an opportunity to feed its MEDDPICC and next steps, and type the support issue it's about. The account summary (Update sends only new messages), Ask AI, Discovery (only new pastes are read), and pre-call briefs (New since last time) read chats too. Change the shortcut in **Settings › General › Shortcuts**.
+
+- **File Transfers:** send a customer to another Fieldbook (right-click it in the sidebar): its account notes, Files, Emails, Chats, Opportunities, and what the AI already wrote, with its meetings if you choose. It's merged with nothing lost; if account notes differ, choose **Keep Both**, **Use Theirs**, or **Keep Yours**. Send the licensing library or one source too, and any file from **Files** or **Emails**.
+
+### Changed
+- **File Transfers:** files dropped on the **File Transfers** page are sent (Send opens with them) instead of added to Fieldbook, and the key field fills in capitals and dashes as you type.
+
+### Fixed
+- **File Transfers:** pressing **Stop** while something was coming in could leave the sending Fieldbook waiting up to a minute; it now hears at once.
+- **Imports are checked more closely:** a ZIP file (meetings, a licensing library, or a customer sent from another Fieldbook) is checked for links and paths outside itself before it's opened, and a licensing source from a shared library is marked as downloaded, so macOS checks it the first time it opens.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta3/Fieldbook-2.3-beta3.dmg" length="1526394302" type="application/octet-stream" sparkle:edSignature="dPL12XOeDq+UTYdeWK23w/dmA7mEN0NgMCNphad6YrJGIqrhRwH1TYvyjQyKRSn6oXjSTi6IKJWZ1mrmL8Z5DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta3/Fieldbook50-49.delta" sparkle:deltaFrom="49" length="1355826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L1lyQnikkvdKF4dEeOy8T/qGRkbwvwIto+jwS2VomU6b3qUOshscuvGOLMQgnhvpAiWpdJMhSVAnmnpN2IgHAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta3/Fieldbook50-48.delta" sparkle:deltaFrom="48" length="1556130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aM20/NqNEF78ZIe0LKZlqDE2qbU8qZB2JyKz+WxDOJncYQYuq9tcccO0//y7g/L7xFeI8Nd83vX+KrXzrfvtBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta3/Fieldbook50-47.delta" sparkle:deltaFrom="47" length="1719974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xDRQOI1PYODGCR7JsWNVporhnvwKuC3vKmLHtYlU90Mo/PgHAHjCu7Kwyh8WPG5l+lzFwgnpXNfuJfPt2TDJCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Sat, 17 Oct 2026 11:31:19 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -49,29 +81,6 @@ The 2.2.3 betas become 2.3: this beta has everything in them (the live transcrip
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta1/Fieldbook48-47.delta" sparkle:deltaFrom="47" length="1098518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sO4hx1Kd4R4t/cXubFhpxyLARft4zGPp+Ve/bGbQo1bqcK+B2FqitEd12vg7K7o9/IYu0Zbu/UdsSz0x+QqJCA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta1/Fieldbook48-46.delta" sparkle:deltaFrom="46" length="1155126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="14HQjfYGGLxAvL9CEGS2LAHUy+VUSSzSrMfTX8w2AMv32V+YwmzpklHcYlKPdVbi9AVLcAjm55ssn11ExlGIAg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta1/Fieldbook48-45.delta" sparkle:deltaFrom="45" length="1262526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8XmjtvrWbnfEAXw261+E9S41TobYvy+bHLFOOCOQVapmpKRWhdpbRWbBejubeR10bpuvTPYPCgQc60L6scZ7CQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.2.3</title>
-            <pubDate>Fri, 16 Oct 2026 22:28:49 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.3 beta 3** (a beta)
-
-### Fixed
-- **Field takeaways for earlier trainings cost a cent, not a rewrite:** **Update All** adds them to a recent training's notes from the notes already written, with your **Quick tasks** model, instead of writing the whole training again on your summary model (about $0.30 to $1.30 each for a long training).
-- **Update All waits for your network:** when your AI endpoint can't be reached, such as just after unlocking while the VPN reconnects, the run pauses and goes on when it's back, instead of every remaining item failing.
-- **An update installs even with a sheet open:** an open sheet, such as **Update All**'s list when nothing was running, kept **Install and Relaunch** from installing an update. Fieldbook now closes it first.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook-2.2.3-beta3.dmg" length="1525846833" type="application/octet-stream" sparkle:edSignature="tbw7FkZMeAaBX5FmHrvCZgm1m9ohGcEGIWoQ2kkqp4skzD1qBFGXml9R1J8eiTJRqW/Xv3zOu6G3jk081BJPDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-46.delta" sparkle:deltaFrom="46" length="808330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="62qi2ispYSJS4aumXkv9+sv3BDbe3rxwHHAzcCCk0Y5Zdky/q77qu90aGoTkMpoEIVqkZOm9N8qw+6y2CsXWCg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-45.delta" sparkle:deltaFrom="45" length="1000998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S/DPpQJqjkML4ylh58w3dFh8eiwXDRYyjy6yDclegItXgeQpaEiwSKCHYWz93T9NiflFCvJuo394az39N97qAg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-44.delta" sparkle:deltaFrom="44" length="1392042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rI9t+xosKwFl8ARY75p49VRCvggViWaQUT0AsZCz9GVOYvd+ZBB3NVznbxwg49uvEuAvkAoQnT/l2W0XwH/UCw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -198,6 +207,6 @@ The 2.2.3 betas become 2.3: this beta has everything in them (the live transcrip
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: JBy1o2nO+xxNmgJBwnp6oov6Ss41g37gu4yjw794/C2vdXAD1EyDIf7Tyg4xEe3JVtFN/V4V0m+HVVp/IgaNDA==
-length: 34164
+edSignature: MAjzLXCWjtZt71g96c/KxOW8KBvUI/OKOKTx84scRA5TSifyajJEuwBaa/ltpOJ/q5iohsr5MuOEtu3ThK9zCQ==
+length: 35435
 -->

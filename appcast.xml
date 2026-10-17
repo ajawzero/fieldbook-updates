@@ -6,6 +6,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.2.3</title>
+            <pubDate>Fri, 16 Oct 2026 19:14:28 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.3 beta 1** (a beta)
+
+### Added
+- **Live transcript while recording:** a draft of what's said, as it's said, in a **Live draft** column beside your notes: **You** and **Them**, a few seconds behind, the newest words in grey until they settle. It's made on this Mac with the same speech model, and nothing leaves the Mac. **Pause** stops it for a while; **Live** in the recording bar shows or hides it. After the call it stays until the full transcript, with each person's name, replaces it. Turn it off, or have it pause on battery, in **Settings › Transcription › Live transcript**. While it's on, earlier meetings wait to transcribe until the recording ends.
+- **Help Me Answer:** in a call, click **Help Me Answer** under the live draft, or press **Control-Option-H** from any app, for 3 to 5 points to say next about what was just asked, from the last couple of minutes of the call, the account's summary, your company's solutions, and, when the call is about licensing, the best passages of your licensing library (click one to open it). Only when you ask. It uses the **Quick tasks** model (Settings › AI › Models) for speed. Change the shortcut in **Settings › General › Shortcuts**.
+- **A model for quick tasks:** **Settings › AI › Models › Quick tasks** lets a cheaper model, such as Claude Haiku or Sonnet, do the matching and extracting (Discovery answers, Account Discovery, MEDDPICC's evidence from each meeting, which customers a meeting is about, the licensing match) while your summary model writes notes, summaries, briefs, and emails. It starts as **Same as summary model**.
+- **Field takeaways from training:** a training's notes list what you can bring to customers: what's **New**, **Competitive** points against named competitors, and **Licensing** changes, each with the words behind it, and **Relevant to** the customers whose meetings or account notes mention it. Files you add to **Training** give takeaways too, in its files summary. They come with the notes and summaries already written, with no extra AI requests. **Update All** lists the trainings of the last 90 days to add them to.
+
+### Changed
+- **AI costs at a glance:** **Settings › AI › Usage** shows the last 7 days, with an optional **Weekly goal**; **Update All** shows about what the items you chose should cost, and says when they'd go past your goal.
+- **Lower AI costs:** notes, summaries, and briefs cite shorter quotes, at most three per statement, and **Update All** refreshes each opportunity's MEDDPICC once per run instead of once per meeting.
+- **Update All's count no longer stalls the window:** its checks of each customer's files and attachments are reused while nothing has changed, instead of read again every two minutes (on a library in Google Drive they could take seconds).
+- **Pre-call briefs are shorter and current:** a few lines per section, the newest first, leaving out what's settled. **New since last time** brings in what's new from trainings since your last meeting with the customer that fits it, such as a new feature or a point against their current vendor. **Since last time** is now **Last meeting**.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta1/Fieldbook-2.2.3-beta1.dmg" length="1525747340" type="application/octet-stream" sparkle:edSignature="a0yh/qK9Y8RGkjhExPQGotUByQv7CvhCG+6vl5m4DSwL3xPvmUIPaUZMKKh5P8GvXCZ5sE5F6513E/DS6dkiCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta1/Fieldbook45-44.delta" sparkle:deltaFrom="44" length="1250114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ORS2m/itB5dMD+7MJa8UPseDuNgKi0oHLaChR3kL0DRp5orRm9yVeLafiP0RzhBwSMdygxMIdeaFbgBZbPexBA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta1/Fieldbook45-43.delta" sparkle:deltaFrom="43" length="1251802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kSl/oQfxwTtom1knr9uXa+vvR5u9erFnWFqu+WGe0NnNlPFuCn8QuCfo/D/Bsck5Um5PTxAtjc0FDHDlub+HBQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta1/Fieldbook45-42.delta" sparkle:deltaFrom="42" length="1286462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QAX3EbEzJApNQpbtno+gHYc3VxPCPs6jG/O9/W4v9ADG6A15i229gWznhzbyuPeJevY3rHJZKoB5+jPtVz25Bw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2.2</title>
             <pubDate>Fri, 16 Oct 2026 09:01:49 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -154,6 +184,6 @@ The second beta of 2.2.2, on the beta channel: Macs set to **Beta** (Settings �
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Y1ONOKwBp1MxNWRDJ1RcGWt3v36H8ZxSVxEuWY35e5xqDZRSWpwEvrcPzN8BCL0JzSqN4qcaHGq6nJkSDBwjBw==
-length: 27941
+edSignature: OeAYtOpFRulY44OuWYMhzRSO3K9ZzPFHGGB+ZS6vP8nNW6KzvPFwpeQVN3TJnDtFgcoR9xC85EN37DRYUVSqCQ==
+length: 33343
 -->

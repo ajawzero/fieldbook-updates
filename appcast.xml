@@ -7,6 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.2.3</title>
+            <pubDate>Fri, 16 Oct 2026 22:28:49 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.3 beta 3** (a beta)
+
+### Fixed
+- **Field takeaways for earlier trainings cost a cent, not a rewrite:** **Update All** adds them to a recent training's notes from the notes already written, with your **Quick tasks** model, instead of writing the whole training again on your summary model (about $0.30 to $1.30 each for a long training).
+- **Update All waits for your network:** when your AI endpoint can't be reached, such as just after unlocking while the VPN reconnects, the run pauses and goes on when it's back, instead of every remaining item failing.
+- **An update installs even with a sheet open:** an open sheet, such as **Update All**'s list when nothing was running, kept **Install and Relaunch** from installing an update. Fieldbook now closes it first.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook-2.2.3-beta3.dmg" length="1525846833" type="application/octet-stream" sparkle:edSignature="tbw7FkZMeAaBX5FmHrvCZgm1m9ohGcEGIWoQ2kkqp4skzD1qBFGXml9R1J8eiTJRqW/Xv3zOu6G3jk081BJPDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-46.delta" sparkle:deltaFrom="46" length="808330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="62qi2ispYSJS4aumXkv9+sv3BDbe3rxwHHAzcCCk0Y5Zdky/q77qu90aGoTkMpoEIVqkZOm9N8qw+6y2CsXWCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-45.delta" sparkle:deltaFrom="45" length="1000998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S/DPpQJqjkML4ylh58w3dFh8eiwXDRYyjy6yDclegItXgeQpaEiwSKCHYWz93T9NiflFCvJuo394az39N97qAg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-44.delta" sparkle:deltaFrom="44" length="1392042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rI9t+xosKwFl8ARY75p49VRCvggViWaQUT0AsZCz9GVOYvd+ZBB3NVznbxwg49uvEuAvkAoQnT/l2W0XwH/UCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.2.3</title>
             <pubDate>Fri, 16 Oct 2026 21:23:28 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -83,31 +106,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook44-43.delta" sparkle:deltaFrom="43" length="426918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IJcUB08dTbEMV7x1a4edUjSUPrLJbj3nQ5+kc68ueXHsL8DOmPnbzR+3nag7xAkeU7s3p49+fPuaER9TYKZuBQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook44-42.delta" sparkle:deltaFrom="42" length="787882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f6Zmj75rHib2Thmdlt8xKAfvvybGtFMDQf77xwiYueTipLFxnnjCRjrbIWx/i36PsynS+8PTFpKeAmqqla60Ag=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook44-41.delta" sparkle:deltaFrom="41" length="1234386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NVsyE1xMXDZr3FYZ7nJmAE4Q+lgs1NID2gP26Wod2tiWKxVNGIcLru8ZHRMsV5PI2hxRXLl66KJ3zRR3rM/lBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.2.2</title>
-            <pubDate>Thu, 15 Oct 2026 20:21:19 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>43</sparkle:version>
-            <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.2 beta 2** (a beta)
-
-The second beta of 2.2.2, on the beta channel: Macs set to **Beta** (Settings › General › Updates › Versions) get it as an automatic update. Everyone else stays on 2.2.1.
-
-### Fixed
-- **Items marked Unclear when a customer goes by a short name:** in a meeting about a customer whose folder is, say, "Quillon W. Brask" but who's called "QW" on the call, every item was marked Unclear. With one customer on the meeting, the AI's choice now stands as long as its quote is real; with several, initials ("QW"), word starts run together ("WestMar" for Westbrook Marine), and a distinctive word of the name ("Brask") count as naming the customer, also in **About**'s "Mentioned in This Meeting". Items already marked are checked again on your Mac when Fieldbook starts, with no AI request.
-- **The About menu's "Mentioned in This Meeting"** could show the customers named in the meeting you looked at before, after moving a meeting from a customer folder to Internal or Partners. It now counts the meeting shown, again after a move.
-- **A meeting just moved to Internal or Partners** no longer has its items marked with customers twice: when its notes were written before the move, marking waits until they're regenerated for the new folder, and the notes say so.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook-2.2.2-beta2.dmg" length="1525602588" type="application/octet-stream" sparkle:edSignature="uL5l8AqWtNzHx3SeArwUKwpFE/bvb3OqzIxnCb4X8iaAMIUJJBFb1j5pzCNZN4q0/loUHbqAgDzRLoRDAklRCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook43-42.delta" sparkle:deltaFrom="42" length="769582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oRctHpiZwNUve6E5tMec1Vx24elXYlW0tfmgsP35Zb/jCRGzuf0yUDYQzDR0hG8+z2YVVA2JbRdop6kEg6oFDA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook43-41.delta" sparkle:deltaFrom="41" length="1231418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AQkIMDTORdCGGOA7zAcaxJTFXL82w6CdKhzGmHO/sU+P4oUkYdGTDdQLaH0TUECr6KF3DHh3dZwM6og6orOWAQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2-beta2/Fieldbook43-40.delta" sparkle:deltaFrom="40" length="1234522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9UUvq2ICljmv5hChHUcSt5z5MZy2M78dCKg10zebIb2BVz7slS/XKb/NAv0ErThRJxG0V9zG42nHtukrEP7LAg=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -211,6 +209,6 @@ The second beta of 2.2.2, on the beta channel: Macs set to **Beta** (Settings �
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: +sLWqwPErCpPnRDFOUTiGWKVeoSeCle8tLRU0q5iLPYMx3SFk3pz0yvMwC3Lyi0EvioOBr84ifrCZXEEHm1YBQ==
-length: 36705
+edSignature: zH1Rc7KHqI0GQW41oKbNY+T0uN9ioydeKs4gz5GkfLKF4NGnZKXuKxTBn5VCCCXH52EpK6pnyiKbN4DYn+O7CA==
+length: 36186
 -->

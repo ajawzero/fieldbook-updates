@@ -7,6 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Sat, 17 Oct 2026 11:31:19 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 2** (a beta)
+
+New since beta 1: File Transfers.
+
+### Added
+- **File Transfers:** send meetings and files to another Fieldbook on the same network, Mac or Windows, for when AirDrop isn't there. **File Transfers** in the sidebar: **Receive…** shows this Mac's address and a one-time key for 10 minutes; the sender picks it from a list of nearby Fieldbooks (or types the address) and types the key. Right-click meetings › **Send to Another Fieldbook…** (with or without audio), or **Send…** for files. Meetings come in by themselves into their folders; a single file waits for **Add to Fieldbook…** or **Save to Downloads**. Encrypted, checked file by file, and nothing goes through the internet; nothing pops up when something arrives.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook-2.3-beta2.dmg" length="1526130201" type="application/octet-stream" sparkle:edSignature="3u/MjgmuhHWa19acBAObDt2thRitmy50xSIni+lmRmLJE9k9SkypGo4sA8Lz+IVyFtFOEekt6xkxuvuES3OIDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook49-48.delta" sparkle:deltaFrom="48" length="1174710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KurGXKc3gb+3Qz/Q9quQThDfzuknXNIztwgYDdjkqDRj4JOnu6Eg2N7Z5e95+cV0cqBuTXozPeo6AwTh5Wb9Aw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook49-47.delta" sparkle:deltaFrom="47" length="1364662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dZ5IVwAJqdPV+9JlAaM7af+QqB4/zIVUMhmQc5DvSIV05nES+VTBFuzu90UzZAFjGUe1fk0741WoRxddWpXYBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook49-46.delta" sparkle:deltaFrom="46" length="1404066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nso1XImz805kOvwoG7F9bIHWifwAyrxiOBNBxT5teqlQDz164vPQ1RSH/FA0jt+r9vMTIlvtaYSr7U+k8RX6Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Sat, 17 Oct 2026 08:46:54 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -49,33 +72,6 @@ The 2.2.3 betas become 2.3: this beta has everything in them (the live transcrip
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-46.delta" sparkle:deltaFrom="46" length="808330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="62qi2ispYSJS4aumXkv9+sv3BDbe3rxwHHAzcCCk0Y5Zdky/q77qu90aGoTkMpoEIVqkZOm9N8qw+6y2CsXWCg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-45.delta" sparkle:deltaFrom="45" length="1000998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S/DPpQJqjkML4ylh58w3dFh8eiwXDRYyjy6yDclegItXgeQpaEiwSKCHYWz93T9NiflFCvJuo394az39N97qAg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta3/Fieldbook47-44.delta" sparkle:deltaFrom="44" length="1392042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rI9t+xosKwFl8ARY75p49VRCvggViWaQUT0AsZCz9GVOYvd+ZBB3NVznbxwg49uvEuAvkAoQnT/l2W0XwH/UCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.2.3</title>
-            <pubDate>Fri, 16 Oct 2026 21:23:28 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.3 beta 2** (a beta)
-
-### Changed
-- **File › Send Folders to iPhone or iPad…** (was Send Folders to iPhone…): Fieldbook for iPhone runs on the iPad too.
-- **Help Me Answer shows its points as they're written,** so the first ones appear in about a second with a cloud model.
-- **Updates no longer prepare the speech model again:** Fieldbook keeps its own copy of the model in its Application Support folder, so after an update the first transcription starts right away instead of taking about 15 seconds longer and writing about 1.5 GB to disk. The copy takes about 1.6 GB once an update has replaced the app's own.
-- **Fieldbook Help is easier to read:** each section in the sidebar has an icon and a line above it, and every topic was rewritten short and to the point: a plain line and a few bullets, with the rest under **Details** (search and Ask AI in Help still find it, and a search opens it).
-
-### Fixed
-- **A link in your notes can be removed:** right-click a web or email address › **Remove Link** keeps it as plain text (**Make Link** turns it back). Before, it became a link again at once.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook-2.2.3-beta2.dmg" length="1525777998" type="application/octet-stream" sparkle:edSignature="tDa8SEXnTvw3FYN8pz0yCuHvLb56Mu6iZyktrlNBmUquZhbCzu4St86Vx69LEIzCdRi6ZYYR3kH5WrYbnqZgCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook46-45.delta" sparkle:deltaFrom="45" length="943502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zsuOOGwPOVaLQsQR9Ak/qQpUpP+q26cQNjtqTO3IceIMJmD1tIGx9lN+jaiueRjwWPmt3ECGQ37S4PDaHYiJDw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook46-44.delta" sparkle:deltaFrom="44" length="1347294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CgBqguSMRzduudcde4idJxvkRXk8Wknpy+3AAgu1VdCN4Ky/ZFXtk1LYwrYRh3vWNcGMcdZsDxN2hXITmd0cCg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook46-43.delta" sparkle:deltaFrom="43" length="1352078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S+3tdVSfCAB73b7MNyFgiX7LoUgW9VCmflge6dA3/RhZDCpMAXtxaIwUuL4v/dZbvqr3esvn/j05b2RvLOQrDw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -202,6 +198,6 @@ The 2.2.3 betas become 2.3: this beta has everything in them (the live transcrip
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: b3F8CiNwkWvlG7kf80swfN7N0VQcbsNcwkU8Yx4v6Bvmu5+JtArYKVtMM5sTphRoqd804RjVm8Ccahw2wNCADg==
-length: 34536
+edSignature: JBy1o2nO+xxNmgJBwnp6oov6Ss41g37gu4yjw794/C2vdXAD1EyDIf7Tyg4xEe3JVtFN/V4V0m+HVVp/IgaNDA==
+length: 34164
 -->

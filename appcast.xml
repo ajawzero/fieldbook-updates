@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.2.3</title>
+            <pubDate>Fri, 16 Oct 2026 21:23:28 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.2.3 beta 2** (a beta)
+
+### Changed
+- **File › Send Folders to iPhone or iPad…** (was Send Folders to iPhone…): Fieldbook for iPhone runs on the iPad too.
+- **Help Me Answer shows its points as they're written,** so the first ones appear in about a second with a cloud model.
+- **Updates no longer prepare the speech model again:** Fieldbook keeps its own copy of the model in its Application Support folder, so after an update the first transcription starts right away instead of taking about 15 seconds longer and writing about 1.5 GB to disk. The copy takes about 1.6 GB once an update has replaced the app's own.
+- **Fieldbook Help is easier to read:** each section in the sidebar has an icon and a line above it, and every topic was rewritten short and to the point: a plain line and a few bullets, with the rest under **Details** (search and Ask AI in Help still find it, and a search opens it).
+
+### Fixed
+- **A link in your notes can be removed:** right-click a web or email address › **Remove Link** keeps it as plain text (**Make Link** turns it back). Before, it became a link again at once.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook-2.2.3-beta2.dmg" length="1525777998" type="application/octet-stream" sparkle:edSignature="tDa8SEXnTvw3FYN8pz0yCuHvLb56Mu6iZyktrlNBmUquZhbCzu4St86Vx69LEIzCdRi6ZYYR3kH5WrYbnqZgCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook46-45.delta" sparkle:deltaFrom="45" length="943502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zsuOOGwPOVaLQsQR9Ak/qQpUpP+q26cQNjtqTO3IceIMJmD1tIGx9lN+jaiueRjwWPmt3ECGQ37S4PDaHYiJDw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook46-44.delta" sparkle:deltaFrom="44" length="1347294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CgBqguSMRzduudcde4idJxvkRXk8Wknpy+3AAgu1VdCN4Ky/ZFXtk1LYwrYRh3vWNcGMcdZsDxN2hXITmd0cCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.3-beta2/Fieldbook46-43.delta" sparkle:deltaFrom="43" length="1352078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S+3tdVSfCAB73b7MNyFgiX7LoUgW9VCmflge6dA3/RhZDCpMAXtxaIwUuL4v/dZbvqr3esvn/j05b2RvLOQrDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.2.3</title>
             <pubDate>Fri, 16 Oct 2026 19:14:28 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -184,6 +211,6 @@ The second beta of 2.2.2, on the beta channel: Macs set to **Beta** (Settings �
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OeAYtOpFRulY44OuWYMhzRSO3K9ZzPFHGGB+ZS6vP8nNW6KzvPFwpeQVN3TJnDtFgcoR9xC85EN37DRYUVSqCQ==
-length: 33343
+edSignature: +sLWqwPErCpPnRDFOUTiGWKVeoSeCle8tLRU0q5iLPYMx3SFk3pz0yvMwC3Lyi0EvioOBr84ifrCZXEEHm1YBQ==
+length: 36705
 -->

@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Sun, 18 Oct 2026 12:15:07 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 5** (a beta)
+
+New since beta 4: an executive summary at the top of each account summary, and fixes for importing many meetings.
+
+### Added
+- **Executive summary:** a customer's account summary now opens with what your manager wants to know. **Needs attention** lists up to three pressing issues, such as escalations, support issues, blockers, and deadlines. **Opportunities** shows each open opportunity with its quarter, stage, and amount as you keep them, and the latest on it with its next step. Today's sections follow under **Detailed summary**. It's written in the same request as the rest, at no extra AI cost, and **Update** keeps it current. **Copy** now offers **Executive Summary** for an email or Slack message, or **Everything**. A summary written before this gets one when you **Rewrite** it, or with its next **Update**.
+
+### Fixed
+- **Import of many meetings:** the message after an import names at most five meetings in each list, then how many more, so its OK button stays on screen. An import of thousands of notes made it taller than the screen. File Transfers' received rows do the same.
+- **Messages that wait for OK:** while the message after an import, a diagnostic report that couldn't be saved, or an email attachment that couldn't open was showing, the rest of Fieldbook waited for it to be closed, and the diagnostic log recorded the wait as a hang. Fieldbook now keeps working behind them.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook-2.3-beta5.dmg" length="1526441727" type="application/octet-stream" sparkle:edSignature="fXWlE/sYU+EYUE2K5wWxiu/R/xlixJHn0NlUv9vsN2chSz1qdo+bQsRE4/iimnFRiWhiFl+KyTZngPnAiNHKBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-51.delta" sparkle:deltaFrom="51" length="880818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Uz6NPUP75SgnUog8RGVS83iK8Vsy+ZOjkizukrEHYKwqKIFL80CxDTDGkwP1zh4tnffoPxz7udt1Gaxu4eVAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-50.delta" sparkle:deltaFrom="50" length="1001202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P4xtTuRkVziGpmpewI8XYfJBIRqbZRXSTcPMw1kRFimBijHWoCbnczXGC0K8tFa0CIlWiSCLmKOwy4QQT5eICQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-49.delta" sparkle:deltaFrom="49" length="1455218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E7GmsY5BUI6+ERsYijq5XniUa412nJMbUhill1BhubmbskPHE5xGRtpWJQYudeJuh+RdinR3HJOgrXoV3A/jAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Sat, 17 Oct 2026 22:35:48 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -58,29 +85,6 @@ New since beta 2: Chats, sending a customer (and the licensing library) to anoth
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta3/Fieldbook50-49.delta" sparkle:deltaFrom="49" length="1355826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L1lyQnikkvdKF4dEeOy8T/qGRkbwvwIto+jwS2VomU6b3qUOshscuvGOLMQgnhvpAiWpdJMhSVAnmnpN2IgHAQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta3/Fieldbook50-48.delta" sparkle:deltaFrom="48" length="1556130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aM20/NqNEF78ZIe0LKZlqDE2qbU8qZB2JyKz+WxDOJncYQYuq9tcccO0//y7g/L7xFeI8Nd83vX+KrXzrfvtBw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta3/Fieldbook50-47.delta" sparkle:deltaFrom="47" length="1719974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xDRQOI1PYODGCR7JsWNVporhnvwKuC3vKmLHtYlU90Mo/PgHAHjCu7Kwyh8WPG5l+lzFwgnpXNfuJfPt2TDJCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Sat, 17 Oct 2026 11:31:19 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 2** (a beta)
-
-New since beta 1: File Transfers.
-
-### Added
-- **File Transfers:** send meetings and files to another Fieldbook on the same network, Mac or Windows, for when AirDrop isn't there. **File Transfers** in the sidebar: **Receive…** shows this Mac's address and a one-time key for 10 minutes; the sender picks it from a list of nearby Fieldbooks (or types the address) and types the key. Right-click meetings › **Send to Another Fieldbook…** (with or without audio), or **Send…** for files. Meetings come in by themselves into their folders; a single file waits for **Add to Fieldbook…** or **Save to Downloads**. Encrypted, checked file by file, and nothing goes through the internet; nothing pops up when something arrives.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook-2.3-beta2.dmg" length="1526130201" type="application/octet-stream" sparkle:edSignature="3u/MjgmuhHWa19acBAObDt2thRitmy50xSIni+lmRmLJE9k9SkypGo4sA8Lz+IVyFtFOEekt6xkxuvuES3OIDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook49-48.delta" sparkle:deltaFrom="48" length="1174710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KurGXKc3gb+3Qz/Q9quQThDfzuknXNIztwgYDdjkqDRj4JOnu6Eg2N7Z5e95+cV0cqBuTXozPeo6AwTh5Wb9Aw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook49-47.delta" sparkle:deltaFrom="47" length="1364662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dZ5IVwAJqdPV+9JlAaM7af+QqB4/zIVUMhmQc5DvSIV05nES+VTBFuzu90UzZAFjGUe1fk0741WoRxddWpXYBw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta2/Fieldbook49-46.delta" sparkle:deltaFrom="46" length="1404066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nso1XImz805kOvwoG7F9bIHWifwAyrxiOBNBxT5teqlQDz164vPQ1RSH/FA0jt+r9vMTIlvtaYSr7U+k8RX6Ag=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -207,6 +211,6 @@ New since beta 1: File Transfers.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 18Ulo7n+BYGltw+lb/95AFqBvIMFVrhNTKdNBgbGSzoOaEsgZHu8zpt+tvRkl6bnGqBRwgHwRGKyn7kX9RjlCA==
-length: 34420
+edSignature: uIPDFvesMJe9fmO90eChHI8VcED/D4cM7AVAD0nf1RkCjZ2QCn1I28UA2oWD6p/erh5LtAUN2Hhr/yYR59u4Ag==
+length: 35094
 -->

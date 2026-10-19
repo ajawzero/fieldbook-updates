@@ -7,6 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Mon, 19 Oct 2026 10:57:31 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 8** (a beta)
+
+New since beta 7: fixes for long calls with the live transcript, and for the Recorder.
+
+### Fixed
+- **Long calls with the live transcript:** Fieldbook got slower the longer a call went on, from short pauses early on to not responding at all after about 50 minutes, even with the live draft paused. Correcting names and terms in the live draft now looks only at new words and takes a fraction of the time, which also speeds up making transcripts.
+- **The Recorder's microphone with echo reduction:** turning on echo reduction during a recording made the Recorder show your Mac's default microphone, though the call's microphone was still the one recorded. It now shows the microphone this recording uses, and says that echo reduction starts with the next recording.
+- **The Recorder's notes:** notes in the sidebar's Recorder, such as the clipping warning and the mute reminder, were cut off after one line. They show in full.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook-2.3-beta8.dmg" length="1526464887" type="application/octet-stream" sparkle:edSignature="SI7qDtqQ1GHZsdUP6U+GqPEbItSWfmdtkYSCRHf0WhS/rav8LWGmBkWxNuEyxbsOxCYGKroj8db9XgFdRMy8Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-54.delta" sparkle:deltaFrom="54" length="845510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z0xjeyEQkBzwVmFb4Ks06wBuiyMMqH2P8VAWWF91iC8QMQqUrkMjokOusdnegoeugaC80zlz7QybnY9ScG6NAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-53.delta" sparkle:deltaFrom="53" length="1006518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mP7kwpMzae8tqQgGwtq82imSgDwLc4hlJZHn5hJlmiQugoHsyoyjMei2/DvU2MHYldIm7BsnbreqczRdsnkzDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-52.delta" sparkle:deltaFrom="52" length="1084094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LU3rqg4bnCzXhHAtDeM8Rj1tkS7TTtfn7Zu5DBCyfoyPvMe1S5U2QCUD8MiA6TvtS51HlAtFEHGcrIw3PJOSBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Mon, 19 Oct 2026 02:50:44 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -57,33 +82,6 @@ New since beta 5: a code to scan in File Transfers, for Send to Computer on the 
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta6/Fieldbook53-52.delta" sparkle:deltaFrom="52" length="886966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8z2+s15cR2i4VbokTzQB+P/xObcPJShMIgCv1lSfEbRuwBVQq3yHLQoePgTpCWCe0ex2fsLzEMF+ZlKqussoCg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta6/Fieldbook53-51.delta" sparkle:deltaFrom="51" length="1030010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fvHt1EXFHTD1Xte1wXI+Xp+hCJ+ItKQGiDMxHHhgmIr7RsTrUNgFBceQ/cYu+hRrP9xHbldRrPX1tlQ21n1hCQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta6/Fieldbook53-50.delta" sparkle:deltaFrom="50" length="1087854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c0IsV8LquF568GXzxlxZOpZIqSwNh63gmFGzbhyar3LhXpKV4aDmJKWl3w+59e3iM3uhCn29/h7HSi6ADt1tBw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Sun, 18 Oct 2026 12:15:07 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 5** (a beta)
-
-New since beta 4: an executive summary at the top of each account summary, and fixes for importing many meetings.
-
-### Added
-- **Executive summary:** a customer's account summary now opens with what your manager wants to know. **Needs attention** lists up to three pressing issues, such as escalations, support issues, blockers, and deadlines. **Opportunities** shows each open opportunity with its quarter, stage, and amount as you keep them, and the latest on it with its next step. Today's sections follow under **Detailed summary**. It's written in the same request as the rest, at no extra AI cost, and **Update** keeps it current. **Copy** now offers **Executive Summary** for an email or Slack message, or **Everything**. A summary written before this gets one when you **Rewrite** it, or with its next **Update**.
-
-### Fixed
-- **Import of many meetings:** the message after an import names at most five meetings in each list, then how many more, so its OK button stays on screen. An import of thousands of notes made it taller than the screen. File Transfers' received rows do the same.
-- **Messages that wait for OK:** while the message after an import, a diagnostic report that couldn't be saved, or an email attachment that couldn't open was showing, the rest of Fieldbook waited for it to be closed, and the diagnostic log recorded the wait as a hang. Fieldbook now keeps working behind them.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook-2.3-beta5.dmg" length="1526441727" type="application/octet-stream" sparkle:edSignature="fXWlE/sYU+EYUE2K5wWxiu/R/xlixJHn0NlUv9vsN2chSz1qdo+bQsRE4/iimnFRiWhiFl+KyTZngPnAiNHKBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-51.delta" sparkle:deltaFrom="51" length="880818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Uz6NPUP75SgnUog8RGVS83iK8Vsy+ZOjkizukrEHYKwqKIFL80CxDTDGkwP1zh4tnffoPxz7udt1Gaxu4eVAQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-50.delta" sparkle:deltaFrom="50" length="1001202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P4xtTuRkVziGpmpewI8XYfJBIRqbZRXSTcPMw1kRFimBijHWoCbnczXGC0K8tFa0CIlWiSCLmKOwy4QQT5eICQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-49.delta" sparkle:deltaFrom="49" length="1455218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E7GmsY5BUI6+ERsYijq5XniUa412nJMbUhill1BhubmbskPHE5xGRtpWJQYudeJuh+RdinR3HJOgrXoV3A/jAA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -210,6 +208,6 @@ New since beta 4: an executive summary at the top of each account summary, and f
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KUO2UfnXMnYl6bI7hu+J5bZFUCw24Ihhg2tbAZpWULoBPLKrVQ90iVMfuwridPX4j+KX+UWR7JUBeF21X7TCBQ==
-length: 33990
+edSignature: 60bcP9zaWrZENDOH/zcZL4lAtuU/Sv+DxIJKg5XNEF9/xsA5d5QScgZlGNnu+5xxiJGx/0E0fwkDl4ZqphZlCg==
+length: 33511
 -->

@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Mon, 19 Oct 2026 16:13:28 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 9** (a beta)
+
+New since beta 8: echo reduction that turns itself on and off, on the call's microphone.
+
+### Changed
+- **Echo reduction is automatic:** it turns on while a call plays through speakers, such as your Mac's or a display's, and off with headphones, AirPods, or a headset, and follows you if you switch during a call (your microphone pauses for about 2 seconds). Choose **Automatic**, **On**, or **Off** in the Recorder's microphone menu under **Echo Reduction**, or in **Settings › General › Microphone**; a change applies at once, even while recording. When it's on, a line under the microphone says why.
+- **Echo reduction records the call's microphone:** it used to record your Mac's default microphone, whatever your call app or you had picked, so a call on the MacBook's microphone could be recorded from a USB microphone across the desk. If macOS won't use echo reduction with that microphone, it's recorded without it.
+- **Transcripts leave out leftover echo:** bits of the call that your microphone picked up and echo reduction didn't fully remove used to show up as another speaker at your Mac. They're left out like other echo.
+
+### Fixed
+- **The Recorder's microphone list** no longer lists speakers or a display that only report a microphone input.
+- **Short pauses while the Mac is locked:** Update All no longer checks what's out of date while the screen is locked; it catches up within two minutes of unlocking.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook-2.3-beta9.dmg" length="1526479119" type="application/octet-stream" sparkle:edSignature="B1FE0mf8Y/bJmcTAiCKsB+JQQmobCLEBQhqelCT84JrfByyYB9RRqo5fgJWvE4oc+xi6fh1FCXJBDqOySvCrDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-55.delta" sparkle:deltaFrom="55" length="995434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="10T879h16ScuW/FzoW0TKqZ3XEkqJMA19KvDapqvUyoHwFK8hdkWiyzuCme5GWVWwiVDztEirXaEgMUpAQ2IBg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-54.delta" sparkle:deltaFrom="54" length="1024142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oa8dRR968YrN4Bu4mgN2V8LL9hHTkWnc48NmNlc66QEk4MkZ88+rcLnf9aA/vXTgdOrXf/kgPeeNCIQWn2B8Cg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-53.delta" sparkle:deltaFrom="53" length="1148054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t6JUkzKp0CkimPYWIa6N8QQrdq5pRgoZPuova9T4GMPTqSY17nxVEnmQSkXWln+MspuzPI7ml/7YJl2RfAkMBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Mon, 19 Oct 2026 10:57:31 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -54,34 +83,6 @@ New since beta 6: AI costs counted by the week, with a warning at your weekly go
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-53.delta" sparkle:deltaFrom="53" length="965690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="su/kovaWzZKOJS71Rxt9nrwlMN+/grMw8lAgutcUGCcxMKqSmQpYB7sp/I8eXF6huxcAnLhe+YScyWUSEgzZAQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-52.delta" sparkle:deltaFrom="52" length="1055290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mciiN+8+24mDM7Gob1VauCEJCOqmDsLVbvItF9XbbhaqpemH49x6FU61bae0o4tRsaf57ztrI/AH+g8+/4EqCA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-51.delta" sparkle:deltaFrom="51" length="1114002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vV9YFRQ8IEQ44sJym943rw2biavejoMgTXp3PNUW86PwKYRHePLTT85Qh37fl/TJP1+vT6y/M1vDA5QxDMwJDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Sun, 18 Oct 2026 13:29:39 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 6** (a beta)
-
-New since beta 5: a code to scan in File Transfers, for Send to Computer on the iPhone and iPad.
-
-### Added
-- **A code to scan in File Transfers:** while receiving, File Transfers shows a code beside the address and key. On an iPhone or iPad, **Send to Computer › Scan the Code** sends recordings with no typing.
-
-### Fixed
-- **File Transfers in a narrow column:** while receiving, the address and key no longer break across lines when the page is narrow.
-- **A received meeting that couldn't be imported** is kept under **Waiting for you**, saying why (**Save to Downloads**, then **File › Import Meetings…**), instead of being deleted.
-- **Nearby Fieldbooks** connected by both Wi-Fi and Ethernet are listed once.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta6/Fieldbook-2.3-beta6.dmg" length="1526489215" type="application/octet-stream" sparkle:edSignature="WBkUiF75DgRsGEHDU5d4MVAgRpIp8TDeuqMijdyiaS+6Qyl/w/ucsFpHz0D/MgYtGXyeURYEkUQwitdIXXaPAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta6/Fieldbook53-52.delta" sparkle:deltaFrom="52" length="886966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8z2+s15cR2i4VbokTzQB+P/xObcPJShMIgCv1lSfEbRuwBVQq3yHLQoePgTpCWCe0ex2fsLzEMF+ZlKqussoCg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta6/Fieldbook53-51.delta" sparkle:deltaFrom="51" length="1030010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fvHt1EXFHTD1Xte1wXI+Xp+hCJ+ItKQGiDMxHHhgmIr7RsTrUNgFBceQ/cYu+hRrP9xHbldRrPX1tlQ21n1hCQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta6/Fieldbook53-50.delta" sparkle:deltaFrom="50" length="1087854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c0IsV8LquF568GXzxlxZOpZIqSwNh63gmFGzbhyar3LhXpKV4aDmJKWl3w+59e3iM3uhCn29/h7HSi6ADt1tBw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -208,6 +209,6 @@ New since beta 5: a code to scan in File Transfers, for Send to Computer on the 
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 60bcP9zaWrZENDOH/zcZL4lAtuU/Sv+DxIJKg5XNEF9/xsA5d5QScgZlGNnu+5xxiJGx/0E0fwkDl4ZqphZlCg==
-length: 33511
+edSignature: 1Ft893knvMaUl9W0DvyIiWQ8zmD95CZlQCyHJfn/B35keX6I0Ww/NXXZYKoIrz/yL3z81oFHP/IzQ/NKZbywDQ==
+length: 34217
 -->

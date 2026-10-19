@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Mon, 19 Oct 2026 02:50:44 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 7** (a beta)
+
+New since beta 6: AI costs counted by the week, with a warning at your weekly goal.
+
+### Added
+- **A warning about AI costs:** once what the AI cost this week reaches your weekly goal, a note at the top of the main window says so and suggests checking your costs in your AI provider's portal. **Open Portal** opens the page you add in **Settings › AI › Usage › Cost portal**; **Hide for This Week** hides it until the week starts over.
+
+### Changed
+- **AI costs by the week:** **Settings › AI › Usage** and **Update All** count this week, which starts over every Monday at 2:00 AM, instead of the last 7 days. The **Weekly goal** is $75 unless you change it ($0 for none).
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook-2.3-beta7.dmg" length="1526442275" type="application/octet-stream" sparkle:edSignature="J/AwFq//ZeNfpK5H9rAmfj3n5aA/TrfsvWhJxttwVXorbKI4GpjjvThaIEnWXrIiDIoN722ffZIFZ+iuwrpaBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-53.delta" sparkle:deltaFrom="53" length="965690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="su/kovaWzZKOJS71Rxt9nrwlMN+/grMw8lAgutcUGCcxMKqSmQpYB7sp/I8eXF6huxcAnLhe+YScyWUSEgzZAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-52.delta" sparkle:deltaFrom="52" length="1055290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mciiN+8+24mDM7Gob1VauCEJCOqmDsLVbvItF9XbbhaqpemH49x6FU61bae0o4tRsaf57ztrI/AH+g8+/4EqCA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-51.delta" sparkle:deltaFrom="51" length="1114002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vV9YFRQ8IEQ44sJym943rw2biavejoMgTXp3PNUW86PwKYRHePLTT85Qh37fl/TJP1+vT6y/M1vDA5QxDMwJDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Sun, 18 Oct 2026 13:29:39 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -58,29 +84,6 @@ New since beta 4: an executive summary at the top of each account summary, and f
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-51.delta" sparkle:deltaFrom="51" length="880818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Uz6NPUP75SgnUog8RGVS83iK8Vsy+ZOjkizukrEHYKwqKIFL80CxDTDGkwP1zh4tnffoPxz7udt1Gaxu4eVAQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-50.delta" sparkle:deltaFrom="50" length="1001202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P4xtTuRkVziGpmpewI8XYfJBIRqbZRXSTcPMw1kRFimBijHWoCbnczXGC0K8tFa0CIlWiSCLmKOwy4QQT5eICQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta5/Fieldbook52-49.delta" sparkle:deltaFrom="49" length="1455218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E7GmsY5BUI6+ERsYijq5XniUa412nJMbUhill1BhubmbskPHE5xGRtpWJQYudeJuh+RdinR3HJOgrXoV3A/jAA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Sat, 17 Oct 2026 22:35:48 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 4** (a beta)
-
-New since beta 3: pages fit their column when the meeting list is dragged wider.
-
-### Fixed
-- **Narrow pages:** dragging the meeting list wider no longer pushes the page beside it under the list. Every page now fits however narrow its column gets: a chat's issue and opportunity, the buttons beside a section's heading, Discovery's filter and buttons, an opportunity's details, and the notes formatting bar move onto another line instead, and long names in menus are cut short.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta4/Fieldbook-2.3-beta4.dmg" length="1526470650" type="application/octet-stream" sparkle:edSignature="z90uSpuKDYQ32Nk8xg6inrdupiwAm69bbfKEecXW9NK/4YB1CcJM7g19Okexd6IvVYBRrHQ3Wx5JEyCOVFdSBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta4/Fieldbook51-50.delta" sparkle:deltaFrom="50" length="878414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kGqUf/KR112JFO3hunoCijTjy6y7RxOVGj8GWHbD56st1YmWXapQxjxOtoyW8qbH5xNv/fmVPwyKlC8fA5VlCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta4/Fieldbook51-49.delta" sparkle:deltaFrom="49" length="1414806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pK8pSuCBuskwnEgpLqE3s+E6lexmLOpKf976wDluTv3ucCUe0Hc7k0LQBQarJknmQSH+4lcCPGeHpIW6BrsfCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta4/Fieldbook51-48.delta" sparkle:deltaFrom="48" length="1612122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8Ir6sQLe1kMgpzHac5Agl/AekErPRHj9oETXoAUtZRFl7M66ZrvsKWa1janZMVRfmVpotAGVCx/ANUeIoJMHDA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -207,6 +210,6 @@ New since beta 3: pages fit their column when the meeting list is dragged wider.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vRpZoU5IN3WjXIii/eply7CpWbW+ySdtl+cFbNWfJSY9qO3K3iLEusFvABCVY+qWfKrHRG7s8ymSsxvxtc7ICw==
-length: 33785
+edSignature: KUO2UfnXMnYl6bI7hu+J5bZFUCw24Ihhg2tbAZpWULoBPLKrVQ90iVMfuwridPX4j+KX+UWR7JUBeF21X7TCBQ==
+length: 33990
 -->

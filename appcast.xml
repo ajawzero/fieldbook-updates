@@ -7,6 +7,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Mon, 19 Oct 2026 21:34:00 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 11** (a beta)
+
+New since beta 10: issues (tickets) per customer, reports as snapshots in time, and Get to Green fixes.
+
+### Added
+- **Issues:** a page under each customer, after **Get to Green**, for the support tickets and incidents you're tracking: the ticket number, title, notes, case type (Problem or Question), severity (P1 - Critical to P4 - Low), and status (Open, Awaiting fix, Closed). Open ones come first, most severe first; closed ones fold away at the bottom.
+- **Tagging meetings with issues:** an **Issues** menu next to a meeting's **Opportunity** menu (beside its Brief) ties it to one or more of the customer's issues, or adds a new one. Each issue lists its meetings.
+- **Issues in the executive summary:** the account summary's executive summary has an **Issues** section with each open ticket, its severity, type, and status as you keep them, and the latest on it. The account summary now knows which meetings are about which opportunity and which issues, and reasons from those meetings first.
+- **Customer status history:** each time a customer's status is read, its figures are kept with the report's date, so the status shows what changed since the snapshot before ("up from 0%, Sep 2026" under a product's deployment, "was $810,000" under ARR), and **History** lists every snapshot. Get to Green's suggestions and updates, and the account summary, see the change too.
+- **Tidying old copies:** when a newer copy of a report is added, **Move Older Copies to Trash…** on the report's page (or under the customer's **Files**) clears out the older ones; the history keeps what was read from them.
+
+### Fixed
+- **Get to Green showed and saved the wrong customer's plan:** after switching customers, the page kept showing the customer you came from, and an edit or delete right after switching was saved into the new customer, so imported items seemed to be in every customer and deleting seemed not to work. Each customer's page now shows and saves only its own plan. Items a plan got this way are flagged ("also in …'s plan") with **Remove from <customer>…**.
+- **Deleting a Get to Green item:** each item's line has a **⋯** menu (and a right-click menu) with **Delete Item…**, so it no longer has to be opened first.
+- **Dropping a spreadsheet on Get to Green** imports it into that customer's plan instead of asking where the file goes.
+
+### Changed
+- **Which copy of a report is read:** the newest by the report's own date: one its text states ("As of October 19, 2026"), else one in its name ("…_202610"), else when the file was saved or downloaded. A September report downloaded after the October one no longer counts as newer. The report's date shows in the reports list and in the customer status.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta11/Fieldbook-2.3-beta11.dmg" length="1527014944" type="application/octet-stream" sparkle:edSignature="zbTnTXy1T8gHLOqTZDrX5yTR8Whshytm3WAeJQ2KIW+n6w8TlcVuSb7lR6iBWE4ePZMMsUh37HrZweOnq4kvDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta11/Fieldbook58-57.delta" sparkle:deltaFrom="57" length="1327602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t75bRCkMDJCjzk1zm7Wnvy7cuBTwXdhuUU4cHZY+1+C7roBnDiSRx/cFEpVQMV8DtcUqCiZrna7G0Hs6IMv0BA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta11/Fieldbook58-56.delta" sparkle:deltaFrom="56" length="1612914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ss5aRUuU3HuqaLBRv+tAGxs4cEQ2Ludrbhj9nehAYfi6zOzkm+PqMotPDYY76vJTFYYaSIPOSvWYpWnn+FErDw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta11/Fieldbook58-55.delta" sparkle:deltaFrom="55" length="1680166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y66hNL8nlkG1wVxJm36AkPFlk5oaVyRRd3tsMLh/5PvDHHgZVQs/u50g/ULwX+eIxboFRpkXTETBl+3DJ6DDAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Mon, 19 Oct 2026 19:04:23 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -57,31 +92,6 @@ New since beta 8: echo reduction that turns itself on and off, on the call's mic
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-55.delta" sparkle:deltaFrom="55" length="995434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="10T879h16ScuW/FzoW0TKqZ3XEkqJMA19KvDapqvUyoHwFK8hdkWiyzuCme5GWVWwiVDztEirXaEgMUpAQ2IBg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-54.delta" sparkle:deltaFrom="54" length="1024142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oa8dRR968YrN4Bu4mgN2V8LL9hHTkWnc48NmNlc66QEk4MkZ88+rcLnf9aA/vXTgdOrXf/kgPeeNCIQWn2B8Cg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-53.delta" sparkle:deltaFrom="53" length="1148054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t6JUkzKp0CkimPYWIa6N8QQrdq5pRgoZPuova9T4GMPTqSY17nxVEnmQSkXWln+MspuzPI7ml/7YJl2RfAkMBw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Mon, 19 Oct 2026 10:57:31 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 8** (a beta)
-
-New since beta 7: fixes for long calls with the live transcript, and for the Recorder.
-
-### Fixed
-- **Long calls with the live transcript:** Fieldbook got slower the longer a call went on, from short pauses early on to not responding at all after about 50 minutes, even with the live draft paused. Correcting names and terms in the live draft now looks only at new words and takes a fraction of the time, which also speeds up making transcripts.
-- **The Recorder's microphone with echo reduction:** turning on echo reduction during a recording made the Recorder show your Mac's default microphone, though the call's microphone was still the one recorded. It now shows the microphone this recording uses, and says that echo reduction starts with the next recording.
-- **The Recorder's notes:** notes in the sidebar's Recorder, such as the clipping warning and the mute reminder, were cut off after one line. They show in full.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook-2.3-beta8.dmg" length="1526464887" type="application/octet-stream" sparkle:edSignature="SI7qDtqQ1GHZsdUP6U+GqPEbItSWfmdtkYSCRHf0WhS/rav8LWGmBkWxNuEyxbsOxCYGKroj8db9XgFdRMy8Dw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-54.delta" sparkle:deltaFrom="54" length="845510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z0xjeyEQkBzwVmFb4Ks06wBuiyMMqH2P8VAWWF91iC8QMQqUrkMjokOusdnegoeugaC80zlz7QybnY9ScG6NAw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-53.delta" sparkle:deltaFrom="53" length="1006518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mP7kwpMzae8tqQgGwtq82imSgDwLc4hlJZHn5hJlmiQugoHsyoyjMei2/DvU2MHYldIm7BsnbreqczRdsnkzDg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-52.delta" sparkle:deltaFrom="52" length="1084094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LU3rqg4bnCzXhHAtDeM8Rj1tkS7TTtfn7Zu5DBCyfoyPvMe1S5U2QCUD8MiA6TvtS51HlAtFEHGcrIw3PJOSBA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -208,6 +218,6 @@ New since beta 7: fixes for long calls with the live transcript, and for the Rec
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: b0VZneZljnSmY7LHZXcnNDh4n2D9rF97JrXs0NhkJFQ6aoyi+PDBoUsm2KLhQxEPuvwBrPkT5O8ZhOCJ8tF9Ag==
-length: 34831
+edSignature: B9hwvMzhbY5DJ+2lpdCIFKu+mXeasYi0eyTNiil2e3+P9+9kUiujC2R3CJgaX9wIFwB5Bcz1Iz58BxH7eh32Ag==
+length: 36637
 -->

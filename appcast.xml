@@ -7,6 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Mon, 19 Oct 2026 19:04:23 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 10** (a beta)
+
+New since beta 9: Get to Green, for customers using less than they bought.
+
+### Added
+- **All-Customer Reports:** at the top of **Customers** in the sidebar, drop a report that covers every customer, such as a CRO accounts PDF. Its page shows which of your customers it covers. A report about one customer, such as its Customer 360, goes in that customer's **Files**.
+- **Customer status:** on a customer's **Account** page, between the executive summary and the detailed summary, **Read Reports** fills in ARR, the next renewal, seats, employees, each product's deployment against your target (90% unless you change it), and the SKUs owned, from its reports. Each figure is checked against the report row it comes from; hover over one to see the row. **Update All** reads it again when a newer report arrives, and the account summary reads it too.
+- **Get to Green:** a page under each customer, after **Discovery**, with the plan to raise its usage: one line per item with its status, opening to dated status updates and each side's next step. Type items, import your account team's Get to Green spreadsheet, or let the AI suggest items from the deployment gaps, meetings, and your notes, and add dated status lines from new meetings. **Copy** it, or **Export Spreadsheet…** for Excel.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta10/Fieldbook-2.3-beta10.dmg" length="1526846962" type="application/octet-stream" sparkle:edSignature="zdkGSsNTPGa6Mh0hoVbptqohLMSfgSgF9IxpzWU6tZXnrffLRDe6U2Vds2x7kZ9hTrbVJ4kWob8dNi+g3BIcCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta10/Fieldbook57-56.delta" sparkle:deltaFrom="56" length="1386410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mTLXEaY++e086jsW+p9DGarOePggPS8au3OWh3KWpYj30zNv5OJGZOSjOmEclPkVhbWLD3zv9rNEpS2GtgqBCQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta10/Fieldbook57-55.delta" sparkle:deltaFrom="55" length="1462342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L3X0CxyplrUB6lRTwauZm5ytbBvG8Bv5Ig6iMpmJImOCEAm/CfvnsmDbD/OSogcSJ0HV4uiz8rmm0WnYKZk+Bg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta10/Fieldbook57-54.delta" sparkle:deltaFrom="54" length="1483630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="04aYuWH9dhzgHJnT5xfKbUcE8YrLLyL0wnf18rouS6vvNVPuQKaEKKdfWCLkHyiMEni04+PgY6IIqpoy2MS2Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Mon, 19 Oct 2026 16:13:28 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -57,32 +82,6 @@ New since beta 7: fixes for long calls with the live transcript, and for the Rec
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-54.delta" sparkle:deltaFrom="54" length="845510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z0xjeyEQkBzwVmFb4Ks06wBuiyMMqH2P8VAWWF91iC8QMQqUrkMjokOusdnegoeugaC80zlz7QybnY9ScG6NAw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-53.delta" sparkle:deltaFrom="53" length="1006518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mP7kwpMzae8tqQgGwtq82imSgDwLc4hlJZHn5hJlmiQugoHsyoyjMei2/DvU2MHYldIm7BsnbreqczRdsnkzDg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta8/Fieldbook55-52.delta" sparkle:deltaFrom="52" length="1084094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LU3rqg4bnCzXhHAtDeM8Rj1tkS7TTtfn7Zu5DBCyfoyPvMe1S5U2QCUD8MiA6TvtS51HlAtFEHGcrIw3PJOSBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Mon, 19 Oct 2026 02:50:44 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 7** (a beta)
-
-New since beta 6: AI costs counted by the week, with a warning at your weekly goal.
-
-### Added
-- **A warning about AI costs:** once what the AI cost this week reaches your weekly goal, a note at the top of the main window says so and suggests checking your costs in your AI provider's portal. **Open Portal** opens the page you add in **Settings › AI › Usage › Cost portal**; **Hide for This Week** hides it until the week starts over.
-
-### Changed
-- **AI costs by the week:** **Settings › AI › Usage** and **Update All** count this week, which starts over every Monday at 2:00 AM, instead of the last 7 days. The **Weekly goal** is $75 unless you change it ($0 for none).
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook-2.3-beta7.dmg" length="1526442275" type="application/octet-stream" sparkle:edSignature="J/AwFq//ZeNfpK5H9rAmfj3n5aA/TrfsvWhJxttwVXorbKI4GpjjvThaIEnWXrIiDIoN722ffZIFZ+iuwrpaBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-53.delta" sparkle:deltaFrom="53" length="965690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="su/kovaWzZKOJS71Rxt9nrwlMN+/grMw8lAgutcUGCcxMKqSmQpYB7sp/I8eXF6huxcAnLhe+YScyWUSEgzZAQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-52.delta" sparkle:deltaFrom="52" length="1055290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mciiN+8+24mDM7Gob1VauCEJCOqmDsLVbvItF9XbbhaqpemH49x6FU61bae0o4tRsaf57ztrI/AH+g8+/4EqCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta7/Fieldbook54-51.delta" sparkle:deltaFrom="51" length="1114002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vV9YFRQ8IEQ44sJym943rw2biavejoMgTXp3PNUW86PwKYRHePLTT85Qh37fl/TJP1+vT6y/M1vDA5QxDMwJDg=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -209,6 +208,6 @@ New since beta 6: AI costs counted by the week, with a warning at your weekly go
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 1Ft893knvMaUl9W0DvyIiWQ8zmD95CZlQCyHJfn/B35keX6I0Ww/NXXZYKoIrz/yL3z81oFHP/IzQ/NKZbywDQ==
-length: 34217
+edSignature: b0VZneZljnSmY7LHZXcnNDh4n2D9rF97JrXs0NhkJFQ6aoyi+PDBoUsm2KLhQxEPuvwBrPkT5O8ZhOCJ8tF9Ag==
+length: 34831
 -->

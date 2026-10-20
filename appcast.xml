@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3</title>
+            <pubDate>Mon, 19 Oct 2026 23:33:36 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 12** (a beta)
+
+New since beta 11: modules (Sales or General, and parts you can turn off), links and days open on issues, and opportunities and issues on meetings about customers.
+
+### Added
+- **Modules (Settings › Modules):** choose what you use Fieldbook for. **Sales** keeps customers with Internal, Training, and Partners, and the sales modules (Opportunities, Discovery, Get to Green, Issues, Chats, and Licensing), each of which you can turn off. **General** makes Fieldbook a meeting recorder and notetaker: one list of **Folders** (with folder icons), each with a **Folder Summary**, without Internal, Training, Partners, or any sales features, and the AI writes your notes, summaries, emails, and briefs without sales wording. **Live help** (the live transcript and Help Me Answer) and **Year in Review** can be turned off in either. Turning something off hides it and stops what it sends to the AI; nothing is deleted, and turning it back on brings everything back. If you're updating, you stay in Sales with everything on.
+- **Set Up Fieldbook asks what you'll use it for** (Sales or General) right after its welcome, and the steps after it follow your choice.
+- **Opportunity and Issues on meetings about customers:** an internal or partner meeting marked **About** a customer now has the **Opportunity** and **Issues** menus beside its Brief, with that customer's opportunities and issues (each customer in its own section when it's about several). It counts toward an opportunity only when you choose one; the opportunity's page counts it, and the account summary reasons from it for that opportunity or issue.
+- **A link on each issue:** open an issue to add the case's web address in Salesforce or your support system; **Open** beside it, or **Open Link** in the issue's **⋯** menu, opens it in your browser. The link stays on your Mac and isn't sent to the AI.
+- **When an issue was opened, and its days open:** open an issue to set the day the ticket was opened (the day you added it, unless you change it); each issue's line shows how long it's been open ("12 days open"), or, once closed, how long it was ("Closed after 14 days"). The account summary sees when each was opened and closed.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook-2.3-beta12.dmg" length="1527029538" type="application/octet-stream" sparkle:edSignature="rjOcLw+L1Lq5bkWZZTVMXhhFaz69+6N4aN33g1gUFVu2qxQa+xoWJ9GpoXRdd5NS7gN4aHehRr72a4/YRGPwCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook59-58.delta" sparkle:deltaFrom="58" length="1370974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jf3TQS3gFSP8kokTKceib1FovWo6/mJ5F8vCOyvhLqPpFaXYUcheKWRcaHjdGCs57BquVA0AVvK+yz1RnmcmAg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook59-57.delta" sparkle:deltaFrom="57" length="1613614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WWpHNh5PQ69OIqRzWlBN5TNhItB6W5z8NdGb7FglTM5RNYZKw4ebhXH80HUDRHHGMk8jLOe2Is6FVufH0GiDAA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook59-56.delta" sparkle:deltaFrom="56" length="1873538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wMYVMGel0ZUUgJ3p+0fG0AQzR1FLTGa3Tt0/dLFB9kdwf//TXZfaIF6N9ZfMNVOQIhvtsqfTLOi8otJS8ZlSCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3</title>
             <pubDate>Mon, 19 Oct 2026 21:34:00 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -63,35 +90,6 @@ New since beta 9: Get to Green, for customers using less than they bought.
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta10/Fieldbook57-56.delta" sparkle:deltaFrom="56" length="1386410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mTLXEaY++e086jsW+p9DGarOePggPS8au3OWh3KWpYj30zNv5OJGZOSjOmEclPkVhbWLD3zv9rNEpS2GtgqBCQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta10/Fieldbook57-55.delta" sparkle:deltaFrom="55" length="1462342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L3X0CxyplrUB6lRTwauZm5ytbBvG8Bv5Ig6iMpmJImOCEAm/CfvnsmDbD/OSogcSJ0HV4uiz8rmm0WnYKZk+Bg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta10/Fieldbook57-54.delta" sparkle:deltaFrom="54" length="1483630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="04aYuWH9dhzgHJnT5xfKbUcE8YrLLyL0wnf18rouS6vvNVPuQKaEKKdfWCLkHyiMEni04+PgY6IIqpoy2MS2Ag=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Mon, 19 Oct 2026 16:13:28 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 9** (a beta)
-
-New since beta 8: echo reduction that turns itself on and off, on the call's microphone.
-
-### Changed
-- **Echo reduction is automatic:** it turns on while a call plays through speakers, such as your Mac's or a display's, and off with headphones, AirPods, or a headset, and follows you if you switch during a call (your microphone pauses for about 2 seconds). Choose **Automatic**, **On**, or **Off** in the Recorder's microphone menu under **Echo Reduction**, or in **Settings › General › Microphone**; a change applies at once, even while recording. When it's on, a line under the microphone says why.
-- **Echo reduction records the call's microphone:** it used to record your Mac's default microphone, whatever your call app or you had picked, so a call on the MacBook's microphone could be recorded from a USB microphone across the desk. If macOS won't use echo reduction with that microphone, it's recorded without it.
-- **Transcripts leave out leftover echo:** bits of the call that your microphone picked up and echo reduction didn't fully remove used to show up as another speaker at your Mac. They're left out like other echo.
-
-### Fixed
-- **The Recorder's microphone list** no longer lists speakers or a display that only report a microphone input.
-- **Short pauses while the Mac is locked:** Update All no longer checks what's out of date while the screen is locked; it catches up within two minutes of unlocking.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook-2.3-beta9.dmg" length="1526479119" type="application/octet-stream" sparkle:edSignature="B1FE0mf8Y/bJmcTAiCKsB+JQQmobCLEBQhqelCT84JrfByyYB9RRqo5fgJWvE4oc+xi6fh1FCXJBDqOySvCrDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-55.delta" sparkle:deltaFrom="55" length="995434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="10T879h16ScuW/FzoW0TKqZ3XEkqJMA19KvDapqvUyoHwFK8hdkWiyzuCme5GWVWwiVDztEirXaEgMUpAQ2IBg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-54.delta" sparkle:deltaFrom="54" length="1024142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oa8dRR968YrN4Bu4mgN2V8LL9hHTkWnc48NmNlc66QEk4MkZ88+rcLnf9aA/vXTgdOrXf/kgPeeNCIQWn2B8Cg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta9/Fieldbook56-53.delta" sparkle:deltaFrom="53" length="1148054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t6JUkzKp0CkimPYWIa6N8QQrdq5pRgoZPuova9T4GMPTqSY17nxVEnmQSkXWln+MspuzPI7ml/7YJl2RfAkMBw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -218,6 +216,6 @@ New since beta 8: echo reduction that turns itself on and off, on the call's mic
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: B9hwvMzhbY5DJ+2lpdCIFKu+mXeasYi0eyTNiil2e3+P9+9kUiujC2R3CJgaX9wIFwB5Bcz1Iz58BxH7eh32Ag==
-length: 36637
+edSignature: GCE0F5VBNbr4zqArxcN0Uj1VM7pAnu71vocoKgn6a+6NGcU3swcAnLKV0oJHwu12IriG2biJ13ZO5uGKU2VqBQ==
+length: 37413
 -->

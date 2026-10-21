@@ -7,6 +7,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3.1</title>
+            <pubDate>Wed, 21 Oct 2026 13:59:17 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.1 beta 2** (a beta)
+
+### Added
+- **Today:** your day from Calendar in a column beside any page; click **Today** in the toolbar to show or hide it. Each event shows its calendar's color, what you recorded and for how long, what's on now with **Record** and **Join**, briefs that are ready, and **Overlaps** where two clash. Personal and family calendars show too, so you can spot clashes, but never count as meetings. **‹ ›** steps through days. The window widens to make room, or on a full screen the sidebar folds away. It's off until you turn it on in **Settings › Modules**; Fieldbook asks for Calendars access then.
+- **Add Notes…:** for a meeting on your calendar that's over and wasn't recorded, **Add Notes…** in **Today** makes a notes-only meeting for it at once, named, dated, and filed from the invite, and opens it on your notes. The row then shows **Notes**, and **Meeting Time** counts it once, with the invite's time.
+- **Meeting Time:** a page in the sidebar, above **My To-dos**: how many meetings you had and for how long, this week, each week, and the fiscal year so far, in customer, internal, and other meetings. Tiles for the year, a bar for each week (meetings or hours) with your weekly average, and each week's meetings when you open it. **By customer** lists each customer's meetings, hours, this week, and weekly average, with its last 12 weeks. **Check these** lists recordings over 3 hours and meetings without a length. It counts the meetings you recorded, imported, or typed notes for and, with **Today** on, the meetings on the calendars you count as meetings that you didn't record, each meeting once (an event longer than 12 hours, such as a kickoff set as one event across days, isn't counted). Archived meetings count; nothing is sent to the AI. **This week** at the bottom of **Today** opens it. Turn it off in **Settings › Modules**.
+- **Meeting time on each Account page:** under the customer's name, one line with this week's meetings, the fiscal year's meetings and hours, the weekly average, and the last 12 weeks. **Meeting Time ›** opens that customer on the **Meeting Time** page. In General mode it's on each folder's **Folder Summary**.
+- **Your next meetings in the menu bar:** with **Today** on, the menu-bar menu lists your next three meetings under **Next Meeting** (tomorrow's with the day), and while **Meeting Time** is on, this week's meetings and hours. Click one to open **Today** on its day.
+- **By the numbers in Year in Review:** under the title, the picked fiscal year's meetings, hours, and weekly average, counted as **Meeting Time** counts them. Counted on your Mac and never sent to the AI.
+- **Calendars (Settings › Meetings):** choose which calendars show in **Today** and which count as meetings (at first only your work calendar), and a date to count meetings from. It works with **Detect meetings** off.
+
+### Changed
+- **Settings › Meetings › Calendar:** **Use calendar** is now **Use calendar to name and file recordings**, and its note says what reaches the AI: a meeting named from an event keeps its title and invitees' names, which go with that meeting when you use AI, and a brief you prepare also sends the invite's agenda. Your calendar stays on this Mac and is never changed.
+- **Fiscal year starts in** (**Settings › General**) also sets the years in **Meeting Time**.
+- What macOS shows when Fieldbook asks for Calendars, and **Settings › Permissions › Calendars**, now mention showing your day and counting your meetings, and what goes to the AI with a meeting named from an event.
+- **Help › Save Diagnostic Report…** also says whether **Today** and **Meeting Time** are on, the Calendars access, how many calendars show and count, and when the calendar was last read: counts only, never a calendar's name or an event.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta2/Fieldbook-2.3.1-beta2.dmg" length="1528027361" type="application/octet-stream" sparkle:edSignature="qKiAp4bK6gM+ewGn+n3aJ9ckbLLgafcDHNlVOKd6BwsaBvYDnRSWkjgdMOXzDqP8OZTjPkBveTmYPJeD9sDOBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta2/Fieldbook62-61.delta" sparkle:deltaFrom="61" length="1920250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D+IV99WSTsCEjXU4ovGFkO2w63IXHVwnHbiIFWYfskzpX6RDbFdVwQvh7pV2yWS71aRgNoGDVJmqHQHUB/JWBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta2/Fieldbook62-60.delta" sparkle:deltaFrom="60" length="2345462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NGP/0H/orSvDXTjAHxnNx93odwuGTcEe6ZnME5VV6YxXmJ2BBmCRLL4UzTzwtuWUDMLISUsNUGuliw0Ba3oJDw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta2/Fieldbook62-59.delta" sparkle:deltaFrom="59" length="2402662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eP5G2h6r8NuvCtuHtcC43M+RjzPjF+oVh49PaUgq6i2YEtri2YesIn7Kp5aAtXiKvBH0iSeU2jfzqSvzMrvTCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3.1</title>
             <pubDate>Wed, 21 Oct 2026 07:25:48 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -195,6 +228,6 @@ New since beta 11: modules (Sales or General, and parts you can turn off), links
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: CaQfrc8JCypNRE6jh9OxNRbhLlC/vPj1lXNI44gi87i+2zN8zcItlQAKJvnPgKvFxOtcEuhI1VMJMncbQ8h6Bg==
-length: 39709
+edSignature: XJ0XHOz43W+pE5sy1UzojO1u6sQ0Of4CqxrakMii7RXz+XX28dSOc2YyX+DQLIEvTaTGE8ImiJ8Wzy++v24UAA==
+length: 45796
 -->

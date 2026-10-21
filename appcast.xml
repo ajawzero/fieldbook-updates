@@ -6,6 +6,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.3.1</title>
+            <pubDate>Wed, 21 Oct 2026 07:25:48 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.1 beta 1** (a beta)
+
+### Added
+- **Questions heard in a call:** while you record, the live draft spots the questions the other side asks, on this Mac with no AI. The newest shows on one line above **Help Me Answer**, with how many were heard; a **?** beside a **Them** line marks where one was asked. The **▾** menu on that line lists the last three, and choosing one answers it.
+- **Suggest a Question:** in the **▾** menu above **Help Me Answer**, a few questions you could ask next, for discovery calls. They show under **Questions to ask**.
+- **Check for Conflicts:** on a customer's **Account** page, after the executive summary, **Check for Conflicts** finds facts its meetings, notes, emails, files, and reports state differently, such as seats or a go-live date. Each is one line with its values and kind (**Disagree**, **Changed?**, or **Reports differ**); open it for each version with its date, source, and quote. **Which is right?** lets you use one value (and note it, dated, in your account notes, so later checks know; choosing differently or reopening it takes that line out again), mark both right or resolved, or dismiss it; settled ones wait greyed at the bottom. Checked only when you ask; **Update** sends only what's new. **Copy › Conflicts** copies the list. In General mode it's **Folder conflicts**; turn it off in **Settings › Modules**.
+- **Reports that differ:** when a customer's reports from about the same time give a different ARR, renewal, seats, or employees, it's listed under **Conflicts** without asking the AI, and the customer status figure shows a **⚠** (hover for the other value).
+- **Check for conflicts in Update All** (**Settings › AI**, off unless you turn it on): **Update All** also checks a customer's conflicts again when something's new.
+
+### Changed
+- **Help Me Answer and conflicts:** it's told which facts are still in dispute, so it gives both values or says you'll confirm instead of stating one as fact; for one you settled, it uses your answer.
+- **Help Me Answer answers their question:** the button and **Control-Option-H** now answer the newest question they asked, under **They asked**: a short answer to say first, in bold (yes or no first when your material supports it, otherwise that you'll confirm it), a few facts behind it, and **Check** lines for anything to confirm before you rely on it, instead of points to say next. It reads the last words they said before answering, and uses passages from the customer's earlier meetings and **Files** that match the question, found on this Mac; **From** links open the meeting at that point, the file, or the licensing source. With no question heard, it says so. Paused, the button waits until you resume the live draft.
+
+### Fixed
+- **A meeting's title in a narrow window:** with the live draft open, the title no longer breaks inside a word; when it doesn't fit on one line with the folder, **Move To**, and **About**, those go on the line under it.
+- **Help Me Answer with Apple's on-device model or a small local model:** in a busy call it no longer stops as too long; it sends less of the call, the account summary, and the passages, to fit the model.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook-2.3.1-beta1.dmg" length="1527402185" type="application/octet-stream" sparkle:edSignature="p3DkHsaZiLVKdcF6D+QDWYyyyWe4GDdvm/ttnRLZfgoLJdV8yc7X0QJkRrkPIMxS9yejfT591AvfQS33yqB8Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook61-60.delta" sparkle:deltaFrom="60" length="1566178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2E2pT1AGEsFUk1XY3d8+D1XU6SI2qtTTqYN0VAEXzZMPo3XgbalDuxZx312VilGOoO78ELrz8NaVhiuO/vaeCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook61-59.delta" sparkle:deltaFrom="59" length="1670822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QmbMjeCrBsTk8rYyjeycG09eKaagXd+rJV1S4ab35VpUekvc9xNuQsTyRMLrcPKQ8lFYoHjVjzt7Gb+GP8Y7Cw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook61-58.delta" sparkle:deltaFrom="58" length="1961014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+usZ42A5NB3w1c3YgT0RzmsDj39h0F54sx7zNqo7VVwXBZEwHikJO+OpRb+vj+emYLGKJuJDm1TX8qDZVvrxAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.3</title>
             <pubDate>Tue, 20 Oct 2026 16:30:50 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -162,6 +195,6 @@ New since beta 11: modules (Sales or General, and parts you can turn off), links
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 4CmBDTSksRcPPjn/ohUJqeliN1PoYnORZ8moM7qmiUiORPnrNk+oJ7Il+HcCStSai/FV896rryUV1O313I+rAg==
-length: 34274
+edSignature: CaQfrc8JCypNRE6jh9OxNRbhLlC/vPj1lXNI44gi87i+2zN8zcItlQAKJvnPgKvFxOtcEuhI1VMJMncbQ8h6Bg==
+length: 39709
 -->

@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.3.2</title>
+            <pubDate>Mon, 26 Oct 2026 16:32:03 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.2 beta 1** (a beta)
+
+### Added
+- **Zoom for Government:** **Join** in **Today** works with Zoom for Government links, the menu bar's next meetings show them as Zoom, and a Zoom for Government call in a browser is treated as a call, like a Zoom call.
+
+### Changed
+- **Updates:** Sparkle, which installs Fieldbook's updates, is now version 2.10.1 (bug fixes).
+- Calendars you tick are remembered without their names or accounts.
+- **AI:** AI answers may show ‹ › where your meetings, notes, or files had < or >: Fieldbook marks them so text in your material is never taken as an instruction.
+
+### Fixed
+- **Launch:** Fieldbook no longer waits at launch when macOS's screen recording check doesn't answer; it goes on after 10 seconds.
+- **Today:** Join opens only real meeting links. On Webex, that's a meeting, Personal Room, or webinar link, never the call-in list, a recording, or another page on the Webex site.
+- A calendar you unticked in **Settings › Meetings › Calendars** no longer comes back ticked after it syncs again.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook-2.3.2-beta1.dmg" length="1528031254" type="application/octet-stream" sparkle:edSignature="1PQVi5W8kigW8tYP4WK3zMwsgiOTESoslHECoxUwC2wjFzjilcbNfGXYu8WpsQ4gdscKuy2xBxx6k5D8N7N/Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook64-63.delta" sparkle:deltaFrom="63" length="1406854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6VonrSYziHz+L3r1kIOzM2+OG1og7FYbJZ2f6g4tA6+UnPmSMeSIcwSwlYbebejos8xyVnW6nGYlNe3wC0P+CQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook64-62.delta" sparkle:deltaFrom="62" length="1428090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3vhVl8bi/XLplW4Ka07EXlU/JkxmTZm3FBJBMiiGzkFNew6w7l2NuBqlxBT3bg/IO9mD0DEvHK4VPdN9eLSqDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook64-61.delta" sparkle:deltaFrom="61" length="2188146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FlIN8ybvulBjpTY1OI4x/qDSPCE4qmzKoa/R7nDO+9ovUzifDlpNYDLEcPoGjV8E991Film4+LUC943wE6FDBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.3.1</title>
             <pubDate>Mon, 26 Oct 2026 11:14:25 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -176,6 +207,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: MM3O5c+Ge+uSFQDgS7I5Q0hpVtgAsX6+m8D0Irgpz2nsNeFZdpxbfUmA+Gmk1uUd1qPoe7jJPBjqvh+md/NQBA==
-length: 39411
+edSignature: L45e3NLOIqdq2ophZt8tHZrVBVWR7zDz9AIibsES5DBp2H+dMXJR4akOHxDo4A/6sV9PX7ujK0KLLZbTUZwlCg==
+length: 42702
 -->

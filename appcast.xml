@@ -7,6 +7,50 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3.1</title>
+            <pubDate>Mon, 26 Oct 2026 11:14:25 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Your day and your meeting time from Calendar, Help Me Answer that answers the question they just asked, and Check for Conflicts for each customer.
+
+### Added
+- **New in Fieldbook 2.3.1:** shown once after updating, a short note over the main window with this update's two big things: **Today and Meeting Time**, with **Turn On Today…** and **Open Meeting Time**, and **Help Me Answer** answering their question, with **Check for Conflicts**. **Got It** closes it.
+- **Today:** your day from Calendar in a column beside any page; click **Today** in the toolbar to show or hide it. Each event shows its calendar's color, what you recorded and for how long, what's on now with **Record** and **Join**, briefs that are ready, and **Overlaps** where two clash. Personal and family calendars show too, so you can spot clashes, but never count as meetings. **‹ ›** steps through days. The window widens to make room, or on a full screen the sidebar folds away. It's off until you turn it on in **Settings › Modules**; Fieldbook asks for Calendars access then.
+- **Add Notes…:** for a meeting on your calendar that's over and wasn't recorded, **Add Notes…** in **Today** makes a notes-only meeting for it at once, named, dated, and filed from the invite, and opens it on your notes. The row then shows **Notes**, and **Meeting Time** counts it once, with the invite's time.
+- **Meeting Time:** a page in the sidebar, above **My To-dos**: how many meetings you had and for how long, this week, each week, and the fiscal year so far, in customer, internal, and other meetings. Tiles for the year, a bar for each week (meetings or hours) with your weekly average, and each week's meetings when you open it. **By customer** lists each customer's meetings, hours, this week, and weekly average, with its last 12 weeks. **Check these** lists recordings over 3 hours and meetings without a length. It counts the meetings you recorded, imported, or typed notes for and, with **Today** on, the meetings on the calendars you count as meetings that you didn't record, each meeting once (an event longer than 12 hours, such as a kickoff set as one event across days, isn't counted). Archived meetings count; nothing is sent to the AI. **This week** at the bottom of **Today** opens it. Turn it off in **Settings › Modules**.
+- **Meeting time on each Account page:** under the customer's name, one line with this week's meetings, the fiscal year's meetings and hours, the weekly average, and the last 12 weeks. **Meeting Time ›** opens that customer on the **Meeting Time** page. In General mode it's on each folder's **Folder Summary**.
+- **Your next meetings in the menu bar:** with **Today** on, the menu-bar menu lists your next three meetings under **Next Meeting** (tomorrow's with the day), and while **Meeting Time** is on, this week's meetings and hours. Click one to open **Today** on its day.
+- **By the numbers in Year in Review:** under the title, the picked fiscal year's meetings, hours, and weekly average, counted as **Meeting Time** counts them. Counted on your Mac and never sent to the AI.
+- **Calendars (Settings › Meetings):** choose which calendars show in **Today** and which count as meetings (at first only your work calendar), and a date to count meetings from. It works with **Detect meetings** off.
+- **Questions heard in a call:** while you record, the live draft spots the questions the other side asks, on this Mac with no AI. The newest shows on one line above **Help Me Answer**, with how many were heard; a **?** beside a **Them** line marks where one was asked. The **▾** menu on that line lists the last three, and choosing one answers it.
+- **Suggest a Question:** in the **▾** menu above **Help Me Answer**, a few questions you could ask next, for discovery calls. They show under **Questions to ask**.
+- **Check for Conflicts:** on a customer's **Account** page, after the executive summary, **Check for Conflicts** finds facts its meetings, notes, emails, files, and reports state differently, such as seats or a go-live date. Each is one line with its values and kind (**Disagree**, **Changed?**, or **Reports differ**); open it for each version with its date, source, and quote. **Which is right?** lets you use one value (and note it, dated, in your account notes, so later checks know; choosing differently or reopening it takes that line out again), mark both right or resolved, or dismiss it; settled ones wait greyed at the bottom. Checked only when you ask; **Update** sends only what's new. **Copy › Conflicts** copies the list. In General mode it's **Folder conflicts**; turn it off in **Settings › Modules**.
+- **Reports that differ:** when a customer's reports from about the same time give a different ARR, renewal, seats, or employees, it's listed under **Conflicts** without asking the AI, and the customer status figure shows a **⚠** (hover for the other value).
+- **Check for conflicts in Update All** (**Settings › AI**, off unless you turn it on): **Update All** also checks a customer's conflicts again when something's new.
+
+### Changed
+- **Settings › Meetings › Calendar:** **Use calendar** is now **Use calendar to name and file recordings**, and its note says what reaches the AI: a meeting named from an event keeps its title and invitees' names, which go with that meeting when you use AI, and a brief you prepare also sends the invite's agenda. Your calendar stays on this Mac and is never changed.
+- **Fiscal year starts in** (**Settings › General**) also sets the years in **Meeting Time**.
+- What macOS shows when Fieldbook asks for Calendars, and **Settings › Permissions › Calendars**, now mention showing your day and counting your meetings, and what goes to the AI with a meeting named from an event.
+- **Help › Save Diagnostic Report…** also says whether **Today** and **Meeting Time** are on, the Calendars access, how many calendars show and count, and when the calendar was last read: counts only, never a calendar's name or an event.
+- **Help Me Answer and conflicts:** it's told which facts are still in dispute, so it gives both values or says you'll confirm instead of stating one as fact; for one you settled, it uses your answer.
+- **Help Me Answer answers their question:** the button and **Control-Option-H** now answer the newest question they asked, under **They asked**: a short answer to say first, in bold (yes or no first when your material supports it, otherwise that you'll confirm it), a few facts behind it, and **Check** lines for anything to confirm before you rely on it, instead of points to say next. It reads the last words they said before answering, and uses passages from the customer's earlier meetings and **Files** that match the question, found on this Mac; **From** links open the meeting at that point, the file, or the licensing source. With no question heard, it says so. Paused, the button waits until you resume the live draft.
+
+### Fixed
+- **A meeting's title in a narrow window:** with the live draft open, the title no longer breaks inside a word; when it doesn't fit on one line with the folder, **Move To**, and **About**, those go on the line under it.
+- **Help Me Answer with Apple's on-device model or a small local model:** in a busy call it no longer stops as too long; it sends less of the call, the account summary, and the passages, to fit the model.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1/Fieldbook-2.3.1.dmg" length="1528019860" type="application/octet-stream" sparkle:edSignature="gt+Y/hnV0RWz4bCK5WgCQ7kjyiwUtLfjcRBQz7vjAfxOOc6rdq4JFOH0jZwet2B1qWt4/nXnxVZ80KHc6XGVCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1/Fieldbook63-62.delta" sparkle:deltaFrom="62" length="915086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="78NpEkHhITrohMTHSyHb2/Pjyv5WwTRFb4E2BtsX4YRtZyn2o212ZYt8KIuEFu8HZX4N5y9pQp1LzlRbnKwXAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1/Fieldbook63-61.delta" sparkle:deltaFrom="61" length="1939258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kiE2oxxnmXrWg7xgFUyr0XuCZlPK9lslF1ceEdWfKNSyToeMXOYQMmLNsnyLaRBf2t9ULa92qz878VWzyuvwBg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1/Fieldbook63-60.delta" sparkle:deltaFrom="60" length="2363190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4l+MKB9G9wKCYtEeavcvGUlcSYSubsHHPtAFoYNP5YFfCOBY2LL1GzvK0f2nJy+uS9DMHXTNeK2WLqWZ6SODDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3.1</title>
             <pubDate>Wed, 21 Oct 2026 13:59:17 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -36,39 +80,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta2/Fieldbook62-61.delta" sparkle:deltaFrom="61" length="1920250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D+IV99WSTsCEjXU4ovGFkO2w63IXHVwnHbiIFWYfskzpX6RDbFdVwQvh7pV2yWS71aRgNoGDVJmqHQHUB/JWBw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta2/Fieldbook62-60.delta" sparkle:deltaFrom="60" length="2345462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NGP/0H/orSvDXTjAHxnNx93odwuGTcEe6ZnME5VV6YxXmJ2BBmCRLL4UzTzwtuWUDMLISUsNUGuliw0Ba3oJDw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta2/Fieldbook62-59.delta" sparkle:deltaFrom="59" length="2402662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eP5G2h6r8NuvCtuHtcC43M+RjzPjF+oVh49PaUgq6i2YEtri2YesIn7Kp5aAtXiKvBH0iSeU2jfzqSvzMrvTCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3.1</title>
-            <pubDate>Wed, 21 Oct 2026 07:25:48 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>61</sparkle:version>
-            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.1 beta 1** (a beta)
-
-### Added
-- **Questions heard in a call:** while you record, the live draft spots the questions the other side asks, on this Mac with no AI. The newest shows on one line above **Help Me Answer**, with how many were heard; a **?** beside a **Them** line marks where one was asked. The **▾** menu on that line lists the last three, and choosing one answers it.
-- **Suggest a Question:** in the **▾** menu above **Help Me Answer**, a few questions you could ask next, for discovery calls. They show under **Questions to ask**.
-- **Check for Conflicts:** on a customer's **Account** page, after the executive summary, **Check for Conflicts** finds facts its meetings, notes, emails, files, and reports state differently, such as seats or a go-live date. Each is one line with its values and kind (**Disagree**, **Changed?**, or **Reports differ**); open it for each version with its date, source, and quote. **Which is right?** lets you use one value (and note it, dated, in your account notes, so later checks know; choosing differently or reopening it takes that line out again), mark both right or resolved, or dismiss it; settled ones wait greyed at the bottom. Checked only when you ask; **Update** sends only what's new. **Copy › Conflicts** copies the list. In General mode it's **Folder conflicts**; turn it off in **Settings › Modules**.
-- **Reports that differ:** when a customer's reports from about the same time give a different ARR, renewal, seats, or employees, it's listed under **Conflicts** without asking the AI, and the customer status figure shows a **⚠** (hover for the other value).
-- **Check for conflicts in Update All** (**Settings › AI**, off unless you turn it on): **Update All** also checks a customer's conflicts again when something's new.
-
-### Changed
-- **Help Me Answer and conflicts:** it's told which facts are still in dispute, so it gives both values or says you'll confirm instead of stating one as fact; for one you settled, it uses your answer.
-- **Help Me Answer answers their question:** the button and **Control-Option-H** now answer the newest question they asked, under **They asked**: a short answer to say first, in bold (yes or no first when your material supports it, otherwise that you'll confirm it), a few facts behind it, and **Check** lines for anything to confirm before you rely on it, instead of points to say next. It reads the last words they said before answering, and uses passages from the customer's earlier meetings and **Files** that match the question, found on this Mac; **From** links open the meeting at that point, the file, or the licensing source. With no question heard, it says so. Paused, the button waits until you resume the live draft.
-
-### Fixed
-- **A meeting's title in a narrow window:** with the live draft open, the title no longer breaks inside a word; when it doesn't fit on one line with the folder, **Move To**, and **About**, those go on the line under it.
-- **Help Me Answer with Apple's on-device model or a small local model:** in a busy call it no longer stops as too long; it sends less of the call, the account summary, and the passages, to fit the model.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook-2.3.1-beta1.dmg" length="1527402185" type="application/octet-stream" sparkle:edSignature="p3DkHsaZiLVKdcF6D+QDWYyyyWe4GDdvm/ttnRLZfgoLJdV8yc7X0QJkRrkPIMxS9yejfT591AvfQS33yqB8Dg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook61-60.delta" sparkle:deltaFrom="60" length="1566178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2E2pT1AGEsFUk1XY3d8+D1XU6SI2qtTTqYN0VAEXzZMPo3XgbalDuxZx312VilGOoO78ELrz8NaVhiuO/vaeCg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook61-59.delta" sparkle:deltaFrom="59" length="1670822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QmbMjeCrBsTk8rYyjeycG09eKaagXd+rJV1S4ab35VpUekvc9xNuQsTyRMLrcPKQ8lFYoHjVjzt7Gb+GP8Y7Cw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1-beta1/Fieldbook61-58.delta" sparkle:deltaFrom="58" length="1961014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+usZ42A5NB3w1c3YgT0RzmsDj39h0F54sx7zNqo7VVwXBZEwHikJO+OpRb+vj+emYLGKJuJDm1TX8qDZVvrxAg=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -140,33 +151,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             </sparkle:deltas>
         </item>
         <item>
-            <title>2.3</title>
-            <pubDate>Mon, 19 Oct 2026 23:33:36 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3 beta 12** (a beta)
-
-New since beta 11: modules (Sales or General, and parts you can turn off), links and days open on issues, and opportunities and issues on meetings about customers.
-
-### Added
-- **Modules (Settings › Modules):** choose what you use Fieldbook for. **Sales** keeps customers with Internal, Training, and Partners, and the sales modules (Opportunities, Discovery, Get to Green, Issues, Chats, and Licensing), each of which you can turn off. **General** makes Fieldbook a meeting recorder and notetaker: one list of **Folders** (with folder icons), each with a **Folder Summary**, without Internal, Training, Partners, or any sales features, and the AI writes your notes, summaries, emails, and briefs without sales wording. **Live help** (the live transcript and Help Me Answer) and **Year in Review** can be turned off in either. Turning something off hides it and stops what it sends to the AI; nothing is deleted, and turning it back on brings everything back. If you're updating, you stay in Sales with everything on.
-- **Set Up Fieldbook asks what you'll use it for** (Sales or General) right after its welcome, and the steps after it follow your choice.
-- **Opportunity and Issues on meetings about customers:** an internal or partner meeting marked **About** a customer now has the **Opportunity** and **Issues** menus beside its Brief, with that customer's opportunities and issues (each customer in its own section when it's about several). It counts toward an opportunity only when you choose one; the opportunity's page counts it, and the account summary reasons from it for that opportunity or issue.
-- **A link on each issue:** open an issue to add the case's web address in Salesforce or your support system; **Open** beside it, or **Open Link** in the issue's **⋯** menu, opens it in your browser. The link stays on your Mac and isn't sent to the AI.
-- **When an issue was opened, and its days open:** open an issue to set the day the ticket was opened (the day you added it, unless you change it); each issue's line shows how long it's been open ("12 days open"), or, once closed, how long it was ("Closed after 14 days"). The account summary sees when each was opened and closed.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook-2.3-beta12.dmg" length="1527029538" type="application/octet-stream" sparkle:edSignature="rjOcLw+L1Lq5bkWZZTVMXhhFaz69+6N4aN33g1gUFVu2qxQa+xoWJ9GpoXRdd5NS7gN4aHehRr72a4/YRGPwCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook59-58.delta" sparkle:deltaFrom="58" length="1370974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jf3TQS3gFSP8kokTKceib1FovWo6/mJ5F8vCOyvhLqPpFaXYUcheKWRcaHjdGCs57BquVA0AVvK+yz1RnmcmAg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook59-57.delta" sparkle:deltaFrom="57" length="1613614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WWpHNh5PQ69OIqRzWlBN5TNhItB6W5z8NdGb7FglTM5RNYZKw4ebhXH80HUDRHHGMk8jLOe2Is6FVufH0GiDAA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3-beta12/Fieldbook59-56.delta" sparkle:deltaFrom="56" length="1873538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wMYVMGel0ZUUgJ3p+0fG0AQzR1FLTGa3Tt0/dLFB9kdwf//TXZfaIF6N9ZfMNVOQIhvtsqfTLOi8otJS8ZlSCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>2.2.2</title>
             <pubDate>Fri, 16 Oct 2026 09:01:49 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -189,45 +173,9 @@ New since beta 11: modules (Sales or General, and parts you can turn off), links
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook44-41.delta" sparkle:deltaFrom="41" length="1234386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NVsyE1xMXDZr3FYZ7nJmAE4Q+lgs1NID2gP26Wod2tiWKxVNGIcLru8ZHRMsV5PI2hxRXLl66KJ3zRR3rM/lBQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>2.2.1</title>
-            <pubDate>Thu, 15 Oct 2026 17:03:46 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Transcription that keeps going while you record, a step-by-step setup, and AI notes that follow your role.
-
-### Added
-- **Set Up Fieldbook:** a step-by-step setup, one screen at a time: permissions, then the optional ones (Calendar, Reminders, Downloads, an email folder, Open at Login) with what each is for, AI notes, your name, role, and company, where meetings are saved (with a note on Google Drive or OneDrive for a cloud backup), and Release or Beta. It opens once after updating, filled in with your current settings; after that, from **Help › Set Up Fieldbook…** or **Settings › General**. It replaces the Welcome window on a new install.
-
-### Changed
-- **Transcription keeps going while you record:** earlier meetings are transcribed, one at a time, during your next call, so their notes are ready sooner. **Settings › Transcription › Pause transcription while recording** (off) brings back the old wait, for a Mac that struggles during calls.
-- **Faster transcription:** part of the speech model now runs on the Neural Engine, about 10% faster, with slightly fewer words missed. The first transcription after updating takes a few extra seconds to prepare it.
-- **The Brief and the Detailed Summary:** the Brief is three to five takeaways for your team (what was decided, where things stand, what's next), even for a long meeting; the Detailed Summary is a full account of what was discussed, in order, with the names, numbers, and dates, sized to the meeting (about one item per two minutes, at most 25).
-- **AI that follows Your role:** with **Settings › General › Opportunities › Your role** set to Account Executive, the AI notes, account summary, pre-call brief, and next steps focus on budget, pricing, procurement, timeline, and who decides; as a Sales Engineer, on the customer's environment and requirements, as before. A recommended stage is suggested only for a Zscaler SE.
-- **Next steps for Salesforce:** **Write** now starts with an update line in your format, the date, your initials, and what happened ("10-14-26 - AJ - Met with customer, …"), then the open steps. **Copy** copies both.
-- **MEDDPICC from what the customer says:** your own questions and guesses in a meeting no longer count as evidence.
-- **Microsoft, not Microsoft Security:** the company you sell for, in **Settings › AI › Company** and **Set Up Fieldbook**, offers **Zscaler** and **Microsoft**. If you chose Microsoft Security, it's now Microsoft, with your solutions list as you left it.
-- **Diagnostic reports show power and heat:** the activity log in **Help › Save Diagnostic Report…** says whether the Mac was on battery or the power adapter, the battery level, Low Power Mode, and how hot it was running, at the start and end of each recording, while transcription runs during one, and whenever these change. It also says how long the speech model took to get ready.
-
-### Fixed
-- **A microphone switch during a call** could, rarely, leave the Recorder showing the microphone as interrupted after it came back, and the saved meeting warning that its audio was missing until the end.
-- **A light line around the sidebar on macOS 26:** the sidebar now reaches the window's edges, as on macOS 15 and 27, so its outline no longer shows on the style's color.
-- **The sidebar's bottom rows:** with a long customer list, **Opportunities**, **Licensing**, and **My To-dos** drew over the last customers. They now sit below the list, which scrolls above them.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1/Fieldbook-2.2.1.dmg" length="1525433174" type="application/octet-stream" sparkle:edSignature="lF/rSAEQyALxiOFP3fEDJaOS0L+qjcDdP9IpIfgHtBbU2vUg2dfTsgMAatZ3r2MMJmoKt6IPmXbvmZKR5wfBAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1/Fieldbook41-40.delta" sparkle:deltaFrom="40" length="405250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z+J9Vs3u4cWTHk7ePeqYiHH9/LuS0jxra0ztoQ1E3Vf9CZYP5rkEo5WF7jWeGmyacQUhQAogGJzm1aSlAiK6Dg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1/Fieldbook41-39.delta" sparkle:deltaFrom="39" length="840966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="93BDSR2ZBQ4p6IhlE4FK6IIMOSoeLHdR94gujeQtRtXko7u5oRdD7Jbr6lAIdgvIFNB80yrRRd7umf4vHorhCQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1/Fieldbook41-38.delta" sparkle:deltaFrom="38" length="886318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qeoDfghO+NfrQDerRj0f0BkUN7POwZkCnya5fIzV7TK6a62RJDAh3Vsk9JbrfN85EP/yXodTWN9d6JK6ggLOAA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.1/Fieldbook41-37.delta" sparkle:deltaFrom="37" length="1020062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G0aW6aZlTn51rnqlthWSdiHduBLczvbkkXlnR1yJy5trC4qUnUPtZ5IhywTXS3Xo9rTsbGM0mZOQ9mUZuhK3CA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: XJ0XHOz43W+pE5sy1UzojO1u6sQ0Of4CqxrakMii7RXz+XX28dSOc2YyX+DQLIEvTaTGE8ImiJ8Wzy++v24UAA==
-length: 45796
+edSignature: MM3O5c+Ge+uSFQDgS7I5Q0hpVtgAsX6+m8D0Irgpz2nsNeFZdpxbfUmA+Gmk1uUd1qPoe7jJPBjqvh+md/NQBA==
+length: 39411
 -->

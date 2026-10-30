@@ -7,6 +7,53 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3.2</title>
+            <pubDate>Fri, 30 Oct 2026 07:51:00 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Emails tagged with the opportunity or issue they're about, **Live** in the toolbar, File Transfers on a Personal Hotspot, and Zoom for Government in **Today**.
+
+### Added
+- **Zoom for Government:** **Join** in **Today** works with Zoom for Government links, the menu bar's next meetings show them as Zoom, and a Zoom for Government call in a browser is treated as a call, like a Zoom call.
+- **Emails about an opportunity or issue:** **About** in an open email tags it with one of the customer's open opportunities or issues. Tagged emails show what they're about in the list, and each opportunity and issue lists its emails ("3 meetings and 2 emails count toward it"). The account summary treats them as the best evidence for that opportunity or issue, and offers an **Update** when you tag one.
+- **A line for its notes:** with AI set up, tagging an email drafts a dated line for the opportunity's or issue's notes ("10-15-26 - Email from Dana Ruiz - …"). It waits in the email, under the issue's notes, and above the opportunity's notes; **Add to Notes** adds it, and nothing changes until you do.
+- **New Issue from This Email…:** starts an issue with the ticket number, title, and opened date from the email, and your AI's line as its notes. The email is tagged with it.
+
+### Changed
+- **Inbox:** each email is filed in a folder's **Emails**, about **Background**, an opportunity, an issue, or **A new issue** (with its ticket and title from the subject). A subject with a known issue's ticket number suggests that issue. An email no customer matches waits unticked until you pick a folder. **New meeting** is no longer in the Inbox; **More…** and **Add Files** still make a meeting from an email.
+- **Live transcript:** **Live** is now in the toolbar and turns the live transcript and its pane on or off together, during a call too. Off, live transcribing stops and earlier meetings can transcribe; on again, it picks up from then, with the earlier lines kept. Settings › Transcription no longer has its own switch for it.
+- **Opportunities:** an opportunity's link is saved as you type or paste it, as an issue's is; there's no Save button.
+- **File Transfers:** the activity log notes each address a send tries and how far it gets, and the Mac's network and each connection while receiving, to find out why a send doesn't go through (**Help › Save Diagnostic Report…**). Never the key or file names.
+- **Send to Another Fieldbook:** a typed address or name is used only when it's on the local network, as File Transfers always meant; anything else says it isn't on the local network, and nothing is sent.
+- **Updates:** Sparkle, which installs Fieldbook's updates, is now version 2.10.1 (bug fixes).
+- Calendars you tick are remembered without their names or accounts.
+- **AI:** AI answers may show ‹ › where your meetings, notes, or files had < or >: Fieldbook marks them so text in your material is never taken as an instruction.
+
+### Fixed
+- **Launch:** Fieldbook no longer waits at launch when macOS's screen recording check doesn't answer; it goes on after 10 seconds.
+- **Today:** Join opens only real meeting links. On Webex, that's a meeting, Personal Room, or webinar link, never the call-in list, a recording, or another page on the Webex site.
+- A calendar you unticked in **Settings › Meetings › Calendars** no longer comes back ticked after it syncs again.
+- **Inbox:** **Undo** after filing emails to **Emails** now takes them back.
+- **Issues and Opportunities:** typing in an issue or an opportunity's notes no longer makes Fieldbook pause every few seconds on a large library or one in Google Drive. Update All now checks only the customer you changed, and not at all for a link, amount, or date, which the AI never reads.
+- **Inbox:** picking a folder or what an email is about no longer widens the Inbox past its edges when a customer's name or an opportunity's or issue's title is long; the menus keep their widths and cut long names short. An open email's **About** button does the same.
+- **File Transfers on a Personal Hotspot:** on a hotspot that gives only IPv6 addresses, the Mac's code now also carries the address devices there can use to reach it, which Fieldbook for iPhone build 19 tries. When the Mac has no address to type, it says to scan the code instead. The Mac no longer shows (or puts in its code) the 192.0.0.2 address every device on such a hotspot has.
+- **File Transfers:** while receiving, the Mac's address and code follow it to a new network.
+- **Send to Another Fieldbook:** Cancel, or a connection that drops, while the key is being checked no longer says "The key didn't match", and a Fieldbook that stops answering after connecting now says that. With Local Network turned off for Fieldbook, the list of nearby Fieldbooks says so instead of looking forever.
+- **File Transfers:** a send whose bytes have all gone, but that gets no answer, stops after 2 minutes instead of 12, and says everything was sent but not confirmed, so you check the other side before sending again.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2/Fieldbook-2.3.2.dmg" length="1528333811" type="application/octet-stream" sparkle:edSignature="LgfT0aIge0miKKn+ajrCE6csgesy+suhyBktPIjlgBB6vKqMgua4KSlpHEnNpfL/231kQ+0VhaR4BNUabHIwBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2/Fieldbook68-67.delta" sparkle:deltaFrom="67" length="1315206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OmDEIvh60KgmcwqneAp6G3GGc45gUfxtzeP/cJKYxLlviHY6H4DoViXhRjdIqAVMk56uSvF/Qe1lme+uqVSkDA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2/Fieldbook68-66.delta" sparkle:deltaFrom="66" length="1513406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4nR3nUP5uZuFBymmgHEz8R5Vq7zHvFw9gvYFjuJHANlhlduaOxnBaEExkOrxbYFmk4PczuMnkoiAO8cli5cEDQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2/Fieldbook68-65.delta" sparkle:deltaFrom="65" length="1511662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6VAtbaWybOoa5cFK2HyrwaukNoWFyUhzyfo6fcan6vRs8csQeEE9CrZa6COT4JWqL5/GMpe5kqogbjR024YtDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2/Fieldbook68-64.delta" sparkle:deltaFrom="64" length="1944394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gBOJoHVRyVnxgb1ELWsxg0n8QYPdauW4z0+xWBS8A4Yl0kduaFwHTttY6qY6wynWFJjU2mjZpZ1Kii3QqxCRCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2/Fieldbook68-63.delta" sparkle:deltaFrom="63" length="2206998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="McgFnevmN5K7aupJU0rqbdWk8z6FnCekLvCtzY+00X1uM2xqnEvO1dP283nJiqmwNujA81unN0l//cA2iizICg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3.2</title>
             <pubDate>Thu, 29 Oct 2026 21:37:35 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -31,59 +78,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-66.delta" sparkle:deltaFrom="66" length="1170242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SGyBrTvV5Y7HQ4gy9qw+YbwaLtPc4iSqLhzUi971cZjMGwDv8cjTVahBZ1F0BNtW6ztYxHptt4Iw09OyXzafBA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-65.delta" sparkle:deltaFrom="65" length="1186694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kWIqMb7y+Anj35xs0Ik2LQw5A6p0DYSYjU2yB0/oJgAKrfqyljwrWF4GFb6tdK6lUb9DvWhWESKTdvXWJsYCCw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-64.delta" sparkle:deltaFrom="64" length="1714770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JC4DnndXiZGM7ypVTZkOADBUc3SXoK5eP2TSBK8juMzdTyOd/U4iQDiPeoJII81yd5FRHgzdz+Mpcf4HROhkDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3.2</title>
-            <pubDate>Thu, 29 Oct 2026 17:37:09 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.2 beta 3** (a beta)
-
-### Fixed
-- **Inbox:** picking a folder or what an email is about no longer widens the Inbox past its edges when a customer's name or an opportunity's or issue's title is long; the menus keep their widths and cut long names short. An open email's **About** button does the same.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta3/Fieldbook-2.3.2-beta3.dmg" length="1528291327" type="application/octet-stream" sparkle:edSignature="14vwXVWYMN0dmeeUOpk1Z2jkt2nsjivKIvP+dMuNGG5JW1yfxY7AIAJxXhiX/UFrKkEkLPhTAHghgAgM12zgAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta3/Fieldbook66-65.delta" sparkle:deltaFrom="65" length="548454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lbAXSUxW+5ztmBbdurnctAgLId7Mm15xYlGK60OmV0cBkp98IJPhdYqbS9PAnKsZaG3QFhKZ9r/F5lmsC1leAQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta3/Fieldbook66-64.delta" sparkle:deltaFrom="64" length="1593618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9oP1nPqS+LWqW5cByqsBDmtIQl5fB5rMq+/hhENeFIA9yDi5A9uCFeU3th2pr0lDZc7yoz6endt3KBogfM2lDw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta3/Fieldbook66-63.delta" sparkle:deltaFrom="63" length="1902630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H/4XUTf1VbCEN/mI66Ndp7yiefx7OCdVEj0oQpcrHO1L6jxPav253hJzfTjmIwOHb94VhQnPw8IMnRMGeTmJAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3.2</title>
-            <pubDate>Thu, 29 Oct 2026 16:16:49 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.2 beta 2** (a beta)
-
-### Added
-- **Emails about an opportunity or issue:** **About** in an open email tags it with one of the customer's open opportunities or issues. Tagged emails show what they're about in the list, and each opportunity and issue lists its emails ("3 meetings and 2 emails count toward it"). The account summary treats them as the best evidence for that opportunity or issue, and offers an **Update** when you tag one.
-- **A line for its notes:** with AI set up, tagging an email drafts a dated line for the opportunity's or issue's notes ("10-15-26 - Email from Dana Ruiz - …"). It waits in the email, under the issue's notes, and above the opportunity's notes; **Add to Notes** adds it, and nothing changes until you do.
-- **New Issue from This Email…:** starts an issue with the ticket number, title, and opened date from the email, and your AI's line as its notes. The email is tagged with it.
-
-### Changed
-- **Inbox:** each email is filed in a folder's **Emails**, about **Background**, an opportunity, an issue, or **A new issue** (with its ticket and title from the subject). A subject with a known issue's ticket number suggests that issue. An email no customer matches waits unticked until you pick a folder. **New meeting** is no longer in the Inbox; **More…** and **Add Files** still make a meeting from an email.
-- **Opportunities:** an opportunity's link is saved as you type or paste it, as an issue's is; there's no Save button.
-- **Live transcript:** **Live** is now in the toolbar and turns the live transcript and its pane on or off together, during a call too. Off, live transcribing stops and earlier meetings can transcribe; on again, it picks up from then, with the earlier lines kept. Settings › Transcription no longer has its own switch for it.
-
-### Fixed
-- **Inbox:** **Undo** after filing emails to **Emails** now takes them back.
-- **Issues and Opportunities:** typing in an issue or an opportunity's notes no longer makes Fieldbook pause every few seconds on a large library or one in Google Drive. Update All now checks only the customer you changed, and not at all for a link, amount, or date, which the AI never reads.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta2/Fieldbook-2.3.2-beta2.dmg" length="1528290390" type="application/octet-stream" sparkle:edSignature="7IPrMEgOLPw942r6UX5rweHNAWIMIm5+KWavYTI9rp9cq2RqgulTBUFWrAYIPvZlFpCAW+KH/NO+ZdddYQzmCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta2/Fieldbook65-64.delta" sparkle:deltaFrom="64" length="1584098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LthEEK8JmGx88Yn5AXTnQNsWK/4KaaAUjnzDmjUVfV+A9J1FHmeq/YWi7YTWdVGBNGjshVU9H+IXZ8oMzE5YAg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta2/Fieldbook65-63.delta" sparkle:deltaFrom="63" length="1899642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TsLYmSnT+L5wCCpR8ycW8oR2IOtiXxzHbU5qM7F+Wy6rxK/3S5bjSDbgguZHz4YbfcDnItR5hwjsDAfs4/w7DA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta2/Fieldbook65-62.delta" sparkle:deltaFrom="62" length="1907090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2baJRGFWP9ZNraPfJF0nWvptlYedUCB1sxD28oHpXsoSYwDXxvzD9ZJtBO6mOXhsp96Vco2jBwcoQKJiVDUfBw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -198,32 +192,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook60-44.delta" sparkle:deltaFrom="44" length="2925594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4cpllmJ4at1HoNI7QnjGq5zUlZTVk6RuaSYUEEgGUyeSIPcILRkAed2djV2NAW7yN2GEPS3fHam52wMfTgBJAg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>2.2.2</title>
-            <pubDate>Fri, 16 Oct 2026 09:01:49 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Internal and partner meetings about the customers they cover, each customer getting only what was said about it.
-
-### Added
-- **Meetings about customers:** an internal or partner meeting, such as a pipeline review with your account executive, can be about one or more customers. Click **About** in the meeting's header, next to **Move To** (customers named in the meeting come first, also when they're called by their initials or a short name), or right-click meetings › **About Customer**. Each item of its notes then shows which customer it's about, or **Unclear**, with the words that tie it to that customer a click away; an item that names one of the customers goes to that one. Each customer's account summary, pre-call brief, and Ask AI get only what was said about it, as your team's view rather than the customer's. Right-click an item › **About** to correct it. A customer's meeting list shows these meetings under **Also about**. A meeting moved to **Internal** or **Partners** from a customer folder is marked once its notes are regenerated for its new folder.
-
-### Changed
-- **The File menu:** **Send Folders to iPhone…** comes first, with **Import Meetings…** and **Export All Meetings…** together below it.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook-2.2.2.dmg" length="1525571013" type="application/octet-stream" sparkle:edSignature="uZiPyYUHRXlTQfto3m4vaQ8xau6/4qi7MDq0PQbKY64Ev5gbs6H7nfeghXH0ZktPdHXG/ZlNlPqQMxFDMNb+Bw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook44-43.delta" sparkle:deltaFrom="43" length="426918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IJcUB08dTbEMV7x1a4edUjSUPrLJbj3nQ5+kc68ueXHsL8DOmPnbzR+3nag7xAkeU7s3p49+fPuaER9TYKZuBQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook44-42.delta" sparkle:deltaFrom="42" length="787882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f6Zmj75rHib2Thmdlt8xKAfvvybGtFMDQf77xwiYueTipLFxnnjCRjrbIWx/i36PsynS+8PTFpKeAmqqla60Ag=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.2.2/Fieldbook44-41.delta" sparkle:deltaFrom="41" length="1234386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NVsyE1xMXDZr3FYZ7nJmAE4Q+lgs1NID2gP26Wod2tiWKxVNGIcLru8ZHRMsV5PI2hxRXLl66KJ3zRR3rM/lBQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: adMmRGePldJ47I3fvneKsPt0VhRItUV1q2YwL+oFeDet8FV7WYriVseW/WCQkxUSFTLg3xG7mcCxOelYg3HpBA==
-length: 44094
+edSignature: C8OlpcAHL/Omgj1tEAC1teEP9FSiPHOtUEAAR9e+xVKjjlCB7fWXR2IeXLPWbaDma+wBqPpRI0XAMw17IOxYCw==
+length: 41755
 -->

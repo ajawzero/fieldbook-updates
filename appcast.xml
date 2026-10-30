@@ -7,6 +7,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.3.2</title>
+            <pubDate>Thu, 29 Oct 2026 21:37:35 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.2 beta 4** (a beta)
+
+### Changed
+- **File Transfers:** the activity log notes each address a send tries and how far it gets, and the Mac's network and each connection while receiving, to find out why a send doesn't go through (**Help › Save Diagnostic Report…**). Never the key or file names.
+- **Send to Another Fieldbook:** a typed address or name is used only when it's on the local network, as File Transfers always meant; anything else says it isn't on the local network, and nothing is sent.
+
+### Fixed
+- **File Transfers on a Personal Hotspot:** on a hotspot that gives only IPv6 addresses, the Mac's code now also carries the address devices there can use to reach it, which Fieldbook for iPhone build 19 tries. When the Mac has no address to type, it says to scan the code instead. The Mac no longer shows (or puts in its code) the 192.0.0.2 address every device on such a hotspot has.
+- **File Transfers:** while receiving, the Mac's address and code follow it to a new network.
+- **Send to Another Fieldbook:** Cancel, or a connection that drops, while the key is being checked no longer says "The key didn't match", and a Fieldbook that stops answering after connecting now says that. With Local Network turned off for Fieldbook, the list of nearby Fieldbooks says so instead of looking forever.
+- **File Transfers:** a send whose bytes have all gone, but that gets no answer, stops after 2 minutes instead of 12, and says everything was sent but not confirmed, so you check the other side before sending again.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook-2.3.2-beta4.dmg" length="1528330730" type="application/octet-stream" sparkle:edSignature="63lecfHjobBNIWt2cJKqhFNaUt50VqscPD0t/+7FoFYnHryqnLcfY9kLQNukotD5rOnPPJhSh+Ix/GK9vtTqCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-66.delta" sparkle:deltaFrom="66" length="1170242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SGyBrTvV5Y7HQ4gy9qw+YbwaLtPc4iSqLhzUi971cZjMGwDv8cjTVahBZ1F0BNtW6ztYxHptt4Iw09OyXzafBA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-65.delta" sparkle:deltaFrom="65" length="1186694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kWIqMb7y+Anj35xs0Ik2LQw5A6p0DYSYjU2yB0/oJgAKrfqyljwrWF4GFb6tdK6lUb9DvWhWESKTdvXWJsYCCw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-64.delta" sparkle:deltaFrom="64" length="1714770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JC4DnndXiZGM7ypVTZkOADBUc3SXoK5eP2TSBK8juMzdTyOd/U4iQDiPeoJII81yd5FRHgzdz+Mpcf4HROhkDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.3.2</title>
             <pubDate>Thu, 29 Oct 2026 17:37:09 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -56,37 +84,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta2/Fieldbook65-64.delta" sparkle:deltaFrom="64" length="1584098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LthEEK8JmGx88Yn5AXTnQNsWK/4KaaAUjnzDmjUVfV+A9J1FHmeq/YWi7YTWdVGBNGjshVU9H+IXZ8oMzE5YAg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta2/Fieldbook65-63.delta" sparkle:deltaFrom="63" length="1899642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TsLYmSnT+L5wCCpR8ycW8oR2IOtiXxzHbU5qM7F+Wy6rxK/3S5bjSDbgguZHz4YbfcDnItR5hwjsDAfs4/w7DA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta2/Fieldbook65-62.delta" sparkle:deltaFrom="62" length="1907090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2baJRGFWP9ZNraPfJF0nWvptlYedUCB1sxD28oHpXsoSYwDXxvzD9ZJtBO6mOXhsp96Vco2jBwcoQKJiVDUfBw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3.2</title>
-            <pubDate>Mon, 26 Oct 2026 16:32:03 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.2 beta 1** (a beta)
-
-### Added
-- **Zoom for Government:** **Join** in **Today** works with Zoom for Government links, the menu bar's next meetings show them as Zoom, and a Zoom for Government call in a browser is treated as a call, like a Zoom call.
-
-### Changed
-- **Updates:** Sparkle, which installs Fieldbook's updates, is now version 2.10.1 (bug fixes).
-- Calendars you tick are remembered without their names or accounts.
-- **AI:** AI answers may show ‹ › where your meetings, notes, or files had < or >: Fieldbook marks them so text in your material is never taken as an instruction.
-
-### Fixed
-- **Launch:** Fieldbook no longer waits at launch when macOS's screen recording check doesn't answer; it goes on after 10 seconds.
-- **Today:** Join opens only real meeting links. On Webex, that's a meeting, Personal Room, or webinar link, never the call-in list, a recording, or another page on the Webex site.
-- A calendar you unticked in **Settings › Meetings › Calendars** no longer comes back ticked after it syncs again.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook-2.3.2-beta1.dmg" length="1528031254" type="application/octet-stream" sparkle:edSignature="1PQVi5W8kigW8tYP4WK3zMwsgiOTESoslHECoxUwC2wjFzjilcbNfGXYu8WpsQ4gdscKuy2xBxx6k5D8N7N/Ag=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook64-63.delta" sparkle:deltaFrom="63" length="1406854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6VonrSYziHz+L3r1kIOzM2+OG1og7FYbJZ2f6g4tA6+UnPmSMeSIcwSwlYbebejos8xyVnW6nGYlNe3wC0P+CQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook64-62.delta" sparkle:deltaFrom="62" length="1428090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3vhVl8bi/XLplW4Ka07EXlU/JkxmTZm3FBJBMiiGzkFNew6w7l2NuBqlxBT3bg/IO9mD0DEvHK4VPdN9eLSqDg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta1/Fieldbook64-61.delta" sparkle:deltaFrom="61" length="2188146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FlIN8ybvulBjpTY1OI4x/qDSPCE4qmzKoa/R7nDO+9ovUzifDlpNYDLEcPoGjV8E991Film4+LUC943wE6FDBQ=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -227,6 +224,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 2SWLAl6yR/tI+WwtDMD/h5PFt+NSnn7vFJo6m/aMsSg3kNaDxW/t4UR3mmNLEP/p8tFSGVoIrwVcI5YjmksJDw==
-length: 43602
+edSignature: adMmRGePldJ47I3fvneKsPt0VhRItUV1q2YwL+oFeDet8FV7WYriVseW/WCQkxUSFTLg3xG7mcCxOelYg3HpBA==
+length: 44094
 -->

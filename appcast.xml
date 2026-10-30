@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.4</title>
+            <pubDate>Fri, 30 Oct 2026 08:17:20 -0500</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4 beta 1** (a beta)
+
+### Added
+- **Sync with your iPhone and iPad:** pair an iPhone or iPad once in **File Transfers › Your iPhone and iPad** (**Pair iPhone or iPad…**, scan its code on the device, then **Pair** when the 6 digits match). Whenever Fieldbook is open on both and they're nearby (the same Wi-Fi, a Personal Hotspot, or direct, like AirDrop), your meetings from the last 90 days go to them with their notes, transcripts, and attachments, never audio or voices, and their recordings come to this Mac by themselves to be transcribed.
+- **Your iPhone and iPad:** each paired device on one line, with when it last synced, how many meetings it has, the recordings that came in today, and **Unpair**. **⋯ › Show Address Code…** helps a paired device that can't find this Mac, such as an iPhone sharing its hotspot.
+- **Settings › General › Sync with iPhone and iPad** turns it off; nothing is unpaired.
+
+### Changed
+- **Local Network:** macOS's question now says Fieldbook also answers the iPhones and iPads you paired with it, while it's open.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook-2.4-beta1.dmg" length="1528879988" type="application/octet-stream" sparkle:edSignature="qiXs5kEUYdQMBdzS3yG7JDDIMWtaSW12yjOnn+gY7x9e1ZdkbuxL7hUuBYz2H2fpz5Fad45eDkOZoYklgI6uCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook69-68.delta" sparkle:deltaFrom="68" length="1879730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D/shpqgBto01ariuhlV3NVWptYc9fe7hnIMnnWVjc/1MspSq81HA2xTk/czLrreG+UPR+IEjPPCbfxrtLeG9BQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook69-67.delta" sparkle:deltaFrom="67" length="2115182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CXM/a+VNwt/q1YfFHNVnVPYt322xcx+r2vbjGYzOL+UlhQrLkLeMLi1lR6Tyuye4rIk290s4KKS082qvONZHAg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook69-66.delta" sparkle:deltaFrom="66" length="2171622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VJFBC1drxctIukYKShMRueYdnbR6geV6RfWmqWZbpWp16XLp6WRAwYObCoIaEzIA8VkVQUixu9Kd9krbOZreCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.3.2</title>
             <pubDate>Fri, 30 Oct 2026 07:51:00 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -195,6 +221,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: C8OlpcAHL/Omgj1tEAC1teEP9FSiPHOtUEAAR9e+xVKjjlCB7fWXR2IeXLPWbaDma+wBqPpRI0XAMw17IOxYCw==
-length: 41755
+edSignature: ceB8aUe0AWThfLTDQgxEOqto8xcelc9pkluE3Wd+Lx/ELLuQFw/u3x5ziWWbEQlAVuC0HXvSd2MTtlv3L4CdBQ==
+length: 45059
 -->

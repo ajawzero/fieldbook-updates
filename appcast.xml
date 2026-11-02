@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4</title>
+            <pubDate>Mon, 02 Nov 2026 13:23:47 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4 beta 2** (a beta)
+
+### Added
+- **Notes from your iPhone or iPad join the recording:** notes taken with **Take Notes** on an iPhone or iPad go into the recording of the same calendar meeting, made on this Mac or on another device, under a heading saying where they were typed, with their attachments and the customers the meeting is about. The recording keeps its transcript, nothing is transcribed again, and the separate notes go to the Trash, where you can put them back. Only what comes through a sync joins by itself, and notes with their own to-dos, reminders, or opportunity or issue tags stay separate.
+- **Your meetings of the next 7 days go to your iPhone and iPad** with each sync (titles, times, and the folder each would be filed in; never invitees or agendas), so a device without your work calendar can still name the meeting it records or takes notes in.
+
+### Fixed
+- **Account summaries with Claude:** with Anthropic as the AI service, writing or rewriting an account summary failed at once with "The compiled grammar is too large". It works again.
+- **Deleting a label or customer with archived meetings:** the message that refuses now says its meetings are in **Archive**, since they don't show in its list.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook-2.4-beta2.dmg" length="1528927291" type="application/octet-stream" sparkle:edSignature="31eUVefN3rEDLcIw0Fch4bg1rZ/VOk+SR+WcAjOkIRSXBP/aFsKzV0WS78ldaj9wOWgRtVPfp7BYby26t0HVDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-69.delta" sparkle:deltaFrom="69" length="1411230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+k0hMYfb4L0POvEjpC8mjNI2i2bVbC8g7pAhN7TAYNDP/Q9glvikbv+H16WNtLwAtu7EJollkG5/JuA7jGH5DA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-68.delta" sparkle:deltaFrom="68" length="2079950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YA5NeoVMgEYsVAGeoWJostXfq5AM1witUmZ/vCnmZJ0WQaIt1EC/JzAmI2WgLyKtLma5yMR4z1kMOf9T6Fu+Cg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-67.delta" sparkle:deltaFrom="67" length="2281554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pFM1RtcQhe+xPzOiie4V3j17r9vXDp4DotLeGzXLodR3tuS5/WkqlMo+0YPDqCy5/RANFy2+ZxMixxNTNVqJCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4</title>
             <pubDate>Fri, 30 Oct 2026 08:17:20 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -221,6 +247,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ceB8aUe0AWThfLTDQgxEOqto8xcelc9pkluE3Wd+Lx/ELLuQFw/u3x5ziWWbEQlAVuC0HXvSd2MTtlv3L4CdBQ==
-length: 45059
+edSignature: 3WSR7lDKscDs9q6iV5/Wpfy8DaOh3HZWb1oavXx8lMu766OLK794VLyYWLAHXOtrzdgK88SqXk1kasj8YeN0AA==
+length: 48526
 -->

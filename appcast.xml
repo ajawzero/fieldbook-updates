@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4</title>
+            <pubDate>Wed, 04 Nov 2026 17:35:25 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Sync with your iPhone and iPad, notes from a device joining the recording of the same meeting, and account summaries working again with Claude.
+
+### Added
+- **Sync with your iPhone and iPad:** pair an iPhone or iPad once in **File Transfers › Your iPhone and iPad** (**Pair iPhone or iPad…**, scan its code on the device, then **Pair** when the 6 digits match). Whenever Fieldbook is open on both and they're nearby (the same Wi-Fi, a Personal Hotspot, or direct, like AirDrop), your meetings from the last 90 days go to them with their notes, transcripts, and attachments, never audio or voices, and their recordings come to this Mac by themselves to be transcribed.
+- **Your iPhone and iPad:** each paired device on one line, with when it last synced, how many meetings it has, the recordings that came in today, and **Unpair**. **⋯ › Show Address Code…** helps a paired device that can't find this Mac, such as an iPhone sharing its hotspot.
+- **Settings › General › Sync with iPhone and iPad** turns it off; nothing is unpaired.
+- **Notes from your iPhone or iPad join the recording:** notes taken with **Take Notes** on an iPhone or iPad go into the recording of the same calendar meeting, made on this Mac or on another device, under a heading saying where they were typed, with their attachments and the customers the meeting is about. The recording keeps its transcript, nothing is transcribed again, and the separate notes go to the Trash, where you can put them back. Only what comes through a sync joins by itself, and notes with their own to-dos, reminders, or opportunity or issue tags stay separate.
+- **Your meetings of the next 7 days go to your iPhone and iPad** with each sync (titles, times, and the folder each would be filed in; never invitees or agendas), so a device without your work calendar can still name the meeting it records or takes notes in.
+- **New in Fieldbook 2.4:** shown once after updating, a short note over the main window with this update's two big things.
+
+### Changed
+- **Local Network:** macOS's question now says Fieldbook also answers the iPhones and iPads you paired with it, while it's open.
+
+### Fixed
+- **Account summaries with Claude:** with Anthropic as the AI service, writing or rewriting an account summary failed at once with "The compiled grammar is too large". It works again.
+- **Deleting a label or customer with archived meetings:** the message that refuses now says its meetings are in **Archive**, since they don't show in its list.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4/Fieldbook-2.4.dmg" length="1528926959" type="application/octet-stream" sparkle:edSignature="g4H5txDI0/Le4I+i1xKVPHqQut3p1GgGzBX/jh1SAsjqxPrM4MhHWFhyyB8wNZK+B7KMhrzMXsuY/H923ylMDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4/Fieldbook71-70.delta" sparkle:deltaFrom="70" length="900202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dfbqlY/YYWnFsm0FnGYtG9ZUgjswkA/M/sG/oKSnsCathKtL+0CtOD5V9gPZ8y1nso7nGVZjdpOceY3CENaPDw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4/Fieldbook71-69.delta" sparkle:deltaFrom="69" length="1418290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="99pnnJrmXc60/6NR1WFWGa70BwDQvOCgBZXjaZ9Y0RXXlRHKZFY+g/fuAxBjzVHYWfPRBLG+xqzKQF8FDpgaCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4/Fieldbook71-68.delta" sparkle:deltaFrom="68" length="2080378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l8VSUa+7nD1V0jv4IfJJXnW/VPHK3lrUUBgfo8qaTGfbTJO351yQw18CHDpsm4UZXXDFZV3Ahyo4m11UESkVDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4</title>
             <pubDate>Mon, 02 Nov 2026 13:23:47 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -29,32 +61,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-69.delta" sparkle:deltaFrom="69" length="1411230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+k0hMYfb4L0POvEjpC8mjNI2i2bVbC8g7pAhN7TAYNDP/Q9glvikbv+H16WNtLwAtu7EJollkG5/JuA7jGH5DA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-68.delta" sparkle:deltaFrom="68" length="2079950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YA5NeoVMgEYsVAGeoWJostXfq5AM1witUmZ/vCnmZJ0WQaIt1EC/JzAmI2WgLyKtLma5yMR4z1kMOf9T6Fu+Cg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-67.delta" sparkle:deltaFrom="67" length="2281554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pFM1RtcQhe+xPzOiie4V3j17r9vXDp4DotLeGzXLodR3tuS5/WkqlMo+0YPDqCy5/RANFy2+ZxMixxNTNVqJCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4</title>
-            <pubDate>Fri, 30 Oct 2026 08:17:20 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4 beta 1** (a beta)
-
-### Added
-- **Sync with your iPhone and iPad:** pair an iPhone or iPad once in **File Transfers › Your iPhone and iPad** (**Pair iPhone or iPad…**, scan its code on the device, then **Pair** when the 6 digits match). Whenever Fieldbook is open on both and they're nearby (the same Wi-Fi, a Personal Hotspot, or direct, like AirDrop), your meetings from the last 90 days go to them with their notes, transcripts, and attachments, never audio or voices, and their recordings come to this Mac by themselves to be transcribed.
-- **Your iPhone and iPad:** each paired device on one line, with when it last synced, how many meetings it has, the recordings that came in today, and **Unpair**. **⋯ › Show Address Code…** helps a paired device that can't find this Mac, such as an iPhone sharing its hotspot.
-- **Settings › General › Sync with iPhone and iPad** turns it off; nothing is unpaired.
-
-### Changed
-- **Local Network:** macOS's question now says Fieldbook also answers the iPhones and iPads you paired with it, while it's open.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook-2.4-beta1.dmg" length="1528879988" type="application/octet-stream" sparkle:edSignature="qiXs5kEUYdQMBdzS3yG7JDDIMWtaSW12yjOnn+gY7x9e1ZdkbuxL7hUuBYz2H2fpz5Fad45eDkOZoYklgI6uCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook69-68.delta" sparkle:deltaFrom="68" length="1879730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D/shpqgBto01ariuhlV3NVWptYc9fe7hnIMnnWVjc/1MspSq81HA2xTk/czLrreG+UPR+IEjPPCbfxrtLeG9BQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook69-67.delta" sparkle:deltaFrom="67" length="2115182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CXM/a+VNwt/q1YfFHNVnVPYt322xcx+r2vbjGYzOL+UlhQrLkLeMLi1lR6Tyuye4rIk290s4KKS082qvONZHAg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta1/Fieldbook69-66.delta" sparkle:deltaFrom="66" length="2171622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VJFBC1drxctIukYKShMRueYdnbR6geV6RfWmqWZbpWp16XLp6WRAwYObCoIaEzIA8VkVQUixu9Kd9krbOZreCw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -105,34 +111,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             </sparkle:deltas>
         </item>
         <item>
-            <title>2.3.2</title>
-            <pubDate>Thu, 29 Oct 2026 21:37:35 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.3.2 beta 4** (a beta)
-
-### Changed
-- **File Transfers:** the activity log notes each address a send tries and how far it gets, and the Mac's network and each connection while receiving, to find out why a send doesn't go through (**Help › Save Diagnostic Report…**). Never the key or file names.
-- **Send to Another Fieldbook:** a typed address or name is used only when it's on the local network, as File Transfers always meant; anything else says it isn't on the local network, and nothing is sent.
-
-### Fixed
-- **File Transfers on a Personal Hotspot:** on a hotspot that gives only IPv6 addresses, the Mac's code now also carries the address devices there can use to reach it, which Fieldbook for iPhone build 19 tries. When the Mac has no address to type, it says to scan the code instead. The Mac no longer shows (or puts in its code) the 192.0.0.2 address every device on such a hotspot has.
-- **File Transfers:** while receiving, the Mac's address and code follow it to a new network.
-- **Send to Another Fieldbook:** Cancel, or a connection that drops, while the key is being checked no longer says "The key didn't match", and a Fieldbook that stops answering after connecting now says that. With Local Network turned off for Fieldbook, the list of nearby Fieldbooks says so instead of looking forever.
-- **File Transfers:** a send whose bytes have all gone, but that gets no answer, stops after 2 minutes instead of 12, and says everything was sent but not confirmed, so you check the other side before sending again.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook-2.3.2-beta4.dmg" length="1528330730" type="application/octet-stream" sparkle:edSignature="63lecfHjobBNIWt2cJKqhFNaUt50VqscPD0t/+7FoFYnHryqnLcfY9kLQNukotD5rOnPPJhSh+Ix/GK9vtTqCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-66.delta" sparkle:deltaFrom="66" length="1170242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SGyBrTvV5Y7HQ4gy9qw+YbwaLtPc4iSqLhzUi971cZjMGwDv8cjTVahBZ1F0BNtW6ztYxHptt4Iw09OyXzafBA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-65.delta" sparkle:deltaFrom="65" length="1186694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kWIqMb7y+Anj35xs0Ik2LQw5A6p0DYSYjU2yB0/oJgAKrfqyljwrWF4GFb6tdK6lUb9DvWhWESKTdvXWJsYCCw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.2-beta4/Fieldbook67-64.delta" sparkle:deltaFrom="64" length="1714770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JC4DnndXiZGM7ypVTZkOADBUc3SXoK5eP2TSBK8juMzdTyOd/U4iQDiPeoJII81yd5FRHgzdz+Mpcf4HROhkDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>2.3.1</title>
             <pubDate>Mon, 26 Oct 2026 11:14:25 -0500</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -176,77 +154,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3.1/Fieldbook63-60.delta" sparkle:deltaFrom="60" length="2363190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4l+MKB9G9wKCYtEeavcvGUlcSYSubsHHPtAFoYNP5YFfCOBY2LL1GzvK0f2nJy+uS9DMHXTNeK2WLqWZ6SODDw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>2.3</title>
-            <pubDate>Tue, 20 Oct 2026 16:30:50 -0500</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Choose what you use Fieldbook for, help during calls, Get to Green and Issues for each customer, Chats, File Transfers, Year in Review, and lower AI costs.
-
-### Added
-- **Welcome to Fieldbook 2.3:** shown once after updating: **Use Fieldbook for** Sales or General, a card for each big new part with its switch (everything starts on; the same as **Settings › Modules**), switches for Opportunities, Discovery, and Licensing too, and what else is new, each with where to find it. The AI card's **Settings › AI › Models** and **Settings › AI › Usage** open those settings.
-- **Modules (Settings › Modules):** choose what you use Fieldbook for. **Sales** keeps customers with Internal, Training, and Partners, and the sales modules (Opportunities, Discovery, Get to Green, Issues, Chats, and Licensing), each of which you can turn off. **General** makes Fieldbook a meeting recorder and notetaker: one list of **Folders** (with folder icons), each with a **Folder Summary**, without Internal, Training, Partners, or any sales features, and the AI writes your notes, summaries, emails, and briefs without sales wording. **Live help** (the live transcript and Help Me Answer) and **Year in Review** can be turned off in either. Turning something off hides it and stops what it sends to the AI; nothing is deleted, and turning it back on brings everything back. If you're updating, you stay in Sales with everything on.
-- **Set Up Fieldbook asks what you'll use it for** (Sales or General) right after its welcome, and the steps after it follow your choice.
-- **Live transcript while recording:** a draft of what's said, as it's said, in a **Live draft** column beside your notes: **You** and **Them**, a few seconds behind, the newest words in grey until they settle. It's made on this Mac with the same speech model, and nothing leaves the Mac. **Pause** stops it for a while; **Live** in the recording bar shows or hides it. After the call it stays until the full transcript, with each person's name, replaces it. Turn it off, or have it pause on battery, in **Settings › Transcription › Live transcript**. While it's on, earlier meetings wait to transcribe until the recording ends.
-- **Help Me Answer:** in a call, click **Help Me Answer** under the live draft, or press **Control-Option-H** from any app, for 3 to 5 points to say next about what was just asked, from the last couple of minutes of the call, the account's summary, your company's solutions, and, when the call is about licensing, the best passages of your licensing library (click one to open it). Only when you ask. The points show as they're written, the first in about a second with a cloud model. It uses the **Quick tasks** model (Settings › AI › Models) for speed. Change the shortcut in **Settings › General › Shortcuts**.
-- **A model for quick tasks:** **Settings › AI › Models › Quick tasks** lets a cheaper model, such as Claude Haiku or Sonnet, do the matching and extracting (Discovery answers, Account Discovery, MEDDPICC's evidence from each meeting, which customers a meeting is about, the licensing match) while your summary model writes notes, summaries, briefs, and emails. It starts as **Same as summary model**.
-- **AI costs by the week:** **Settings › AI › Usage** shows what the AI cost this week, which starts over every Monday at 2:00 AM, against a **Weekly goal** ($75 unless you change it, $0 for none). **Update All** shows about what the items you chose should cost, and says when they'd go past your goal.
-- **A warning about AI costs:** once what the AI cost this week reaches your weekly goal, a note at the top of the main window says so and suggests checking your costs in your AI provider's portal. **Open Portal** opens the page you add in **Settings › AI › Usage › Cost portal**; **Hide for This Week** hides it until the week starts over.
-- **Executive summary:** a customer's account summary now opens with what your manager wants to know. **Needs attention** lists up to three pressing issues, such as escalations, support issues, blockers, and deadlines. **Opportunities** shows each open opportunity with its quarter, stage, and amount as you keep them, and the latest on it with its next step. **Issues** lists each open ticket with its severity, type, and status, and the latest on it. Today's sections follow under **Detailed summary**. It's written in the same request as the rest, at no extra AI cost, and **Update** keeps it current. **Copy** offers **Executive Summary** for an email or Slack message, or **Everything**. A summary written before this gets one when you **Rewrite** it, or with its next **Update**.
-- **All-Customer Reports:** at the top of **Customers** in the sidebar, drop a report that covers every customer, such as a CRO accounts PDF. Its page shows which of your customers it covers. A report about one customer, such as its Customer 360, goes in that customer's **Files**.
-- **Customer status:** on a customer's **Account** page, between the executive summary and the detailed summary, **Read Reports** fills in ARR, the next renewal, seats, employees, each product's deployment against your target (90% unless you change it), and the SKUs owned, from its reports, with thousands separators ($1,420,000). Each figure is checked against the report row it comes from; hover over one to see the row. Of copies of one report, the newest by the report's own date is read: one its text states ("As of October 19, 2026"), else one in its name ("…_202610"), else when the file was saved. **Update All** reads it again when a newer report arrives, and the account summary reads it too.
-- **Customer status history:** each time a customer's status is read, its figures are kept with the report's date, so the status shows what changed since the snapshot before ("up from 0%, Sep 2026" under a product's deployment, "was $810,000" under ARR), and **History** lists every snapshot. Get to Green's suggestions and updates, and the account summary, see the change too. When a newer copy of a report is added, **Move Older Copies to Trash…** clears out the older ones; the history keeps what was read from them.
-- **Get to Green:** a page under each customer, after **Discovery**, with the plan to raise its usage: one line per item with its status, opening to dated status updates and each side's next step. Type items, import your account team's Get to Green spreadsheet (or drop it on the page), or let the AI suggest items from the deployment gaps, meetings, and your notes, and add dated status lines from new meetings. **Copy** it, or **Export Spreadsheet…** for Excel.
-- **Issues:** a page under each customer, after **Get to Green**, for the support tickets and incidents you're tracking: the ticket number, title, notes, a link to the case, case type (Problem or Question), severity (P1 - Critical to P4 - Low), status (Open, Awaiting fix, Closed), and the day it was opened, with how long it's been open ("12 days open", or "Closed after 14 days"). Open ones come first, most severe first; closed ones fold away at the bottom. **Open** beside a link opens it in your browser; the link isn't sent to the AI.
-- **Tagging meetings with issues:** an **Issues** menu next to a meeting's **Opportunity** menu (beside its Brief) ties it to one or more of the customer's issues, or adds a new one. Each issue lists its meetings, and the account summary reasons from the meetings about each opportunity and issue first.
-- **Opportunity and Issues on meetings about customers:** an internal or partner meeting marked **About** a customer has the **Opportunity** and **Issues** menus beside its Brief, with that customer's opportunities and issues (each customer in its own section when it's about several).
-- **Chats:** keep Slack chats with a customer. Copy messages in Slack, press **Control-Option-V** from any app (or **Paste Chat** on a customer's new **Chats** page, or **File › Paste Chat…**), check who and when, and add them. The customer is suggested from a #channel or the people in it; pasting more of the same chat adds only the new messages; reactions, "(edited)", and join notices are left out; a recap with no messages is kept as a summary. Tag a chat with an opportunity to feed its MEDDPICC and next steps, and type the support issue it's about. The account summary (Update sends only new messages), Ask AI, Discovery (only new pastes are read), and pre-call briefs (New since last time) read chats too. Change the shortcut in **Settings › General › Shortcuts**.
-- **File Transfers:** send meetings, a customer, the licensing library, and files to another Fieldbook on the same network, Mac or Windows, for when AirDrop isn't there. **File Transfers** in the sidebar: **Receive…** shows this Mac's address, a one-time key, and a code for 10 minutes; the sender picks it from a list of nearby Fieldbooks (or types the address) and types the key. Right-click meetings › **Send to Another Fieldbook…** (with or without audio), a customer in the sidebar, a file in **Files** or **Emails**, or a licensing source, or **Send…** for files. Meetings come in by themselves into their folders; a customer is merged with nothing lost (if account notes differ, choose **Keep Both**, **Use Theirs**, or **Keep Yours**); a single file waits for **Add to Fieldbook…** or **Save to Downloads**. Encrypted, checked file by file, and nothing goes through the internet; nothing pops up when something arrives. On an iPhone or iPad, **Send to Computer › Scan the Code** sends recordings with no typing.
-- **Year in Review:** your fiscal year in 3 to 5 bullets for a résumé or a review, each the action, the project or customer, and the result, with customers named, people never, and amounts rounded. **File › Year in Review…**, or **Year in Review…** on the Opportunities page. Fieldbook reads the year's meetings once (their AI notes, not transcripts) into what you did: wins, projects, and team work, each with its meeting. Untick what shouldn't count, edit the bullets like notes, or **Ask** to change them, including how many ("8 bullets", "add 2 more"); each answer is a new draft you can go back to. **Add New Bullets** adds bullets for what's new since, after yours, which stay word for word. Later, **Read New** reads only meetings added or changed since. Archived meetings are left out. Only what happened in the year counts, and dates and amounts come only from the line of the notes each item rests on.
-- **Field takeaways from training:** a training's notes list what you can bring to customers: what's **New**, **Competitive** points against named competitors, and **Licensing** changes, each with the words behind it, and **Relevant to** the customers whose meetings or account notes mention it. Files you add to **Training** give takeaways too, in its files summary. They come with the notes and summaries already written, with no extra AI requests. **Update All** adds them to the trainings of the last 90 days from the notes already written, with your **Quick tasks** model, for about a cent each.
-
-### Changed
-- **Echo reduction is automatic:** it turns on while a call plays through speakers, such as your Mac's or a display's, and off with headphones, AirPods, or a headset, and follows you if you switch during a call (your microphone pauses for about 2 seconds). Choose **Automatic**, **On**, or **Off** in the Recorder's microphone menu under **Echo Reduction**, or in **Settings › General › Microphone**; a change applies at once, even while recording. When it's on, a line under the microphone says why.
-- **Echo reduction records the call's microphone:** it used to record your Mac's default microphone, whatever your call app or you had picked, so a call on the MacBook's microphone could be recorded from a USB microphone across the desk. If macOS won't use echo reduction with that microphone, it's recorded without it.
-- **Transcripts leave out leftover echo:** bits of the call that your microphone picked up and echo reduction didn't fully remove used to show up as another speaker at your Mac. They're left out like other echo.
-- **Pre-call briefs are shorter and current:** a few lines per section, the newest first, leaving out what's settled. **New since last time** brings in what's new from trainings since your last meeting with the customer that fits it, such as a new feature or a point against their current vendor. **Since last time** is now **Last meeting**.
-- **Lower AI costs:** notes, summaries, and briefs cite shorter quotes, at most three per statement, and **Update All** refreshes each opportunity's MEDDPICC once per run instead of once per meeting.
-- **Updates no longer prepare the speech model again:** Fieldbook keeps its own copy of the model in its Application Support folder, so after an update the first transcription starts right away instead of taking about 15 seconds longer and writing about 1.5 GB to disk. The copy takes about 1.6 GB once an update has replaced the app's own.
-- **Fieldbook Help is easier to read:** each section in the sidebar has an icon and a line above it, and every topic was rewritten short and to the point: a plain line and a few bullets, with the rest under **Details** (search and Ask AI in Help still find it, and a search opens it).
-- **File › Send Folders to iPhone or iPad…** (was Send Folders to iPhone…): Fieldbook for iPhone runs on the iPad too.
-- **Update All's count no longer stalls the window:** its checks of each customer's files and attachments are reused while nothing has changed, instead of read again every two minutes (on a library in Google Drive they could take seconds).
-
-### Fixed
-- **Captions saved as .txt:** a WebVTT or SubRip transcript named `.txt` or `.md` is read as captions, with its times, instead of keeping "WEBVTT" and the cue times as words.
-- **Notes for long imported transcripts:** a transcript without speakers is read in parts like any long meeting, so a reply that's cut off is asked again in smaller parts instead of failing.
-- **Update All waits for your network:** when your AI endpoint can't be reached, such as just after unlocking while the VPN reconnects, the run pauses and goes on when it's back, instead of every remaining item failing.
-- **Short pauses while the Mac is locked:** Update All no longer checks what's out of date while the screen is locked; it catches up within two minutes of unlocking.
-- **An update installs even with a sheet open:** an open sheet, such as **Update All**'s list when nothing was running, kept **Install and Relaunch** from installing an update. Fieldbook now closes it first.
-- **A link in your notes can be removed:** right-click a web or email address › **Remove Link** keeps it as plain text (**Make Link** turns it back). Before, it became a link again at once.
-- **The Recorder's microphone list** no longer lists speakers or a display that only report a microphone input.
-- **The Recorder's notes:** notes in the sidebar's Recorder, such as the clipping warning and the mute reminder, were cut off after one line. They show in full.
-- **Narrow pages:** dragging the meeting list wider no longer pushes the page beside it under the list. Every page now fits however narrow its column gets: the buttons beside a section's heading, Discovery's filter and buttons, an opportunity's details, and the notes formatting bar move onto another line instead, and long names in menus are cut short.
-- **Import of many meetings:** the message after an import names at most five meetings in each list, then how many more, so its OK button stays on screen. An import of thousands of notes made it taller than the screen.
-- **Messages that wait for OK:** while the message after an import, a diagnostic report that couldn't be saved, or an email attachment that couldn't open was showing, the rest of Fieldbook waited for it to be closed, and the diagnostic log recorded the wait as a hang. Fieldbook now keeps working behind them.
-- **Imports are checked more closely:** a ZIP file (meetings, a licensing library, or a customer sent from another Fieldbook) is checked for links and paths outside itself before it's opened, and a licensing source from a shared library is marked as downloaded, so macOS checks it the first time it opens.
-- **Licensing links to very large pages:** adding or refreshing a link stops downloading a page as soon as it passes the 8 MB limit (or at once when the site says it's larger), instead of downloading it all first; the same for an oversized robots.txt.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook-2.3.dmg" length="1527122238" type="application/octet-stream" sparkle:edSignature="6SWA07xqZl0/vlBnVYBOjg8Z2Ff5Jym+k2sn/a5W4tHvNqEOMT/qNvY6MqV6FSFbpnI4Kk4JSUHhg2650m3iDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook60-59.delta" sparkle:deltaFrom="59" length="1068742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mcd3ZS7X55cQ5AVzzHbTHbTh73bXm+DsehHUZcXVwLd6MC2D/+57CQRl+RrsJyyOUq21Wef3Pf8fjC7Jy8GyDw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook60-58.delta" sparkle:deltaFrom="58" length="1482586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8wjJnMPZNlfb1Z4zmYWxmMgFhuwY4hjr3O83qxCBgtcZ0VF3TX8h6xL5O1yig6ToSNiy42DOvJGz491RAG9jAw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook60-57.delta" sparkle:deltaFrom="57" length="1702314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Zx1tHbUgLD3Gga7dMKHevOLZGcynhqyyrGc3+AlBhsavkRxdXf2C3gAQsTrpYNlCL92pL/+tZR9Vv7H5f/quAQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook60-56.delta" sparkle:deltaFrom="56" length="1949238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mANLHtRFu1nobFAL0x+sSV2VY/V/Pz8cFV4sH07Mx196BnsUXbcFTqLtuWyW796mzqkM+RfysiJNiBSfoymmCw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook60-55.delta" sparkle:deltaFrom="55" length="2008646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ESTycrGDF4dpoUiQ4+VKrX0/efJtONNoYnYHa4mh108B04mJKdAmU1103AhbkNdbhkv2sxQo/D625NqRDazDBg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.3/Fieldbook60-44.delta" sparkle:deltaFrom="44" length="2925594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4cpllmJ4at1HoNI7QnjGq5zUlZTVk6RuaSYUEEgGUyeSIPcILRkAed2djV2NAW7yN2GEPS3fHam52wMfTgBJAg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3WSR7lDKscDs9q6iV5/Wpfy8DaOh3HZWb1oavXx8lMu766OLK794VLyYWLAHXOtrzdgK88SqXk1kasj8YeN0AA==
-length: 48526
+edSignature: n8JJZmM1TShpFhjAOQxtttzWNqlLFS7Sm0knX+E00FkI/60gaINIXQ9fkDPy1NotV7AMdGC5rI6y60Pmq82+DA==
+length: 26146
 -->

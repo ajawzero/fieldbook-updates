@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.1</title>
+            <pubDate>Thu, 05 Nov 2026 18:57:11 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.1 beta 2** (a beta)
+
+### Added
+- **Talk time:** a meeting's **Speakers** list shows each person's share of the talk time with a bar, and each side's share under the heading (for example **Internal 52% · Customer 32% · Partner 12% · No side 4%**), so you can see who talked most and least.
+- **Stakeholders:** in Sales mode, a customer or partner meeting's AI notes have a **Stakeholders** section: each person's stance on your solution (**Champion**, **Supporter**, **Neutral**, or **Detractor**), why, and their own words. Someone talked about but not in the meeting shows who reported it. Each customer's **Account** page lists everyone from its meetings, with their side, their stance now and before, and how often they came up and talked; open a person for their stance in each meeting. **Add Stakeholders…** there reads the last 90 days' meetings from before this, with the quick tasks model. Stances are for you: they stay out of Copy and emails.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta2/Fieldbook-2.4.1-beta2.dmg" length="1529109210" type="application/octet-stream" sparkle:edSignature="W/+Sb1Q00/BxslYVmTxsHNYLlJ+zdi5RFgYgnIlcRaFejuZXyGno1+ddEzom1r6r2hjZ6LPM4AcoCXkD2xe8AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta2/Fieldbook73-72.delta" sparkle:deltaFrom="72" length="1400818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Rn7vZ+6HcX9cRl/TbDbJX4lvF47PBFVL2F3od0LIU9XbrUM6JItKaBxng9z2QDCQJZ3OeMjHK+EffyWTgc+dBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta2/Fieldbook73-71.delta" sparkle:deltaFrom="71" length="1599902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DGthcxjwXT8yhMldwojmucOgRlyLUJRPYWY/BR0gH0H9h9l5KQlsflqYI28ONW3l2HQOa1z7V1ZA43MXhsqqCA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta2/Fieldbook73-70.delta" sparkle:deltaFrom="70" length="1588762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="USlZboQusSqaMgH11Cu7t7yDA2WXF/VCgsQaNQyxPDYf3IwlAP/Z+dpSZlvs1riiB1oPdxA6DytyU0T7b7BDDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.1</title>
             <pubDate>Thu, 05 Nov 2026 08:27:03 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -178,6 +200,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: fJfGuNaUpMEtOgWjCIXJ8vBL5fOC6Tl+HDNSz/nCWzGy+fyiK77bOsujJpeLQ0RrCC5tnU4uCVMxtoQ0mZA/Bg==
-length: 28999
+edSignature: 4wZqBTytkew27Ao38Wj4jtWC3XsmglOXUkgzggOC91PwmuKj85LNpy+GFr+s9jM7Pyyz5bevADTe1/kZ3eKkAA==
+length: 32212
 -->

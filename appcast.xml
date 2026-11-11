@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.1</title>
+            <pubDate>Tue, 10 Nov 2026 19:40:15 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.1 beta 3** (a beta)
+
+### Added
+- **Ask about one meeting:** click **Ask** in the toolbar with a meeting open, and a column beside it answers questions about that meeting only, from its transcript, your notes, its AI notes, and its attached files. Cited times open the line beside the conversation.
+- **Recent questions:** your Ask AI questions and their answers are kept on this Mac for 90 days. Open one again without asking the AI, continue it, or ask it again; matching ones show under **Asked before** as you type in the search field. Turn it off, or clear them, in **Settings › AI**. A meeting moved to the Trash takes its questions with it.
+
+### Changed
+- **About** works while a meeting is recording or being transcribed, like Move To. Move it to Internal or Partners, then pick the customers it's about; its notes are marked for them once they're written.
+- **Stakeholders on the Account page** list only people with a name. Speakers not yet named ("Speaker 1", "Speaker 2") still show in their meeting's notes, and join the Account page once you name them in the transcript, with no new AI request. The box says how many unnamed speakers it left out.
+
+### Fixed
+- **Spreadsheets** (in Files, customer reports, and the licensing library) reach the AI with their dates, percentages, and amounts (2025-11-01, 25%, $1,234.50) instead of raw numbers such as 45962 or 0.25.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta3/Fieldbook-2.4.1-beta3.dmg" length="1529311486" type="application/octet-stream" sparkle:edSignature="y0K5BmE7ug5v726TM5LtXrtxkZHoHy5P2CT3adSruZX9TM7We589ZFL72OuZYHr+iBF489GSwNn8lBvOZd3rAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta3/Fieldbook74-73.delta" sparkle:deltaFrom="73" length="1639226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rDVlJ1hr8qYbw8pnTo7AcjBAS0m91KvdofAHMRWlUhS/GoKvsjB+SH+9iGvWZv03InGKAwDFK1ZAmtWCoEoJCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta3/Fieldbook74-72.delta" sparkle:deltaFrom="72" length="1819298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GBjXP+3+/5ZDd7hZnY4ujT/OksP98r/fcp9ZFVnJFupYL31+BMxQd9RzQZlx+D5c+rzwmZAB1WLEZrx53ALEAA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta3/Fieldbook74-71.delta" sparkle:deltaFrom="71" length="1958434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XNXU8cwn1Jqkt3h9+Zt45Bu6BnsbKpIwTJCOrs7IAlZcH6tWy+UoYtfazd+LeOK9pv1uvJFEAqcLBQwxNbNgBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.1</title>
             <pubDate>Thu, 05 Nov 2026 18:57:11 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -78,32 +107,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4/Fieldbook71-70.delta" sparkle:deltaFrom="70" length="900202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dfbqlY/YYWnFsm0FnGYtG9ZUgjswkA/M/sG/oKSnsCathKtL+0CtOD5V9gPZ8y1nso7nGVZjdpOceY3CENaPDw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4/Fieldbook71-69.delta" sparkle:deltaFrom="69" length="1418290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="99pnnJrmXc60/6NR1WFWGa70BwDQvOCgBZXjaZ9Y0RXXlRHKZFY+g/fuAxBjzVHYWfPRBLG+xqzKQF8FDpgaCg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4/Fieldbook71-68.delta" sparkle:deltaFrom="68" length="2080378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l8VSUa+7nD1V0jv4IfJJXnW/VPHK3lrUUBgfo8qaTGfbTJO351yQw18CHDpsm4UZXXDFZV3Ahyo4m11UESkVDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4</title>
-            <pubDate>Mon, 02 Nov 2026 13:23:47 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4 beta 2** (a beta)
-
-### Added
-- **Notes from your iPhone or iPad join the recording:** notes taken with **Take Notes** on an iPhone or iPad go into the recording of the same calendar meeting, made on this Mac or on another device, under a heading saying where they were typed, with their attachments and the customers the meeting is about. The recording keeps its transcript, nothing is transcribed again, and the separate notes go to the Trash, where you can put them back. Only what comes through a sync joins by itself, and notes with their own to-dos, reminders, or opportunity or issue tags stay separate.
-- **Your meetings of the next 7 days go to your iPhone and iPad** with each sync (titles, times, and the folder each would be filed in; never invitees or agendas), so a device without your work calendar can still name the meeting it records or takes notes in.
-
-### Fixed
-- **Account summaries with Claude:** with Anthropic as the AI service, writing or rewriting an account summary failed at once with "The compiled grammar is too large". It works again.
-- **Deleting a label or customer with archived meetings:** the message that refuses now says its meetings are in **Archive**, since they don't show in its list.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook-2.4-beta2.dmg" length="1528927291" type="application/octet-stream" sparkle:edSignature="31eUVefN3rEDLcIw0Fch4bg1rZ/VOk+SR+WcAjOkIRSXBP/aFsKzV0WS78ldaj9wOWgRtVPfp7BYby26t0HVDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-69.delta" sparkle:deltaFrom="69" length="1411230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+k0hMYfb4L0POvEjpC8mjNI2i2bVbC8g7pAhN7TAYNDP/Q9glvikbv+H16WNtLwAtu7EJollkG5/JuA7jGH5DA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-68.delta" sparkle:deltaFrom="68" length="2079950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YA5NeoVMgEYsVAGeoWJostXfq5AM1witUmZ/vCnmZJ0WQaIt1EC/JzAmI2WgLyKtLma5yMR4z1kMOf9T6Fu+Cg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4-beta2/Fieldbook70-67.delta" sparkle:deltaFrom="67" length="2281554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pFM1RtcQhe+xPzOiie4V3j17r9vXDp4DotLeGzXLodR3tuS5/WkqlMo+0YPDqCy5/RANFy2+ZxMixxNTNVqJCQ=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -200,6 +203,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 4wZqBTytkew27Ao38Wj4jtWC3XsmglOXUkgzggOC91PwmuKj85LNpy+GFr+s9jM7Pyyz5bevADTe1/kZ3eKkAA==
-length: 32212
+edSignature: g/qjtL5HB0Gjc7obzoUY3FMwHXCgQ9Bs9m2cQbPrSLRh50tjdGFUln8l/VbMM7nebpSFNfMQ36zN42sZevu+BA==
+length: 32379
 -->

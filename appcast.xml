@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.2</title>
+            <pubDate>Wed, 18 Nov 2026 11:31:29 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.2 beta 3** (a beta)
+
+### Changed
+- **Tag a meeting while you record:** the **Opportunity** and **Issues** menus are at the top of the meeting, under its date, so you can tag a customer call with its opportunity and issues during the call. They used to appear beside the **Brief** only once the AI notes were written.
+- **Importing a recording** refuses a file whose sound is kept in other files it points to (a QuickTime reference movie): Fieldbook reads only the file you chose. Export it as one file, such as MP4 or M4A, and import that.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta3/Fieldbook-2.4.2-beta3.dmg" length="1529486925" type="application/octet-stream" sparkle:edSignature="07mJjE1W/eSPTWIy+jkfb4Wf85frZyaNv3UuqfbGKuWdKBLsrfYCeAQUquxdOWKkJIDx1kIkSbQp+10HlX/oBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta3/Fieldbook79-78.delta" sparkle:deltaFrom="78" length="1209390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hxP3qG7hN9lmig9enAN9nedlMFLXveSgd4t+9g6GvpvmcrgsbOnEQK+q0khoMq/553MFr/2VpQUPtqfHe9fSBQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta3/Fieldbook79-77.delta" sparkle:deltaFrom="77" length="1562746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d/1wf9/g7FOA3OaFbkjz7aqmQ6sGWYc+Qf9vnZh4K1bAT6NQ7sm0v/b7U3++UgN7YSkIcRMcqXERrpTPWhCSBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta3/Fieldbook79-76.delta" sparkle:deltaFrom="76" length="1567842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Th7fxTQMUDZQ/L8x07OkYbxIYse6Ixagj6pIiH0EX185mnnQwV/rbBtFtf1rPyR0LwTnZaMdnwi/oJlj8H0aCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.2</title>
             <pubDate>Mon, 16 Nov 2026 15:32:59 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -91,28 +113,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             </sparkle:deltas>
         </item>
         <item>
-            <title>2.4.1</title>
-            <pubDate>Wed, 11 Nov 2026 11:18:05 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.1 beta 4** (a beta)
-
-### Fixed
-- **About** on an Unfiled meeting: its greyed-out button now says to move the meeting to Internal or Partners first, instead of calling it a customer meeting.
-- **Pasting into notes** from a browser or other app keeps curly quotes, apostrophes, dashes, and accented letters, instead of turning them into symbols such as â€œ and â€™.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta4/Fieldbook-2.4.1-beta4.dmg" length="1529386865" type="application/octet-stream" sparkle:edSignature="QqPSW2i+tWhulvKlquLQKcm2BbB1HYQDqviSNzfrUhZ85didYO260Xqe7TG89WwdJ+rLlLnqIyF7iF4h3+sQAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta4/Fieldbook75-74.delta" sparkle:deltaFrom="74" length="1012086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lZSQi/9m0pz9sYBPPqxhX+wJBebArXCSQRjfXjMrc5rIGPaQOv+SKXt14IkA4ZfHI9/FcHbnO/sS3uNgTVI6Dg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta4/Fieldbook75-73.delta" sparkle:deltaFrom="73" length="1675402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="owdQuvdRS4oMNNigu4W/vFWgfhXkQa4EyB1yUy3Y8hhQEMIVfeaAkv/HGmqz2Z7GOs87i+vAtEoUoxT0oUhXDA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.1-beta4/Fieldbook75-72.delta" sparkle:deltaFrom="72" length="1831006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AYza8HR2BzR7mVnzWhm4plkXkcNqKcxwaG1/vQggMe/pM/J/2HCEGQs+gwOGO5nFl2teeL8vAKhxbgzepA81DA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>2.4</title>
             <pubDate>Wed, 04 Nov 2026 17:35:25 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -194,6 +194,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: iPwRpteWU242fBYu8Tq3cniFzkPejJWeoCU0GNvBepYb2mpaMSRbJgoC6D57Pk+NkYOPSfTEZFXNklZ6/tOOBA==
-length: 28479
+edSignature: w3jrXYsZ5/blcT391Zh9KiBXSffIR7SniWqPYfiwazTh6KNDQEEk9GhnjfRNpRfvx1KMr6+5kAVtekg7eV3vBA==
+length: 28646
 -->

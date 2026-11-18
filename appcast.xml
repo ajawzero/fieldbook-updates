@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.2</title>
+            <pubDate>Wed, 18 Nov 2026 17:48:00 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.2 beta 5** (a beta)
+
+### Fixed
+- **Pre-call briefs:** when a recording is switched to another meeting at the same time, it no longer keeps the first meeting's brief (with that customer's agenda, invitees, and history). It gets the other meeting's brief instead, if there is one. The first meeting's brief stays ready for that meeting.
+- **Meeting lists:** in **All Meetings**, **Archive**, and a customer's **Also about**, a meeting whose folder path had to be shortened could draw its title over other text (seen on macOS 26). The folder path now always shows in full, and a long title is cut off at its end instead.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta5/Fieldbook-2.4.2-beta5.dmg" length="1529433981" type="application/octet-stream" sparkle:edSignature="taObANlMf9f2X96GO9XmwIO9nH7HoAMDP0GgU8ZdFC9V3yusTgPe4W4Lw2r96YpfwmAagv5HJ+VqJZxIAoNZDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta5/Fieldbook81-80.delta" sparkle:deltaFrom="80" length="816522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8uIFD0XDKcIxKpYc5uOYiBnbP6K86sgXsMvnew/+ZrJsCBqjRLgL2EY2LTofwgKzl23BbcrpaB2/pElEw/suAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta5/Fieldbook81-79.delta" sparkle:deltaFrom="79" length="1101918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="luP2IVLeaUHhDHaEpaawiEwkBAc1U8c0yFbhTHLm77cJrllnhyxjEGopm22sxe5IPI3krsMAFgtb4DnrJ152DQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta5/Fieldbook81-78.delta" sparkle:deltaFrom="78" length="1311502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dlaWRU0+zCAYr5YQeKjgs69H0Vm/J7RAKiH84h6/ksbWr62x7cOufBrni/ZoCdx52oDNV5JH6IZHMZP3+oWSDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.2</title>
             <pubDate>Wed, 18 Nov 2026 14:03:59 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -46,35 +68,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta3/Fieldbook79-78.delta" sparkle:deltaFrom="78" length="1209390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hxP3qG7hN9lmig9enAN9nedlMFLXveSgd4t+9g6GvpvmcrgsbOnEQK+q0khoMq/553MFr/2VpQUPtqfHe9fSBQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta3/Fieldbook79-77.delta" sparkle:deltaFrom="77" length="1562746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d/1wf9/g7FOA3OaFbkjz7aqmQ6sGWYc+Qf9vnZh4K1bAT6NQ7sm0v/b7U3++UgN7YSkIcRMcqXERrpTPWhCSBw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta3/Fieldbook79-76.delta" sparkle:deltaFrom="76" length="1567842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Th7fxTQMUDZQ/L8x07OkYbxIYse6Ixagj6pIiH0EX185mnnQwV/rbBtFtf1rPyR0LwTnZaMdnwi/oJlj8H0aCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.2</title>
-            <pubDate>Mon, 16 Nov 2026 15:32:59 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.2 beta 2** (a beta)
-
-### Added
-- **Import recordings:** the **Import** button and **File › Import Recording or Transcript…** now take audio and video files (MP3, WAV, M4A, AAC, AIFF, FLAC, CAF, MP4, MOV, M4V), such as recordings from Plaud, Pocket, and other recorders, or Zoom and Teams recordings. Each becomes a meeting, transcribed on your Mac with its speakers found, like your own recordings. Only the sound is kept. You can also drag them into Fieldbook, onto a folder, or use **File › Add Files…**.
-- **Offer to add audio and video you download** (Settings › General › Downloads and Email Folder): an audio or video file you download or AirDrop while Fieldbook is open asks where it goes, as a downloaded email does. Nothing is added without asking.
-- **Hear who a speaker is before naming them:** click a speaker's name and **Listen** plays one of their paragraphs, then stops; the arrows go to their others. **Show All** opens a find bar under the player that steps through everything they said in the transcript, marked in their color, with **Play** and **Name…**.
-
-### Changed
-- **Recordings from your iPhone or iPad, and imported recordings:** nobody is labeled you any more, since the person who talks most isn't always you. Name yourself like anyone else; with **Remember this voice**, Fieldbook recognizes you in later ones. Recordings made on your Mac are unchanged.
-
-### Fixed
-- **View › Show Source Times** (Option-Command-T) now works at the standard text size; it was greyed out unless the text was bigger or smaller, and **Actual Size** wasn't greyed out at actual size.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta2/Fieldbook-2.4.2-beta2.dmg" length="1529457915" type="application/octet-stream" sparkle:edSignature="3Fx5t3LqsRG6FnL95GQvu+msgfYgw2uj6wt1BFF5neh0u59PoCu/fOf//K2sphowN1e9n/W8+K8YUDQVmHcmAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta2/Fieldbook78-77.delta" sparkle:deltaFrom="77" length="1457650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JBOyNrBWai4gOlEmOqh/yrhaeTkOLYd2E2xdI4+H5CfNaMVEfCLChCzGJEzdTeTpLUiZ69owKY4MCNkhfByGBA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta2/Fieldbook78-76.delta" sparkle:deltaFrom="76" length="1490198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2tY25fox8hlrihLMlRQm20EE/evbL9BSOaBD1a0f8sYKaA5lHFM58/B3wkf5S3olNTDgx6WoEO7fyc7fKaGMBA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta2/Fieldbook78-75.delta" sparkle:deltaFrom="75" length="1503002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2YpgGqGwzoctmARupbOSyMXEsKrCbFaz1PddssuObO0uhrOmYkJH0Y1xmrMIRy7r2fTHXEPiFJct8tKWr6p8DA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -193,6 +186,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OhU1CaM1cXeRAnOcDFrt4rnm64FVfodgG+6Hp3eKcDqe5dvFvubprOGkepu5zlc9kofs7KPLZB1Cp0S41xAVCQ==
-length: 28624
+edSignature: JfkNn+evRwcS4mn94XMalwuZGLIETLpZI0gC8X+lPXkLxS8OKNbrrdsDx8fu5GwbawhotIDf09SAviFWHwoZDQ==
+length: 27632
 -->

@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.4.3</title>
+            <pubDate>Thu, 19 Nov 2026 13:49:31 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>2.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.3 beta 1** (a beta)
+
+### Fixed
+- **Update All:** checks what’s out of date in the background, so the app no longer pauses on a library in a synced folder such as Google Drive.
+- **Issues:** the page responds quickly while typing, opening issues, and changing severity or status.
+- **Speakers:** names no longer get cut off on a narrow page; status moves under the name.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta1/Fieldbook-2.4.3-beta1.dmg" length="1529467466" type="application/octet-stream" sparkle:edSignature="PgQfK5NzbJX4XFHNWYpPneDy1ZmQWyz51OJ/MLHvqpn9NvoJEDKOFJIIdKfNxiE5y1wGlW60lD/THznvIaaBCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta1/Fieldbook84-83.delta" sparkle:deltaFrom="83" length="1400574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HT349xQMd3rUpw52jVRIeCl5u5equTAt8Do8JHr/MBlErPJVO3oIjK6XWOKpALXtwRL9TXM3wT708R/TDM9MBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta1/Fieldbook84-82.delta" sparkle:deltaFrom="82" length="1400710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vCW3YaScIuCHTsxnzM5DokqPuUHrzwvmY459J028xNskgi0Wn6vEg9S6xW/BnoQbfoWVMDlXi7xdjK58lewYAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta1/Fieldbook84-76.delta" sparkle:deltaFrom="76" length="1850598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6uBfTfUrO5fT9eNpDA88njo6JzYVHk25R31p0ilbVjo7TycdYYJ2B2cdtNNQClDSzXGw0hQjQzfx1cq4npZ4CQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.4.2</title>
             <pubDate>Thu, 19 Nov 2026 10:37:10 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -135,6 +158,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ILh0of6x1NsxVfTNe1zU2e/r5upXNnmRcpdDRRZT1IXB7PiS1ouQzIllTPDaHVkKbsiLny+8xm6NEb41fd8JCw==
-length: 20996
+edSignature: h7qzX+jQi78SP9aFrLNEtH60/raTc3mPG0anFjBxgMOan9ojqvKcFBGoze+5TmwfN7BxOHx+ZavQFLHJrnq1CA==
+length: 23623
 -->

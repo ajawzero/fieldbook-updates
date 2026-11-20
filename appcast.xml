@@ -7,6 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.3</title>
+            <pubDate>Fri, 20 Nov 2026 16:48:53 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>86</sparkle:version>
+            <sparkle:shortVersionString>2.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.3 beta 3** (a beta)
+
+### Added
+- **Help and Settings in the sidebar:** at the bottom, under My To-dos, as in Fieldbook for Windows.
+
+### Changed
+- **Meeting Time counts meetings you accepted but didn't record:** the setting is now **Count accepted meetings you didn't record** (Settings › Meetings › Calendars). With it on, a meeting you accepted or organized counts even without a recording, with the invite's length; a tentative invite counts only when you record it, import it, or add notes. Each week in Meeting Time says how many it has that you didn't record, marks them **accepted · not recorded**, and has **Add Notes…** beside each.
+- **Your iPhone and iPad use your fiscal year:** the fiscal year start you set on the Mac now syncs, so quarters on the iPhone and iPad match the Mac's.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta3/Fieldbook-2.4.3-beta3.dmg" length="1529614786" type="application/octet-stream" sparkle:edSignature="IU3LZcyeirwHbyzK41YZjEAjDR5x5BVb2heucA/NH7Z73wX6WqoSUptScpVSOP1AoNVEYuDZ/nx19xBhSGmPCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta3/Fieldbook86-85.delta" sparkle:deltaFrom="85" length="1202038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+2eVRy/Ivb/a9IQDUls0K8iaDeSff0iDleSAVsSFk5qPBIGsQIBVaZKjYDHkatAsRSkopEzhh80gFNaS5TnXAQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta3/Fieldbook86-84.delta" sparkle:deltaFrom="84" length="1631026" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x8nBQ04wWMXR6O+TsvYjdLrvMEPjUz6dKcBWFwZeFz1Brkf2C4IORSp8TxU7aDLgPfVEGll4EYQS/YpfBqKdDw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta3/Fieldbook86-83.delta" sparkle:deltaFrom="83" length="1823538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G2rdMRYvo0H+1Ehh0MiQV9kAVcRkGKH6UkF+hfFlWiCeEnC4Ekx1ap6tioZ4o2wDDlh27w3r1AzF1b1RStnxDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.3</title>
             <pubDate>Fri, 20 Nov 2026 10:37:06 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -90,29 +115,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             </sparkle:deltas>
         </item>
         <item>
-            <title>2.4.2</title>
-            <pubDate>Wed, 18 Nov 2026 22:02:35 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>82</sparkle:version>
-            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.2 beta 6** (a beta)
-
-### Fixed
-- **A customer's meeting list:** when a customer had no meetings of its own, only meetings under **Also about**, "No meetings here" showed in the middle of the list, drawn over one of those meetings. It now shows only when the list has no meetings at all. This was the overlap that beta 5 set out to fix.
-- **Updates:** when the daily update check can't reach the update server, for example because your Mac just woke and isn't back on the network yet, it now tries again up to three times, an hour apart. It used to wait a whole day.
-- **Diagnostics:** an alert left open, such as "An error occurred in retrieving update information", is no longer logged as the app not responding.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta6/Fieldbook-2.4.2-beta6.dmg" length="1529442801" type="application/octet-stream" sparkle:edSignature="/TZ/siNVqXV93oiafyeVIcv+693Rwgpiq2alb4F3O/Iw28VqykGva6yHZJINpi8Esh9Hk6dXib2QM/fuSIDSBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta6/Fieldbook82-81.delta" sparkle:deltaFrom="81" length="1167674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Fr3eGXQDg21oyLcnQ1remriEZAoab5tUni96usZO0MJbqtjtYkswdulI3pLUWYV2TIXNXYvXEAA8pHIY/yFcBA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta6/Fieldbook82-80.delta" sparkle:deltaFrom="80" length="1196354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RfYkDAGYRt8BDQGWpB3H+YyKdnx/9kthbZRiIjWDtiNqd18jvvFbzfXxMVatX3iDV+8qagJ8aAXzbmcPM2+kCQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.2-beta6/Fieldbook82-79.delta" sparkle:deltaFrom="79" length="1243282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RvqQnR7dO70DWz6yWNbVRkaRqQAV9hpJaWK6Eb2wR07E1C31dcbkJukV1S0C8FFlvKD/1Fl3o59Am+cZ9lU3CA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>2.4.1</title>
             <pubDate>Wed, 11 Nov 2026 22:41:45 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -181,6 +183,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: zxTSXMS2jYUlwyDyoMqnQldXYJF4LK0yrj6SoFxFSJ8sVrO1jb7jeOgQKRCIDv9OCr2wJ8qrrp+SStixTVf3Dw==
-length: 26637
+edSignature: ZxnJ58vEMZeKqn/7UQMimlgdXRFpuIWOO8fBJxiqGskRRfx35vAL+JR8Yx+xIjRdePgSNJS+nvopfqF274aPCA==
+length: 26725
 -->

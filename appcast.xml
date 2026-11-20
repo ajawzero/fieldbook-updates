@@ -7,6 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.3</title>
+            <pubDate>Fri, 20 Nov 2026 10:37:06 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>2.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.3 beta 2** (a beta)
+
+### Changed
+- **Search has its own page:** click **Search** in the sidebar, above Library, or press Shift-Command-F. One big box finds words in your meetings as you type and asks AI when you press Return, with a menu to search one folder and a switch to include the archive. Your recent questions are under it. The search field and the **Ask** button are gone from the toolbar.
+- **Find & Ask in a meeting:** the new magnifying-glass button at the top right of a meeting (or Command-F) opens a column that lists the meeting's lines matching what you type, and asks AI about the meeting when you press Return.
+- **Opportunity and Issues** are higher in a meeting's header, under its folder and above the date, where they're easier to see.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta2/Fieldbook-2.4.3-beta2.dmg" length="1529523910" type="application/octet-stream" sparkle:edSignature="F0K1eRZx6cGCeQqHaTNxiKuHDUbt4CtddXiR22iS4ZNEvv28P2ytreZ/8wAN6xvLVBhB2+xApPYTgiEV8pkoCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta2/Fieldbook85-84.delta" sparkle:deltaFrom="84" length="1510622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="C2gxX+B10+dHV9xSjh24vH2tqTbCl0/ivevevyEEDI/ABuIzilVf1BNls+bgXKcTzQG1OPRHLTwwd9XFY+WVAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta2/Fieldbook85-83.delta" sparkle:deltaFrom="83" length="1726582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dl6BcS3lC1EJ/1K+vPG+PsXr2wj2glMmJUyxxL/6DimSNBN2Vx2v747DPDaP031UxI7E1LANAhAg4WHMaz/GAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.3-beta2/Fieldbook85-82.delta" sparkle:deltaFrom="82" length="1727782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XGnb47V6U43IaqVkMKrK1NUvwWSxiXoe9nHEBcOD0cGAPb2YwOY8Fs9stMtG8LimjE52Ib+YPWPmg8TPgJd+Bw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.3</title>
             <pubDate>Thu, 19 Nov 2026 13:49:31 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -158,6 +181,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: h7qzX+jQi78SP9aFrLNEtH60/raTc3mPG0anFjBxgMOan9ojqvKcFBGoze+5TmwfN7BxOHx+ZavQFLHJrnq1CA==
-length: 23623
+edSignature: zxTSXMS2jYUlwyDyoMqnQldXYJF4LK0yrj6SoFxFSJ8sVrO1jb7jeOgQKRCIDv9OCr2wJ8qrrp+SStixTVf3Dw==
+length: 26637
 -->

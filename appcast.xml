@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.4.4</title>
+            <pubDate>Sat, 21 Nov 2026 14:47:17 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 1** (a beta)
+
+### Added
+- **OpenAI as its own service:** **Settings › AI › Cloud endpoint › Service › OpenAI** needs only your OpenAI API key; the address is built in.
+
+### Changed
+- **zllama is filled in only for Zscaler:** a new setup leaves the Cloud endpoint empty unless the company you pick is Zscaler. Settings you already have don't change.
+- **Setup asks about you before AI notes,** so the AI step knows your company.
+- **Call audio records with the display asleep:** Direct is recommended and records the sound your Mac plays, without Fieldbook's own sound. Choose **Screen capture** in **Settings › General › Recording** to use the earlier method, which needs an awake display. macOS asks once for **System Audio Recording Only** when Direct is selected. If Direct can't start, or records only silence for a minute while you talk, Fieldbook uses Screen capture; after the silence fallback, the setting changes to Screen capture.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta1/Fieldbook-2.4.4-beta1.dmg" length="1529663334" type="application/octet-stream" sparkle:edSignature="U/A57LEmsHxpf35fBxAOJtCrmJ1JIiXdsyeMcMBNfFQQjMQeDm3J0iphv94ho9wfd307iB2iyb3N37jjid/8BQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta1/Fieldbook89-88.delta" sparkle:deltaFrom="88" length="1456898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j96QZatjH//G6Y9RmULvQYvEVfm8z8MO9k3Z1JZxSIoU95U2XxqvDARSa0WPtTY+bnO4msfz+10suye96OsIAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta1/Fieldbook89-87.delta" sparkle:deltaFrom="87" length="1456130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FNpD2//l1ujr1vP+wc35QEc63bK0gclJUVUJuoFGgkbpNhBKJ2VRuirTJT3OomhTGQHvz0NUxEJ3h+jN3xgjCw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta1/Fieldbook89-83.delta" sparkle:deltaFrom="83" length="2178514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H+ss/VzaCWERbHT6YVKfucW38IZonOTXMmPv5YDvmP6UDaw0NRYXWEjtszmrrOOfw5DaKjG6fT/f2A5lcnd4Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.4.3</title>
             <pubDate>Sat, 21 Nov 2026 10:56:28 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -153,6 +179,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: BG0jX/jaauz7tH9L7wGDyTl0xOU8NHfwtIBbDnoYvo1UJm35GyTx892tM/TZIGvP0tbFmGo8qM4tTzHF4opSDA==
-length: 24008
+edSignature: u+qOBIRpVvO6xunZQelZxc7ZS6rcT5KfcUexED3rkrzB/acf6RaCGC3MKEHr7BnCMR1/+Y2oFOjRKF6g1YbeAA==
+length: 27223
 -->

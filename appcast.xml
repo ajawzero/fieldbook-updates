@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.4</title>
+            <pubDate>Sat, 21 Nov 2026 17:53:03 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>90</sparkle:version>
+            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 2** (a beta)
+
+### Added
+- **A local model that runs inside Fieldbook:** **Settings › AI › Local model › Runs in › Fieldbook (a downloaded model)** downloads a model once from Fieldbook's own releases on GitHub, checks every part before using it, and runs it on this Mac: no key, no other app, and nothing sent anywhere. Fieldbook recommends the one that suits your Mac's memory; Remove frees the space.
+
+### Changed
+- **AI waits while you record with a model on this Mac:** with a downloaded model or a local server (Ollama, LM Studio), notes, Discovery, and other background AI work start after the recording ends, so the recording and the model don't compete for memory. Ask, Help Me Answer, Help, Licensing, and the pre-call brief still answer right away.
+- **Remove All Fieldbook Data** also removes downloaded AI models.
+- **To-dos in AI notes are split by action and person:** when someone promises two things, or two people each promise something, each gets its own to-do, owned by whoever will do it.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta2/Fieldbook-2.4.4-beta2.dmg" length="1538505406" type="application/octet-stream" sparkle:edSignature="2XHyTG2BvtVv8zkovI+k5VIxfEAbYN+odtAP6yHPePnp1FaL2s8xuSy5vr8NVonKRFE4V40D+zJasZ/Bv3wxCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta2/Fieldbook90-89.delta" sparkle:deltaFrom="89" length="7644514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4xiLRBsP/7Knu61q1WYW01BMPz2Ita1fxhnVYE3aHnZzdI37rdhcUnaSkjkNQArMjsF6T7chlrly9WWdN9jmAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta2/Fieldbook90-88.delta" sparkle:deltaFrom="88" length="7734966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3n47+lFzHSw9yfwins8OkeLlZKhJ7e2NDVB/nfPs90zjxh6wAOFcRrOOefxHNjXhJJOZ6gfLHR2mIkiEinlFDA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta2/Fieldbook90-87.delta" sparkle:deltaFrom="87" length="7733090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5kpTFWg4QODYvmyMRQLznyaFoSrIYK51nMggfDQSEV7n6XrCFu3fBK29Z+cCJZv1dP+iPY14zylPOaX3GAkDAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.4</title>
             <pubDate>Sat, 21 Nov 2026 14:47:17 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -179,6 +205,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: u+qOBIRpVvO6xunZQelZxc7ZS6rcT5KfcUexED3rkrzB/acf6RaCGC3MKEHr7BnCMR1/+Y2oFOjRKF6g1YbeAA==
-length: 27223
+edSignature: 4DkSicIAvryPYn1387olCwZZjJZf1/zQ9e1rC7JY/qSbbYQt+3qGZmaNFDL3DsCYjErrU1H5Q13bT8yXKrdmAQ==
+length: 30502
 -->

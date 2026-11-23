@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.4</title>
+            <pubDate>Mon, 23 Nov 2026 17:40:50 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 7** (a beta)
+
+### Added
+- **Search in Settings:** a search bar at the top of Settings (**Command-F**) finds any setting by keyword. Matches list as tab and section, tabs without one grey out, and clicking a match opens it there, highlighted for a moment.
+- **Import several Discovery question files at once:** **Import CSV…** in **Settings › AI › Discovery Questions** takes more than one CSV, combined in the order you choose them.
+- **Discovery's CSV columns in Help:** a table of the columns (only **Question** is required) and an example file to copy.
+- **Links from Help to Settings:** in Fieldbook Help, a reference such as **⚙ Settings › Modules** opens Settings at that tab and section, with Help still open beside it.
+
+### Changed
+- Fieldbook Help is up to date with Settings: the **Recording** (Call audio), **Paired Devices**, and **Another Mac** sections in General, **Live transcript** in Transcription, the downloaded AI model's **Recommended**, **Stop**, and **Use**, and which deletions go to Fieldbook's **Trash** and which to the macOS Trash.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta7/Fieldbook-2.4.4-beta7.dmg" length="1538968743" type="application/octet-stream" sparkle:edSignature="28h6WcDzFRdX+agC88Hy0iVklgzhD0K8H4eObvc8jIbXTqkP9gLfjmABM/QuIeRT4rVqS7VF/XDVC18nGAvBCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta7/Fieldbook95-94.delta" sparkle:deltaFrom="94" length="2282714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CWNoc1Oaf1/O86NQ97uli2bs7KXD6DwwAlqg/eJeRv7YEAnu55VI0biQZirsusn9jaRNFvaGzm18wH7O14GICA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta7/Fieldbook95-93.delta" sparkle:deltaFrom="93" length="2214502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fIUiK3OecKGBQCbsgKIbwppuYL5YLmAcZIfjoAJUPUG5o17N9+Qeukr7W8dlGeM3U6wvTrlDvjZn9UGvgCusAg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta7/Fieldbook95-92.delta" sparkle:deltaFrom="92" length="2888038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NOGjEQODWSicWqsPeoUvUTxTQz0/68/mNYLZKsNwGnMkXirtHS09lRook1TBBHtb8kiRsvZRUqpxSsyM2984Aw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.4</title>
             <pubDate>Mon, 23 Nov 2026 15:32:45 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -64,32 +91,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta5/Fieldbook93-92.delta" sparkle:deltaFrom="92" length="2660054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B8RiJh7F9OxAAuxPjjRjSixT7+tZ5EEaYDkqwB5aNELu5zkCIIBzMVgntTXlc5jk9Qx5Fp1F+s0YGi1WJaOUBw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta5/Fieldbook93-91.delta" sparkle:deltaFrom="91" length="2864322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6vn5kXYETYPp0lGyMlvidHK46lawvOKJKeWQjkVcPp+5iuFEQMnvQq4gz/jq0DDP0RgZhyglOyMxTu7P1F7/Dg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta5/Fieldbook93-90.delta" sparkle:deltaFrom="90" length="2915546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c/bjq90nc7ssN2f/OF6zeaU3/jdrL+4DBsGQZ+H2mpOiEM93qQAEUAUWUmYiPZpNH22Y1qMlFzXfc7hV/Kt9Dw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.4</title>
-            <pubDate>Sat, 21 Nov 2026 23:30:55 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 4** (a beta)
-
-### Changed
-- **Another Mac's accounts show too:** a customer only the other Mac has opens with its account notes, account summary, opportunities, MEDDPICC, and issues, read-only, marked **From <Mac> · read-only here**; writing or changing them is greyed out.
-- **Another Mac's notes can be selected and copied:** your notes and the email draft of the other Mac's meetings are read-only but no longer greyed out as a whole.
-- **Right-click on another Mac's meetings:** Move To, About, Archive, New Reminder, Change Date and Time, Merge, and Move to Trash are greyed out; Open, Find or Ask, Show in Finder, Export, and Send stay.
-
-### Fixed
-- Closing the Pair with Another Mac sheet stops looking for the other Mac at once.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta4/Fieldbook-2.4.4-beta4.dmg" length="1538608463" type="application/octet-stream" sparkle:edSignature="ysLllDz5xPZ2TaBpotZqG3cnvy7VSimWZ4LAAETlgmwZghmALMh0wyEh1bR7c7CiWZXTNGxdGFxK3LAvxLnBBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta4/Fieldbook92-91.delta" sparkle:deltaFrom="91" length="2031454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xWqVw8KW+DCRC4/HmUH2U1Ac84jVj8HIRuJ3iskqyEIUeCIXXeTaa+Oal8cheN0can7FxhLZfcRfdbgOgd1iDQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta4/Fieldbook92-90.delta" sparkle:deltaFrom="90" length="2326838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/WqpKBcpkIOaqHkeVLUznyIGOlsHe2Dxv+v7tonJPiL5pBc6X10xxECBRo3G3iA4iwEQ6xP7PMWv+KVQ5LzNAw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta4/Fieldbook92-89.delta" sparkle:deltaFrom="89" length="8021906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2pvc1pO0l8JfWX7qtMkGCVXjpbBDskFI6hXQBlAszfqEp+d79hKEhcToKJblZK6ATmQ4lZV7tqHdls9ag7ydAQ=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -209,6 +210,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: C1PRsroLQfAwe170FZMKn42QyERPUjYWOxcDZ3Q7DCi2HQ/XX3qnCLS6Jqt8APltqV4VD+G0sjwVGpvCzYKFAA==
-length: 30722
+edSignature: V2m/jAIGrpZQVZnbRvlkNyOAljfopI6PwydNBW7M9Jw+fUstOQ9lvbEkHfYOS1ZRISZgyamXBfD45dT41MPWBQ==
+length: 31055
 -->

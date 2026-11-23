@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.4</title>
+            <pubDate>Mon, 23 Nov 2026 15:32:45 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 6** (a beta)
+
+### Added
+- **No sound from the call yet:** with a call app using your microphone, if Fieldbook hears you for 15 seconds but nothing from the call, the Recorder says the call app may not be playing audio on this Mac (such as Teams with **Room audio** in a meeting room), so it can be fixed during the call.
+
+### Changed
+- **Add on your other Mac arrives in seconds:** while meetings from this Mac wait for **Add** there, this Mac checks every 20 seconds for 10 minutes instead of every 15 minutes.
+- **Fewer repeated lines with your Mac's own microphone and speakers:** the call's words picked up by the microphone are left out of the transcript even when Whisper added "um", "yeah", or "okay" to them, so echo reduction can stay off.
+
+### Fixed
+- **Put Back** of a meeting your other Mac has added now says it's in that Mac's library and stays in the Trash; before, it came back, went to the Trash again at the next sync, and its title showed as a clash.
+- The menu-bar menu no longer says "Recording system audio only (microphone unavailable)" for every recording warning; it names a missing track, and otherwise points to the warning in Fieldbook.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta6/Fieldbook-2.4.4-beta6.dmg" length="1539016681" type="application/octet-stream" sparkle:edSignature="smEYFpokP1rg2DxWIyTVIkHqky7ROIaYTIi2orUTiL9ANIMlJoEGwm8DkIH2Cuji8USaY3UnK3PQjVUjUo76Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta6/Fieldbook94-93.delta" sparkle:deltaFrom="93" length="1814926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sSi0luiKRgwcjFqBMyfS1wc1Zw6P8iEd07LJvv62umWf5BC2GqhLPkH5XDAwZotrbxNWxP4JWfUAeI3N26w9Cw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta6/Fieldbook94-92.delta" sparkle:deltaFrom="92" length="2737054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="blRa0TdXQ4pdIXdbm/LSiiRSi0dRCSoTR9X6hmf1uulhRjj+PTnMSiWa0LYtLertdXO7Il621tKMWjDeM2r1Bw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta6/Fieldbook94-91.delta" sparkle:deltaFrom="91" length="2797242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VGFwEe2Uj9mmRZOd5zOuyfRcyp3UXy6WQ37eEeFQDKoAVgzxop0nJVyyUI08YgGnD7ey4svYnIm7myurEgc1Cw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.4</title>
             <pubDate>Mon, 23 Nov 2026 13:32:55 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -61,29 +90,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta4/Fieldbook92-91.delta" sparkle:deltaFrom="91" length="2031454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xWqVw8KW+DCRC4/HmUH2U1Ac84jVj8HIRuJ3iskqyEIUeCIXXeTaa+Oal8cheN0can7FxhLZfcRfdbgOgd1iDQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta4/Fieldbook92-90.delta" sparkle:deltaFrom="90" length="2326838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/WqpKBcpkIOaqHkeVLUznyIGOlsHe2Dxv+v7tonJPiL5pBc6X10xxECBRo3G3iA4iwEQ6xP7PMWv+KVQ5LzNAw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta4/Fieldbook92-89.delta" sparkle:deltaFrom="89" length="8021906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2pvc1pO0l8JfWX7qtMkGCVXjpbBDskFI6hXQBlAszfqEp+d79hKEhcToKJblZK6ATmQ4lZV7tqHdls9ag7ydAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.4</title>
-            <pubDate>Sat, 21 Nov 2026 22:33:08 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>91</sparkle:version>
-            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 3** (a beta)
-
-### Added
-- **The Mac stays awake while Fieldbook records or transcribes:** an in-person meeting on battery no longer ends when the Mac's sleep timer runs out. The display can still go to sleep; closing the lid or choosing Sleep still sleeps the Mac.
-- **Another Mac's meetings, read-only:** pair a second Mac (Settings › General › Another Mac › Pair…, typing the code the first Mac shows in File Transfers › Pair iPhone or iPad…), and it shows every meeting from the first Mac, with notes, AI notes, transcripts, and accounts, beside its own. Never audio or voices. They sync while Fieldbook is open on both, on the same network; change them on the Mac they came from.
-- **Help: Connecting Outlook or Google Calendar:** step by step, adding your work calendar to the Mac through System Settings › Internet Accounts, and what to do on a managed Mac.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta3/Fieldbook-2.4.4-beta3.dmg" length="1538644843" type="application/octet-stream" sparkle:edSignature="cdLew43JNOY9vBZiBr4+7zLlHP0qexjhUeEP9Xr792qBYz/p6jzPhY5n2n2oXh+qq2ghjwHOHvTgSRZhCFgwDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta3/Fieldbook91-90.delta" sparkle:deltaFrom="90" length="2210230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RhZLtYf44hlvy7915HMyujkCjFHnk3t2dWyl25hnqvhtb31FrD1LCIBXLJU9KjbEJi+c252l4Ow7rAXg7LLDAw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta3/Fieldbook91-89.delta" sparkle:deltaFrom="89" length="7870642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O8lic4nwLXueSlt0ysQaZUFAIwC9ThHGsBXStwwEP8rY6gsrtqyWyjRT64n8RIu/Y2zvOaHsOBE548lqUf+7Dw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta3/Fieldbook91-88.delta" sparkle:deltaFrom="88" length="7963734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/JvTpX1PSc3EiPLPmkfSGVDeafSSWo0Kod5TUD4jbdw60xRv0FUzM6aEDmUOEmR8vBvT82WQVpr+YatQ7YwXBA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -203,6 +209,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lfDVAOW3GFGeT7L2nTIC6DzTFugKI57JQ4YEPBbTIAV9zGuRCAI08VyXiUKWcVY3i86kMClyTHeI/EMcofDiCA==
-length: 30435
+edSignature: C1PRsroLQfAwe170FZMKn42QyERPUjYWOxcDZ3Q7DCi2HQ/XX3qnCLS6Jqt8APltqV4VD+G0sjwVGpvCzYKFAA==
+length: 30722
 -->

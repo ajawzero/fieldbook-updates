@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.4</title>
+            <pubDate>Tue, 24 Nov 2026 13:21:09 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 11** (a beta)
+
+### Added
+- **Fieldbook for Android can pair with this Mac** and sync like an iPhone: scan the code from **File Transfers › Pair a Device…**. Its recordings and notes come here and are shown as from Android, and your last 90 days of meetings go to it.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta11/Fieldbook-2.4.4-beta11.dmg" length="1538997598" type="application/octet-stream" sparkle:edSignature="XgGekXbkjZswlYvPT7FWmd+B+z3TSvhAWiY5DmMi0Xamf3ACM7UGMzlYlQOeY3e9n45aL6U9i48SHLrDZVG2CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta11/Fieldbook99-98.delta" sparkle:deltaFrom="98" length="1256778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qO3lfXLhZ8gUx41DgWo+04t2sgpemK9XYYtvxFxQ3w/XUSnozwMECU0cEyyCXbUzVGGY3KdHj7rARg3EvGlfDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta11/Fieldbook99-97.delta" sparkle:deltaFrom="97" length="1347694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DUPi3gVrLklg8j/qjEZqiOTB+8sazsl2vnpL+vhWKSy0fLsntZuIp8Cxu3CYndnoAN30OH0Nye1gm2ypyxRmAw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta11/Fieldbook99-96.delta" sparkle:deltaFrom="96" length="1865578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JzrTZYVxnBRew+XK0/yM1xySuvtaggKTdPmzU6XnkOA91ZUvZOdBbPXa3ICVxilgk2tiDp4En7UX/C6FaCm+CA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.4</title>
             <pubDate>Tue, 24 Nov 2026 10:59:50 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -52,41 +73,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta9/Fieldbook97-96.delta" sparkle:deltaFrom="96" length="1835954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AuwkBjh9eMyADvemTgwNBMdfW29lBJjS0NWyxrvBnmspAJ+SD18pR1jbC6muqcJpAwjaYeqNCv3AkGOWRhhzBg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta9/Fieldbook97-95.delta" sparkle:deltaFrom="95" length="2004314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J0neRDcaEQccNOifHMKCqiasReeEimLFW2sERY6VZwf8VNjYWt2PenNtNZ08ItSi/pRXGEcJgihMLmgSZFeDBQ=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta9/Fieldbook97-94.delta" sparkle:deltaFrom="94" length="2350754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PnSFYIdEww2MyOmhAYxkXpJNICBoI6cXcUgNInG+RlYERTgP9N3Nm8omUv3+1pDbYGZ3GdHdqgSOPAgIaPlZBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.4</title>
-            <pubDate>Mon, 23 Nov 2026 20:58:10 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 8** (a beta)
-
-### Added
-- **Help › Send Feedback…** opens an email to the developer with Fieldbook's version filled in.
-
-### Fixed
-- A short reply of yours right after the other side spoke for a while is no longer removed from the transcript as echo.
-- A recording you start yourself no longer offers to stop, or stops, when an app set to **Ignore** in **Settings › Meetings**, or one that only briefly used the microphone, lets it go.
-- With two Macs paired, the home Mac no longer moves a meeting to Fieldbook's **Trash** when the other Mac already had it another way (such as the same iPhone recording) and nobody chose **Add** there.
-- Renaming a folder by changing only its case (such as "pov" to "POV") can no longer lose the folder if Fieldbook quits partway.
-- A damaged or crafted zip file no longer makes Fieldbook quit unexpectedly.
-- Quitting Fieldbook while a recording is still starting now stops it and quits, instead of waiting forever.
-- Help Me Answer shows the downloaded AI model's reply as it's written, not one word at a time.
-- Save Diagnostic Report no longer includes the AI's error text for notes that failed; the activity log keeps the reason.
-
-### Changed
-- The Licensing page has a **How to add licensing documents** link that opens the steps in Help.
-- Diagnostic launch options that record, transcribe, or export without a window now work only in development builds.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook-2.4.4-beta8.dmg" length="1538974676" type="application/octet-stream" sparkle:edSignature="AzHbl7cijAiGaRQi7WUXXzLlDHrB0nvkSqnM/0NUfouthyShso++f5QLOewpQxQXYj8sxxnbTCsrcjitkKVVDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook96-95.delta" sparkle:deltaFrom="95" length="1611042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LE3bSXOXd3JWryZPKFuJZmcBKFZb9NvEULxFfFaGxG7MRD9ifwKEGiLxNETnvVedCRW7rlOLckiGH3z6LVkUBw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook96-94.delta" sparkle:deltaFrom="94" length="2301826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2ZtGnIk3b5Im866Uo3w5dlz9TUtkBvqIW1FmHI4ZFqeVAMIQwQ4FblV4sG8i6nQppD3MUvpo4x1qJFm6D+rLCQ=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook96-93.delta" sparkle:deltaFrom="93" length="2287342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/gXBLziNnVo3XHP/YGQpQlOwoDQlfuojgPfMYNBSMtH2tqZ7F13pFdAKszapKznpD+dJbL943IUpRXLpuz+BDQ=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -206,6 +192,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: EOcfOF0fByW5DzklTaxcavmyJxhr6D1onyILhxEVUignsJ9GZwxOFN0T3/klshXB1YPzjmGeiLy40SW7+T/qBA==
-length: 29719
+edSignature: ob4GikXwxJnof1fSsQuhfGSLoRfNWf7dQ8+qkFJU5jtm+WXjV8HNfCWbE/SUnTW46uEJ/PdDNPjHyYQrFSA0Cw==
+length: 28591
 -->

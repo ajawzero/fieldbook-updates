@@ -7,6 +7,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.4</title>
+            <pubDate>Mon, 23 Nov 2026 20:58:10 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>96</sparkle:version>
+            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 8** (a beta)
+
+### Added
+- **Help › Send Feedback…** opens an email to the developer with Fieldbook's version filled in.
+
+### Fixed
+- A short reply of yours right after the other side spoke for a while is no longer removed from the transcript as echo.
+- A recording you start yourself no longer offers to stop, or stops, when an app set to **Ignore** in **Settings › Meetings**, or one that only briefly used the microphone, lets it go.
+- With two Macs paired, the home Mac no longer moves a meeting to Fieldbook's **Trash** when the other Mac already had it another way (such as the same iPhone recording) and nobody chose **Add** there.
+- Renaming a folder by changing only its case (such as "pov" to "POV") can no longer lose the folder if Fieldbook quits partway.
+- A damaged or crafted zip file no longer makes Fieldbook quit unexpectedly.
+- Quitting Fieldbook while a recording is still starting now stops it and quits, instead of waiting forever.
+- Help Me Answer shows the downloaded AI model's reply as it's written, not one word at a time.
+- Save Diagnostic Report no longer includes the AI's error text for notes that failed; the activity log keeps the reason.
+
+### Changed
+- The Licensing page has a **How to add licensing documents** link that opens the steps in Help.
+- Diagnostic launch options that record, transcribe, or export without a window now work only in development builds.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook-2.4.4-beta8.dmg" length="1538974676" type="application/octet-stream" sparkle:edSignature="AzHbl7cijAiGaRQi7WUXXzLlDHrB0nvkSqnM/0NUfouthyShso++f5QLOewpQxQXYj8sxxnbTCsrcjitkKVVDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook96-95.delta" sparkle:deltaFrom="95" length="1611042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LE3bSXOXd3JWryZPKFuJZmcBKFZb9NvEULxFfFaGxG7MRD9ifwKEGiLxNETnvVedCRW7rlOLckiGH3z6LVkUBw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook96-94.delta" sparkle:deltaFrom="94" length="2301826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2ZtGnIk3b5Im866Uo3w5dlz9TUtkBvqIW1FmHI4ZFqeVAMIQwQ4FblV4sG8i6nQppD3MUvpo4x1qJFm6D+rLCQ=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta8/Fieldbook96-93.delta" sparkle:deltaFrom="93" length="2287342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/gXBLziNnVo3XHP/YGQpQlOwoDQlfuojgPfMYNBSMtH2tqZ7F13pFdAKszapKznpD+dJbL943IUpRXLpuz+BDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.4</title>
             <pubDate>Mon, 23 Nov 2026 17:40:50 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -59,38 +94,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta6/Fieldbook94-93.delta" sparkle:deltaFrom="93" length="1814926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sSi0luiKRgwcjFqBMyfS1wc1Zw6P8iEd07LJvv62umWf5BC2GqhLPkH5XDAwZotrbxNWxP4JWfUAeI3N26w9Cw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta6/Fieldbook94-92.delta" sparkle:deltaFrom="92" length="2737054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="blRa0TdXQ4pdIXdbm/LSiiRSi0dRCSoTR9X6hmf1uulhRjj+PTnMSiWa0LYtLertdXO7Il621tKMWjDeM2r1Bw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta6/Fieldbook94-91.delta" sparkle:deltaFrom="91" length="2797242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VGFwEe2Uj9mmRZOd5zOuyfRcyp3UXy6WQ37eEeFQDKoAVgzxop0nJVyyUI08YgGnD7ey4svYnIm7myurEgc1Cw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.4</title>
-            <pubDate>Mon, 23 Nov 2026 13:32:55 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>93</sparkle:version>
-            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 5** (a beta)
-
-### Changed
-- **Deleting a customer or label with meetings:** after asking, it moves to the Trash whole, with its meetings, labels, account notes, files, and emails, and **Put Back** returns it whole. Before, only empty ones could be deleted.
-- **Speaker voice data** of a deleted meeting is kept while it's in Fieldbook's Trash, so a meeting put back still matches its speakers; it's deleted when the meeting leaves the Trash.
-- **Shorter AI settings:** under **Service**, one line says where meeting text goes; the full list is folded under **What's sent**. Each service's note is shorter too.
-- **File Transfers › Your Devices:** a Mac pairs here as well as an iPhone or iPad, so the button is now **Pair a Device…**, and **Settings › General › Sync with paired devices** turns it off.
-
-### Added
-- **Fieldbook's own Trash:** deleted meetings go to **Trash**, last under Library in the sidebar, instead of the macOS Trash. Each one shows its days left; **Put Back** returns it to its label or folder (or Unfiled if that's gone), and **⋯ › Delete Now** and **Empty Trash…** move items on to the macOS Trash. After 30 days they go there by themselves.
-- **New meetings from your other Mac, when you add them:** with another Mac paired, meetings made there are listed on this Mac (**From Mac** in the toolbar, the Dock icon, the menu-bar menu, and File Transfers) with **Add**, **Not Now**, and **Don't Add**. Nothing joins your library by itself. Added meetings come without audio, filed where they were, and the other Mac moves its own copy to the Trash.
-- **Change another Mac's meetings from this one:** with another Mac paired, your notes, titles, dates, folders, to-dos, and speaker names changed here go back to it at the next sync. The meeting says how many changes are waiting, and a small clock marks it in the list. If both Macs changed the same thing, notes and to-dos keep both; for the rest the other Mac keeps its own, and the meeting offers **Use Mine** or **Dismiss**.
-
-### Fixed
-- With another Mac's meetings shown, search no longer rebuilds its index for them at every launch.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta5/Fieldbook-2.4.4-beta5.dmg" length="1538968219" type="application/octet-stream" sparkle:edSignature="oKYQyv+9uJrETgB8Nh15djIbzOqk34YHHNms4xizdwOIEbp2+jNGa2iEpSazp7TK1pI6QqorkKwtzacQ5ekMBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta5/Fieldbook93-92.delta" sparkle:deltaFrom="92" length="2660054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B8RiJh7F9OxAAuxPjjRjSixT7+tZ5EEaYDkqwB5aNELu5zkCIIBzMVgntTXlc5jk9Qx5Fp1F+s0YGi1WJaOUBw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta5/Fieldbook93-91.delta" sparkle:deltaFrom="91" length="2864322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6vn5kXYETYPp0lGyMlvidHK46lawvOKJKeWQjkVcPp+5iuFEQMnvQq4gz/jq0DDP0RgZhyglOyMxTu7P1F7/Dg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta5/Fieldbook93-90.delta" sparkle:deltaFrom="90" length="2915546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c/bjq90nc7ssN2f/OF6zeaU3/jdrL+4DBsGQZ+H2mpOiEM93qQAEUAUWUmYiPZpNH22Y1qMlFzXfc7hV/Kt9Dw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -210,6 +213,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: V2m/jAIGrpZQVZnbRvlkNyOAljfopI6PwydNBW7M9Jw+fUstOQ9lvbEkHfYOS1ZRISZgyamXBfD45dT41MPWBQ==
-length: 31055
+edSignature: 2E61JtTmLwFdrObv9WMtNVwsUX7ZTnnR/lGE6KEua40IQu/RibNujlYRk40kdObKimbRFL+qp208loxh39e+Bg==
+length: 30335
 -->

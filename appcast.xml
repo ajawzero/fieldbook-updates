@@ -6,6 +6,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.4.6</title>
+            <pubDate>Fri, 27 Nov 2026 11:39:43 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>2.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.6 beta 1** (a beta)
+
+### Added
+- **Settings › Languages:** what meetings are spoken in (eleven languages, or Detect automatically), what notes and the follow-up email are written in, and whether Help Me Answer spots questions in every language. English throughout until you change it.
+- **A folder's language:** right-click a customer or label › **Language**; listed in Settings › Languages.
+- **A meeting's language:** the 🌐 menu in the meeting header, beside **About**: what it's spoken in and what its notes are written in.
+- **Transcription in the meeting's language:** a meeting is transcribed in the language it's spoken in (its own, its folder's, or Settings › Languages). Chinese is written in the script you choose, Cantonese in Traditional characters; **Detect automatically** finds the language and takes the one spoken longest. English transcribes exactly as before.
+- **Transcribe Again:** a meeting's 🌐 menu › **Transcribe Again in <language>…** transcribes it again from its audio; the old transcript goes to the Trash.
+- **AI writing languages:** meeting notes and follow-up emails can use their chosen languages; account summaries and other customer-wide writing follow the notes language setting or folder language. Quotes stay in the words spoken.
+- **On-device AI writing:** Fieldbook checks which languages Apple's on-device model supports. Use a Local model or Cloud endpoint for Japanese, or notes in a language different from the meeting's.
+- **Live transcript and Help Me Answer:** the live transcript follows the recording's language, including a change to the meeting's Spoken In during the call; with Detect automatically, it checks the language again as the call goes on. Help Me Answer and Suggest a Question write in its notes language.
+- **Search in other languages:** Chinese and Japanese words are found anywhere in a sentence, and Ask AI finds passages for questions asked in them. Meetings in other languages are matched as written, without English word forms. The search index is rebuilt once after updating.
+- **Questions during calls:** spot questions in other supported languages when **Questions during calls** is **In every language** (the default) in **Settings › Languages**.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook-2.4.6-beta1.dmg" length="1539482254" type="application/octet-stream" sparkle:edSignature="NYVgOTsZ8Rum32OUilTTdCJykauov9d1ZbAwxRFFz+VyOYRsfgAOUxY+m/kMF//FlkNfZ1mS9awItsUi/MT0CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-104.delta" sparkle:deltaFrom="104" length="2787762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t2dXD0wjxKLKYtsmA0KTTjXznSoN24tKk67h3O0Z3/NUwNFILdS87czxoGaez34/pGOzj0U+5MLkWetA6xXLDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-103.delta" sparkle:deltaFrom="103" length="2959878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0BTlNEOTdKsmE9+ReEiJWRqRGzT7lxGTRlll5ZgzW0O7Q5chpU0tGb0dgPgvwtQNld5Q4zblenzI6aGJDikDw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-102.delta" sparkle:deltaFrom="102" length="3445902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u1QYi9+2mb/s+YDBG5EyOy80krIFKVu2CPuSDOPxu8Y274vIz0chitL0RtTpa2eb5/e2fzeeqyzqwLiPzlxbAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.4.5</title>
             <pubDate>Thu, 26 Nov 2026 20:54:08 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -179,37 +209,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             </sparkle:deltas>
         </item>
         <item>
-            <title>2.4.4</title>
-            <pubDate>Tue, 24 Nov 2026 21:48:34 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.4 beta 13** (a beta)
-
-### Fixed
-- **Combine with Recording…:** a search that hides the chosen recording now unchooses it, so pressing Return can't combine into one that isn't showing. Each recording shows its folder, and the search finds it by that name.
-- **Changing the save location** brings the reports for every customer along (Get to Green), keeping their dates.
-- **A phone's recording that's already in your other Mac's library** is no longer uploaded and then discarded. It stays unsent on the phone, with its audio, until this Mac has its own copy.
-- **Put Back** on a meeting deleted while it waited to be transcribed puts it back in the queue right away.
-- **Call audio stays on Direct after a quiet start:** an in-person meeting, or a call where nobody else speaks in the first minute, no longer changes the setting to Screen capture. It changes only when screen capture hears the call where Direct didn't.
-- **Back-to-back meetings:** a recording started in the last five minutes of one meeting, with the next about to begin, is named and filed as the next one.
-- **Renaming or deleting a customer while the AI works on its account** (summary, conflicts check, status, next steps, MEDDPICC) no longer brings the old folder back; the result isn't saved and the message says so.
-- **Separate** after a chain of Same Person As (A into B, then B into C) gives each speaker their own lines back, in either order.
-- **A caption or transcript file with an impossible time** no longer crashes the app; that file's times are refused or shown as 00:00.
-- **Your API key and its address:** the key is now tied to the port and to HTTPS or HTTP as well as the host name, so changing either needs Test Connection. If your endpoint has a port or uses HTTP and you're updating from beta 12, click Test Connection once. A key saved while the endpoint is empty waits for Test Connection.
-- Test-only launch options that change data or call the AI no longer work in release builds.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta13/Fieldbook-2.4.4-beta13.dmg" length="1539106353" type="application/octet-stream" sparkle:edSignature="60Xre6GxZUqDFILWkdsU4afR70b5nyGrN0XusIF0tGxRdxarrlKgWjHhLnAPdhN+2h3YZ+sbZ+64c/ZWl+xVDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta13/Fieldbook101-100.delta" sparkle:deltaFrom="100" length="1767330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="e7Q5CxhDwziztKSxv1E1M2m77CVnkkDEzrp44HUZACEjQSzkrR4VBG5RlpkZfQBEm2w2/QW9cMmUfzRGHujjBw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta13/Fieldbook101-99.delta" sparkle:deltaFrom="99" length="2059246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iMU1LvZIY7cqYvFisJzSyb4lgArTa3R+svpiTq3lIMFE35k2EKjXqGsXRDnt7fJxMFKFSuhCEgFfAFVUBvwvDw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.4-beta13/Fieldbook101-98.delta" sparkle:deltaFrom="98" length="2108242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UXMukqGuXKveMcnBIM7/r79fclmz6TDpOEhQZtspKzlgvWNvWbNdrFQTLhdw3FxqNqHPmClCPXD9t3NMXL7ICQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>2.4.3</title>
             <pubDate>Sat, 21 Nov 2026 10:56:28 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -292,6 +291,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cF1pRZbLbXDBow+u7ZbIuRgELDEiD2LyVFaUHX90FRdcPYgGIha3drW7n25GpdKOeS2Y9I6huco1L2Axof9vBQ==
-length: 45043
+edSignature: 7H0v0cRKqfFO1R0rMvhg9Z7b5+uh5KKUkQoJpmxDeWVwbO46ifmWLWhdW9MFAGr6KPJq1ExUM2IcGUOiVMSxDQ==
+length: 45303
 -->

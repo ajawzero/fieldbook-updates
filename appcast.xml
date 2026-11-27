@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.6</title>
+            <pubDate>Fri, 27 Nov 2026 15:11:27 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>2.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.6 beta 3** (a beta)
+
+### Added
+
+- **Settings › Licenses** lists MLX and the code that runs local models, and once you've downloaded a local model, the Qwen3 models' license.
+
+### Changed
+
+- **Sales with no company chosen** no longer becomes Zscaler on its own. A new install starts with no company in Sales as in General, and removing the company you added leaves none chosen. Until you pick or add the company you sell for, the AI waits: notes show **Waiting for the company you sell for**, and notes due meanwhile are written once you choose it.
+- **Open Settings opens the setting you need,** highlighted: the company you sell for while Sales waits for one, the AI provider until AI is set up, then the feature's own setting (such as Discovery Questions). **Choose Calendars…** in Today opens Calendars; My To-dos without your name opens Your name; a customer's Discovery without questions gets an **Open Settings** button.
+
+### Fixed
+
+- **A microphone connected after you press Record is now recorded.** With no microphone at the start (such as on a Mac mini before you put in your AirPods), Fieldbook records the call's sound and starts recording your voice as soon as you connect one. Before, your voice was missing for the whole recording. The recording notes how long the microphone was missing.
+- **The call's sound keeps recording when your headphones change mid-call.** Putting in AirPods during a recording could stop the call's sound for the rest of it; Fieldbook now moves to screen capture after a few seconds, as it does at the start. Your Call audio setting stays as it is.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta3/Fieldbook-2.4.6-beta3.dmg" length="1539524350" type="application/octet-stream" sparkle:edSignature="SxPpmCZGItw7R0uDWuFMiYaWGDCM7rCgTwOXaJNIh3BwEEi1z4913FznlLiMhxlKs5RhEcja6pZiAhLRihEoAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta3/Fieldbook107-106.delta" sparkle:deltaFrom="106" length="2130450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yXv6qagoULNz7LiSPybJj7kkjYO5XqsLUkR066pHZGP7O3POAwgEu9ELF1RGNqDw34rinBvlzi8xTaaeQLSWCw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta3/Fieldbook107-105.delta" sparkle:deltaFrom="105" length="2464978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/E0STBK/E1RJvgxXoG764dZLoQ1qSMhpBfPLNKZZZJjIK1nEa/JW4MaFw7FDDU7GpRkeENXiD6p/n+uyePFHDA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta3/Fieldbook107-104.delta" sparkle:deltaFrom="104" length="3036378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P0fPZZc6+Y6Qs2FxXrfHPsXfTJ6h2oB7sr4yWPy4JURTKcf8E4ny/51N/ZeleY+AHqqav7yq4jg01aNccLJWCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.6</title>
             <pubDate>Fri, 27 Nov 2026 13:54:30 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -62,43 +94,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-104.delta" sparkle:deltaFrom="104" length="2787762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t2dXD0wjxKLKYtsmA0KTTjXznSoN24tKk67h3O0Z3/NUwNFILdS87czxoGaez34/pGOzj0U+5MLkWetA6xXLDg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-103.delta" sparkle:deltaFrom="103" length="2959878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0BTlNEOTdKsmE9+ReEiJWRqRGzT7lxGTRlll5ZgzW0O7Q5chpU0tGb0dgPgvwtQNld5Q4zblenzI6aGJDikDw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-102.delta" sparkle:deltaFrom="102" length="3445902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u1QYi9+2mb/s+YDBG5EyOy80krIFKVu2CPuSDOPxu8Y274vIz0chitL0RtTpa2eb5/e2fzeeqyzqwLiPzlxbAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.5</title>
-            <pubDate>Thu, 26 Nov 2026 20:54:08 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>104</sparkle:version>
-            <sparkle:shortVersionString>2.4.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.5 beta 2** (a beta)
-
-### Added
-- **Meeting header:** a button to open the meeting in its own window, beside **Find & Ask**; a **Transcript ready** line that says how many speakers still need a name (click it to open **Speakers**; it goes once all are named).
-- **Meeting list:** an **Add Files…** button between **Import** and **Sort**; **Merge…** beside **Move To** when several meetings are selected.
-
-### Changed
-- **Meeting header:** the date is in the style's accent color, and an Unfiled meeting says, under its title, to move it to Internal or Partners before choosing the customers it's about.
-- **About customers:** on each item, the AI's customers are outlined pills and the ones you chose are filled, so you can tell them apart; several customers stack one per line.
-- **Licensing:** **Match Again** is always under a meeting's matched opportunities, so a match that came back empty or partial can be tried again.
-
-### Fixed
-- **Licensing links** never read a page on this Mac or your local network, even when a public page links or redirects there; a link you add that is itself on your network is still read, and only that site.
-- **Licensing:** one large spreadsheet with many matching rows no longer crowds every other source out of an answer, and a company the question names is searched first.
-- **Licensing:** a match whose reply quotes far too much is asked again instead of slowing Fieldbook down.
-- **About customers:** a half-formed AI answer no longer marks an item as about no customer for good; the item is asked about again.
-- **About customers:** after you correct the transcript or your notes, labels that relied on the changed lines are made again, and every kept label is checked again against the meeting as it is now (for example, when a corrected line now switches to another customer).
-- **About customers** chosen, a rename, or **Move To** while a meeting records or transcribes can no longer be undone by the recording’s or transcription’s own save landing at the same moment.
-- **About menu:** counting how often each customer is named skips a very large transcript or notes file and never downloads a file kept only online.
-- **Opportunities › Copy as Table:** a cell starting with `=`, `+`, `-`, or `@` gets a leading `'`, so a spreadsheet shows it as text, never runs it as a formula.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook-2.4.5-beta2.dmg" length="1539319183" type="application/octet-stream" sparkle:edSignature="e7xeuC6IYi1Va9ew90FKIM+Mqv4voEavzyfiG3EWwztzq9V85ss8qH6TosxkntDuCh72bMePxpAr4DrIhIptCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-103.delta" sparkle:deltaFrom="103" length="2271234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hdgJKMh56Qei49wENc54yOpwvDufgfbLyswNreKSpoQYTJteaRnKkLgpa4PVlnVAyvjcShKui0idtJSwropnCw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-102.delta" sparkle:deltaFrom="102" length="2938170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t3jaACsgIPX2dXhCqIH1l2A+OL2s1gpagLoDwvKK37j/u1M8hP4/4iKRAoeYLxI6/7nIRr2kDKY/Oh4bR/p+Cw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-101.delta" sparkle:deltaFrom="101" length="2950658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xVptxbYGI/dHW1AqRqU1cQbigmK1darqlmbovH1QqtuWmWZ0lYeJOcZbJdNZjycI99tpSJz/LfCDwSGM6uuhAQ=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -254,6 +249,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Dr1Vucg2ENebBJUkDYs1D2or91CqXnAFgIADdsvQS2qk7Da7k5lo7Zy3Uj2E8npN/zo4y6QzxT/pprAqDUWECw==
-length: 39743
+edSignature: dNF9IqjGqq+mgvpZaqkWDe2K5CQFpl+r67ZsNjXF/FK9M+T5p+JU2XJQHT18C2+Ft/h8jM6w/qOgZmOy3RnwCQ==
+length: 39003
 -->

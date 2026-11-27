@@ -7,6 +7,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.5</title>
+            <pubDate>Thu, 26 Nov 2026 20:54:08 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>2.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.5 beta 2** (a beta)
+
+### Added
+- **Meeting header:** a button to open the meeting in its own window, beside **Find & Ask**; a **Transcript ready** line that says how many speakers still need a name (click it to open **Speakers**; it goes once all are named).
+- **Meeting list:** an **Add Files…** button between **Import** and **Sort**; **Merge…** beside **Move To** when several meetings are selected.
+
+### Changed
+- **Meeting header:** the date is in the style's accent color, and an Unfiled meeting says, under its title, to move it to Internal or Partners before choosing the customers it's about.
+- **About customers:** on each item, the AI's customers are outlined pills and the ones you chose are filled, so you can tell them apart; several customers stack one per line.
+- **Licensing:** **Match Again** is always under a meeting's matched opportunities, so a match that came back empty or partial can be tried again.
+
+### Fixed
+- **Licensing links** never read a page on this Mac or your local network, even when a public page links or redirects there; a link you add that is itself on your network is still read, and only that site.
+- **Licensing:** one large spreadsheet with many matching rows no longer crowds every other source out of an answer, and a company the question names is searched first.
+- **Licensing:** a match whose reply quotes far too much is asked again instead of slowing Fieldbook down.
+- **About customers:** a half-formed AI answer no longer marks an item as about no customer for good; the item is asked about again.
+- **About customers:** after you correct the transcript or your notes, labels that relied on the changed lines are made again, and every kept label is checked again against the meeting as it is now (for example, when a corrected line now switches to another customer).
+- **About customers** chosen, a rename, or **Move To** while a meeting records or transcribes can no longer be undone by the recording’s or transcription’s own save landing at the same moment.
+- **About menu:** counting how often each customer is named skips a very large transcript or notes file and never downloads a file kept only online.
+- **Opportunities › Copy as Table:** a cell starting with `=`, `+`, `-`, or `@` gets a leading `'`, so a spreadsheet shows it as text, never runs it as a formula.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook-2.4.5-beta2.dmg" length="1539319183" type="application/octet-stream" sparkle:edSignature="e7xeuC6IYi1Va9ew90FKIM+Mqv4voEavzyfiG3EWwztzq9V85ss8qH6TosxkntDuCh72bMePxpAr4DrIhIptCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-103.delta" sparkle:deltaFrom="103" length="2271234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hdgJKMh56Qei49wENc54yOpwvDufgfbLyswNreKSpoQYTJteaRnKkLgpa4PVlnVAyvjcShKui0idtJSwropnCw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-102.delta" sparkle:deltaFrom="102" length="2938170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t3jaACsgIPX2dXhCqIH1l2A+OL2s1gpagLoDwvKK37j/u1M8hP4/4iKRAoeYLxI6/7nIRr2kDKY/Oh4bR/p+Cw=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-101.delta" sparkle:deltaFrom="101" length="2950658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xVptxbYGI/dHW1AqRqU1cQbigmK1darqlmbovH1QqtuWmWZ0lYeJOcZbJdNZjycI99tpSJz/LfCDwSGM6uuhAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.5</title>
             <pubDate>Thu, 26 Nov 2026 10:46:39 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -255,6 +292,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vzcWcJYS0z9h6K7IN4q2E5+4MMEbrRQCXOUR5kikrrlVgiI0iXunhnifgfRZOUfPEbHE7vTHuVg6m47wDQ7WBQ==
-length: 40443
+edSignature: cF1pRZbLbXDBow+u7ZbIuRgELDEiD2LyVFaUHX90FRdcPYgGIha3drW7n25GpdKOeS2Y9I6huco1L2Axof9vBQ==
+length: 45043
 -->

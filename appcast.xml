@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Fieldbook</title>
         <item>
             <title>2.4.6</title>
+            <pubDate>Fri, 27 Nov 2026 13:54:30 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>2.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.6 beta 2** (a beta)
+
+### Added
+- **27 more languages,** the ones the speech model transcribes well: Korean, Russian, Polish, Turkish, Indonesian, Vietnamese, Thai, Hindi, Arabic, Hebrew, Swedish, Danish, Norwegian, Finnish, Czech, Ukrainian, Greek, Romanian, Hungarian, Malay, Catalan, Filipino (Tagalog), Slovak, Croatian, Bulgarian, Slovenian, and Galician. Each is transcribed, written in by the AI, shown in the live transcript, searched, and has its questions spotted for Help Me Answer. Thai is found anywhere in a sentence, as Chinese and Japanese are.
+
+### Changed
+- **Language menus stay short:** they list English, the languages you use (in Settings, folders, and the current choice) and the ones you've picked before. **More Languages…** at the bottom opens every language, searchable by its English name or its own (such as "Español" or "日本語").
+
+### Fixed
+- **Thai keeps its spaces between phrases** in the live transcript and in search results. Search results in Chinese and Japanese keep the spaces around English words. Search is rebuilt once after updating, so older Thai meetings are found too; it may be incomplete for a short while.
+- **Your microphone picking up the call** is now removed from Chinese, Japanese, and Thai transcripts, as it already was in other languages.
+- **Questions during calls:** Catalan and Galician questions with a pronoun attached ("Ens podeu explicar…", "Podédesnos dicir…") and Arabic and Hebrew questions starting with "and" or "so" are spotted without a question mark. The lines the speech model sometimes writes in silence ("Thanks for watching", and their equivalents in other languages) no longer keep the other side's turn going, so their question still shows. They're also removed from transcripts in more languages.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta2/Fieldbook-2.4.6-beta2.dmg" length="1539498002" type="application/octet-stream" sparkle:edSignature="arVuexhPHDIEJh/JqZw35M7q8ikdUpl3RHvG6rJ5WyZTWw7QX68O90lRSUag0BZBWdqY050PexcXIMeR2H2xDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta2/Fieldbook106-105.delta" sparkle:deltaFrom="105" length="2100826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IeTpQnP2xlA2m9V6yfwESe26mixyf4juKS/ak1wtlVQAEbrkn5d1R+7UroU0PXoef+IMIx3h+aKOVuSq96FkDA=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta2/Fieldbook106-104.delta" sparkle:deltaFrom="104" length="2841582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JGd4aAP96ocZFURjqxK51HWEar5oHmsk5xtrOkK+2vqAWrrd5I/zFq8uVTWb4Ukks3EIOSOuOsaUNljTwhuxCg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta2/Fieldbook106-103.delta" sparkle:deltaFrom="103" length="3016806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LApNlf1MyuWXDPOBRV/i5R+HSMdPjqo6wtBxs8k+FPEC0Bhg23Fd2nhJc6qViJjhJ5Wi4DVy0XHt9tcMN/HtDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.4.6</title>
             <pubDate>Fri, 27 Nov 2026 11:39:43 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -70,72 +99,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-103.delta" sparkle:deltaFrom="103" length="2271234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hdgJKMh56Qei49wENc54yOpwvDufgfbLyswNreKSpoQYTJteaRnKkLgpa4PVlnVAyvjcShKui0idtJSwropnCw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-102.delta" sparkle:deltaFrom="102" length="2938170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t3jaACsgIPX2dXhCqIH1l2A+OL2s1gpagLoDwvKK37j/u1M8hP4/4iKRAoeYLxI6/7nIRr2kDKY/Oh4bR/p+Cw=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta2/Fieldbook104-101.delta" sparkle:deltaFrom="101" length="2950658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xVptxbYGI/dHW1AqRqU1cQbigmK1darqlmbovH1QqtuWmWZ0lYeJOcZbJdNZjycI99tpSJz/LfCDwSGM6uuhAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.5</title>
-            <pubDate>Thu, 26 Nov 2026 10:46:39 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>103</sparkle:version>
-            <sparkle:shortVersionString>2.4.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.5 beta 1** (a beta)
-
-### Added
-- **An update that's waiting** shows in the menu-bar menu (**Install Update…**, with a dot on the icon) and at the top of **Settings › General › Updates** until you install or skip it, so a missed update window doesn't leave you on an old version.
-- **Update checks that keep failing** for three days (a hotel's network, or a firewall) say so in the same places, with **Check Now**.
-- **Support Fieldbook:** a new **Settings › Support** tab and **Help › Support Fieldbook…**, with **Buy Me a Coffee** and a link to join Fieldbook's Discord (or email, if Discord isn't an option); also **Help › Join the Discord…**. From 2.5 the same window opens by itself once per feature version, never in a beta and never while recording; it waits for a launch with nothing else to show, which may be a later one or a 2.x.y update.
-- **Your own opportunity stages:** selling for a company other than Zscaler, opportunities pick their stage from a list (Discovery, Qualification, Proposal, Negotiation, Closed Won, Closed Lost to start) that you edit in **Settings › General › Stages** or paste from your CRM. A Won or Lost stage closes the opportunity. Stages typed before stay as they are.
-- **Keep a Mac's meetings to itself:** on a Mac paired to read another Mac's meetings, **Settings › General › Another Mac › Offer this Mac's meetings** (on unless you turn it off). Off, the meetings you make there stay there; the other Mac's meetings still come.
-- **Set Up Fieldbook:** **Add Company…** to type in the company you work for, and, for a company other than Zscaler, steps for your opportunity stages and your discovery questions (the default questions, your own CSV, or none).
-
-### Changed
-- **Follow-up email after AI notes** costs less with Claude through a gateway such as LiteLLM: it reuses the transcript Claude just read for the notes (prompt caching), as does a second try to fix citations.
-- **Help › Send a report** says to email diagnostic reports to fieldbook@ajawzero.com, and **Send feedback** points to the Discord first.
-- **Choosing a summary model uses it:** in **Settings › AI** and setup's AI step, picking a model (or typing one under **Other…** and pressing Return) tests it and uses it once it answers, so there's no **Verify and Use** to forget. If it doesn't answer, the message says which model is still in use; **Test Again** repeats the test. In setup, **Continue** tests a picked model first.
-- **General mode on a new Mac** no longer starts with Zscaler as your company: Set Up asks you to add yours, and until you do, the AI writes for "their company".
-
-### Fixed
-- **Recording:** system audio that doesn't start within 20 seconds (a stuck screen capture) is recorded as missing instead of leaving Starting… on screen, and stopping no longer waits forever on one, so Saving… and Quit finish.
-- **Recording:** the Mac going to sleep while a recording is starting now stops it, as it does a recording already under way.
-- **Recording:** changing the output device with Direct no longer leaves a "System audio missing from 12:04 to 12:04" warning.
-- **Notes** typed just before quitting are saved; if they can't be (or can't be sent to the other Mac), Fieldbook asks before quitting.
-- **Fieldbook for iPhone:** a recording interrupted when iOS suspended Fieldbook picks the microphone up again on its own, instead of waiting for Resume.
-- **Fieldbook for iPhone:** a new name, notes, or Remove Audio that can't be saved now says so, and Remove Audio keeps the audio if the recording's details can't be updated.
-- **Changing the save location** now also moves a customer or label you deleted while it was in both the old and new locations, instead of leaving it in the old location's Trash.
-- **Another Mac:** a change the other Mac couldn't take (it may have been busy) can be sent again with **Send Again**, so notes typed here aren't lost.
-- **Another Mac:** a meeting the other Mac got another way keeps this Mac's copy, whatever Fieldbook version the other Mac has.
-- **Filing:** an invitee whose own address is listed in a folder files there, even when their company's domain belongs to another folder.
-- **Licensing links** on a site with its own port read that port's robots.txt.
-- **Leftover audio:** when a meeting's folder is deleted in Finder (or by another computer sharing the save location), **Settings › Storage › Leftover audio** lists the audio left behind, with **Move to Trash…**.
-- **Changing the save location away from a network share or drive with no macOS Trash** no longer leaves meetings in both places: **Settings › Storage** asks first, then deletes each old copy once its new copy is checked.
-- **Deleting a meeting** is refused, with a message, when the save location's Fieldbook Trash is a link to another folder, instead of the meeting disappearing.
-- **Call audio:** if Direct stops delivering audio partway through a call, Fieldbook moves the call side to screen capture after a minute, as it does when Direct records only silence.
-- **Remove All Fieldbook Data** now finds meetings filed under a customer's labels in a custom save location, and never moves the save-location folder itself to the Trash.
-- **Screen capture:** stopping a recording while system audio was restarting can no longer leave it capturing.
-- **Detect Speakers Again** keeps a new title given to the meeting while it ran.
-- **Saved voices:** if the saved voices file can't be read, naming a voice says so instead of saving over it.
-- **Another Mac:** a meeting you added from your other Mac stays on that Mac if you added attachments or new AI notes there after it was sent, instead of going to the Trash without them.
-- **Another Mac:** new meetings are offered before ones already answered, so older answers can't hold new ones back; a change made while a sync is running goes at once afterward; a move that couldn't be sent says so in **Settings › General › Another Mac**.
-- **Pairing another Mac by its key** works with many Fieldbook Macs nearby.
-- **A recording recovered after Fieldbook quit unexpectedly** keeps its microphone and call audio lined up.
-- **An import that stops partway** keeps the meetings that came in before it, transcribes them and writes their notes, and says how many there were.
-- **Opening a .zip** can no longer hang when the zip has many errors.
-- **A licensing link that redirects to another site** follows that site's robots.txt.
-- **Addresses with leading zeros** (such as 010.1.1.1) are no longer treated as on your network for plain HTTP.
-- **A model name the AI server doesn't have** now says so ("The endpoint doesn't have that model"), instead of saying the address has no chat completions.
-- **A received export with meetings from your other Mac:** the message lists those apart from meetings already here.
-- **Merge Meetings:** a recording made on Windows is labeled Windows, not Mac.
-- **Merge Meetings:** to-dos you changed keep their own identity in the merged meeting, so crossing off or editing one no longer changes another, and new AI notes can't cross off the wrong one.
-- **Merge Meetings:** a recording whose audio file is missing is refused instead of being merged with silence, and changes made to a recording while it merges are no longer lost: nothing is merged, and you merge again.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta1/Fieldbook-2.4.5-beta1.dmg" length="1539263599" type="application/octet-stream" sparkle:edSignature="1FJCWUtDlK0w1+AOxgiBNrjm0FSyWUsGf8FBZNwU5nvp5fWB5yoEy9+YNMN7LyXDmGCGIPA8b0n/JLJaZ/Z9CQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta1/Fieldbook103-102.delta" sparkle:deltaFrom="102" length="2791854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O1HkIGVKelKu8Rl3Sd/UxoiRxNCLr2aAbgcIHnQAF3wGgUAX74gpJSiQ6q3fCTmAZX3eYAhTLEm0oshXCGqEBg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta1/Fieldbook103-101.delta" sparkle:deltaFrom="101" length="2801006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/BVljJpKSbhB5F6PNP5h69g+4DRfUQclPCFP+plaAM+tcjkBz+4xeYj+ZyaCVclpQ8xISotjkqiwmOfij88tCA=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.5-beta1/Fieldbook103-88.delta" sparkle:deltaFrom="88" length="9192482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8jdg1rwpmf16Nz0uuNKgoq4CfORbFr0hniRGkVDigj5PWtKVWpZjqnDe2qOT0tFDxSlA2LqslPh1U+ERFRQKDA=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -291,6 +254,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 7H0v0cRKqfFO1R0rMvhg9Z7b5+uh5KKUkQoJpmxDeWVwbO46ifmWLWhdW9MFAGr6KPJq1ExUM2IcGUOiVMSxDQ==
-length: 45303
+edSignature: Dr1Vucg2ENebBJUkDYs1D2or91CqXnAFgIADdsvQS2qk7Da7k5lo7Zy3Uj2E8npN/zo4y6QzxT/pprAqDUWECw==
+length: 39743
 -->

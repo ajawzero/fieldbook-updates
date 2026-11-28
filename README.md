@@ -15,7 +15,8 @@ Fieldbook is a Mac app that records your meetings, transcribes them on your Mac,
 - **Search and ask:** find any line across all your meetings, or ask a question and get an answer that cites its sources. You can also ask about one meeting in a column beside it.
 - **Your notes and attachments** on every meeting, typed while you record.
 - **Import and export:** bring in recordings from other recorders, and Zoom or Teams transcripts. Export meetings as zip files.
-- **iPhone and iPad companion** (in testing): record in the room and sync with your Mac over your local network.
+- **iPhone, iPad, and Android companions** (iPhone and iPad in testing): record in the room and sync with your Mac over your local network.
+- **A second Mac:** pair it, and it shows and changes your first Mac's meetings, with notes and AI notes but never audio.
 
 ## Privacy
 

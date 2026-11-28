@@ -6,6 +6,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Fieldbook</title>
         <item>
+            <title>2.4.7</title>
+            <pubDate>Fri, 27 Nov 2026 22:11:02 -0600</pubDate>
+            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>2.4.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.7 beta 1** (a beta)
+
+### Added
+
+- **More languages, marked as less tested:** every other language the speech model knows (63 more, among them Persian, Urdu, Bengali, Tamil, Telugu, Lithuanian, Serbian, Swahili, Khmer, and Burmese) can be chosen for transcription and notes. Menus mark them "(less tested)", and **More Languages…** lists them in their own section: transcripts and notes in them may have more mistakes. Questions during calls are spotted in them only by their question marks.
+
+- **Right-to-left text:** Arabic, Hebrew, Persian, Urdu, and other right-to-left languages read and align from the right in the transcript, the live transcript, AI notes, the follow-up email, the Brief, Ask AI answers, and search results, on the Mac, iPhone, and iPad. Times, speaker names, and Fieldbook's own labels stay where they are, and an English line in the same meeting stays on the left.
+
+- **Translated transcripts:** a meeting's 🌐 menu can make a translated copy of its transcript, into your notes language or another one, with your AI. **Original** and the translation then switch above the transcript, with the same times, speakers, and playback; **Translate Again** appears if the transcript changes afterward. Search finds words in translations too, marked "Translated". The original stays as it is, and notes and Ask AI keep using it.
+
+### Changed
+
+- **Files are read in a separate, locked-down helper:** the text of PDFs, Word, Excel, and PowerPoint files, images, and emails is now read outside Fieldbook itself, in a helper that can't use the network or open other files. A damaged file that takes over 3 minutes or too much memory is stopped, while Fieldbook keeps working. Files and emails that couldn't be read are now named under their summary, as left out. What's read from each file is unchanged.
+
+- **Search** is rebuilt once on first launch, so Lao, Khmer, Burmese, and Tibetan, which are written without spaces between words, are found inside a phrase, as Thai is.
+]]></description>
+            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.7-beta1/Fieldbook-2.4.7-beta1.dmg" length="1544982828" type="application/octet-stream" sparkle:edSignature="QQgPVyRgdGm0GIMd6Jiq2cwNAOJIBzEZ8xK+BElLx+rSKGO7cUU3fRGN5CK3RUoOg/l69CYWdoTgnXT1IpNODg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.7-beta1/Fieldbook108-107.delta" sparkle:deltaFrom="107" length="5756886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XjARS3onMWBXUdwX7O9IMo9qBj8DaBqg7QVq7CQ0BL7tUoLgworQHrXeci5fB2GIHXaie6ucRv+yLgUEDDjoDg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.7-beta1/Fieldbook108-106.delta" sparkle:deltaFrom="106" length="5930294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p49Laa+0hfUWuKbO5k0kEovEcg/wVm+EUnvijyJpsCOWZ2pFOUbATU96zKMUjjPtC6d33YL8daGL00ajvaEgBg=="/>
+                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.7-beta1/Fieldbook108-105.delta" sparkle:deltaFrom="105" length="6018690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y8JmiCd2A+1cCjb+0AqosQKhmA4fcUZKJ5esR/5TH4XIcG6EdAsfthseUzMw1dcXm5m6lB12Spw+l8FI+Y9vAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.4.6</title>
             <pubDate>Fri, 27 Nov 2026 15:11:27 -0600</pubDate>
             <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
@@ -64,36 +96,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta2/Fieldbook106-105.delta" sparkle:deltaFrom="105" length="2100826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IeTpQnP2xlA2m9V6yfwESe26mixyf4juKS/ak1wtlVQAEbrkn5d1R+7UroU0PXoef+IMIx3h+aKOVuSq96FkDA=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta2/Fieldbook106-104.delta" sparkle:deltaFrom="104" length="2841582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JGd4aAP96ocZFURjqxK51HWEar5oHmsk5xtrOkK+2vqAWrrd5I/zFq8uVTWb4Ukks3EIOSOuOsaUNljTwhuxCg=="/>
                 <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta2/Fieldbook106-103.delta" sparkle:deltaFrom="103" length="3016806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LApNlf1MyuWXDPOBRV/i5R+HSMdPjqo6wtBxs8k+FPEC0Bhg23Fd2nhJc6qViJjhJ5Wi4DVy0XHt9tcMN/HtDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.4.6</title>
-            <pubDate>Fri, 27 Nov 2026 11:39:43 -0600</pubDate>
-            <link>https://github.com/ajawzero/fieldbook-updates/releases/latest</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>2.4.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**Fieldbook 2.4.6 beta 1** (a beta)
-
-### Added
-- **Settings › Languages:** what meetings are spoken in (eleven languages, or Detect automatically), what notes and the follow-up email are written in, and whether Help Me Answer spots questions in every language. English throughout until you change it.
-- **A folder's language:** right-click a customer or label › **Language**; listed in Settings › Languages.
-- **A meeting's language:** the 🌐 menu in the meeting header, beside **About**: what it's spoken in and what its notes are written in.
-- **Transcription in the meeting's language:** a meeting is transcribed in the language it's spoken in (its own, its folder's, or Settings › Languages). Chinese is written in the script you choose, Cantonese in Traditional characters; **Detect automatically** finds the language and takes the one spoken longest. English transcribes exactly as before.
-- **Transcribe Again:** a meeting's 🌐 menu › **Transcribe Again in <language>…** transcribes it again from its audio; the old transcript goes to the Trash.
-- **AI writing languages:** meeting notes and follow-up emails can use their chosen languages; account summaries and other customer-wide writing follow the notes language setting or folder language. Quotes stay in the words spoken.
-- **On-device AI writing:** Fieldbook checks which languages Apple's on-device model supports. Use a Local model or Cloud endpoint for Japanese, or notes in a language different from the meeting's.
-- **Live transcript and Help Me Answer:** the live transcript follows the recording's language, including a change to the meeting's Spoken In during the call; with Detect automatically, it checks the language again as the call goes on. Help Me Answer and Suggest a Question write in its notes language.
-- **Search in other languages:** Chinese and Japanese words are found anywhere in a sentence, and Ask AI finds passages for questions asked in them. Meetings in other languages are matched as written, without English word forms. The search index is rebuilt once after updating.
-- **Questions during calls:** spot questions in other supported languages when **Questions during calls** is **In every language** (the default) in **Settings › Languages**.
-]]></description>
-            <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook-2.4.6-beta1.dmg" length="1539482254" type="application/octet-stream" sparkle:edSignature="NYVgOTsZ8Rum32OUilTTdCJykauov9d1ZbAwxRFFz+VyOYRsfgAOUxY+m/kMF//FlkNfZ1mS9awItsUi/MT0CA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-104.delta" sparkle:deltaFrom="104" length="2787762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t2dXD0wjxKLKYtsmA0KTTjXznSoN24tKk67h3O0Z3/NUwNFILdS87czxoGaez34/pGOzj0U+5MLkWetA6xXLDg=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-103.delta" sparkle:deltaFrom="103" length="2959878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0BTlNEOTdKsmE9+ReEiJWRqRGzT7lxGTRlll5ZgzW0O7Q5chpU0tGb0dgPgvwtQNld5Q4zblenzI6aGJDikDw=="/>
-                <enclosure url="https://github.com/ajawzero/fieldbook-updates/releases/download/v2.4.6-beta1/Fieldbook105-102.delta" sparkle:deltaFrom="102" length="3445902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u1QYi9+2mb/s+YDBG5EyOy80krIFKVu2CPuSDOPxu8Y274vIz0chitL0RtTpa2eb5/e2fzeeqyzqwLiPzlxbAw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -249,6 +251,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: dNF9IqjGqq+mgvpZaqkWDe2K5CQFpl+r67ZsNjXF/FK9M+T5p+JU2XJQHT18C2+Ft/h8jM6w/qOgZmOy3RnwCQ==
-length: 39003
+edSignature: QgUVlARPdHqXmRSOyyIFdaYFd1G92nT9ss2OpFwm9IIl15dyc7KVneCA2IV6FyA4Bge+12ThZoD5ws7k/nFXDw==
+length: 38754
 -->
